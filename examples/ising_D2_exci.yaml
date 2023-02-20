@@ -5,15 +5,7 @@
 # -> ipeps/config.py
 D:             2
 chi:           30
-model:         'heisenberg'
-
-# (Ground state) Optimizer
-method:        'L-BFGS-B'
-
-# If an existing state is loaded in the model initialization, 
-# the seed controls the random (small) noise that is added to 
-# the site tensors
-seed:          1
+model:         'ising'
 
 # Prefix for output file
 out_prefix:
@@ -22,10 +14,10 @@ out_prefix:
 resume:        True
 
 model_params:
-  J:           1
+  h:           3
 
 # Set to 0 to suppress all output besides printing each step
-disp_level:    2
+disp_level:    1
 
 # CTM convergence criterium (singular values norm difference)
 ctm_conv_tol:  1.e-6
@@ -34,7 +26,7 @@ ctm_conv_tol:  1.e-6
 ctm_min_iter:  4
 
 # Maximal number of CTM steps
-ctm_max_iter:  8
+ctm_max_iter:  20
 
 # Flush output (prints with print(*args, flush=True))
 flush_output:  True
@@ -45,3 +37,6 @@ pattern:
     [0,1],
     [1,0],
   ]
+
+# Excitations
+momentum_path: 'Bril1'

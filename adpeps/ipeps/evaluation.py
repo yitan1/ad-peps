@@ -58,8 +58,8 @@ def get_obs(H, tensors, measure_obs=True, only_gs=False):
                 roh = roh / nrmh
                 rov = rov / nrmv
 
-                Ehs[0,1] = ncon([roh, H], ([1,2,3,4],[1,2,3,4])).real
-                Evs[0,0] = ncon([rov, H], ([1,2,3,4],[1,2,3,4])).real
+                Ehs[0,1] = ncon([H[0], roh], ([1,2,3,4],[1,2,3,4])).real
+                Evs[0,0] = ncon([H[1], rov], ([1,2,3,4],[1,2,3,4])).real
 
                 # if measure_obs:
                 #     ro_one = get_one_site_dm(tensors.Cs,tensors.Ts,A,Ad)
@@ -157,7 +157,7 @@ def _compute_one_site_exci_norm(ts):
                  ncon((ts.A[0,0], B_dm), ([-1,2,3,4,5],[2,3,4,5,-2,-3,-4,-5]))) / nrm0
 
     try:
-        print('B norm', nrm_exci.item(), ' | Gs norm', nrm0.item(), level=1)
+        print('B norm', nrm_exci.item(), ' | Gs norm', nrm0.item(), level=2)
     except:
         pass
     return nrm_exci.real, nrm0, nrmB_open

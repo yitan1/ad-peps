@@ -65,7 +65,7 @@ class iPEPS:
         self.H, self.observables = model.setup()
 
         # Initialize tensors
-        self.d = self.H.shape[0]
+        self.d = self.H[0].shape[0]
         A = init_A_tensor(self.d, sim_config.D, sim_config.pattern)
         A = A.normalize()
         Ad = A.conj()
@@ -205,7 +205,8 @@ class iPEPS_exci(iPEPS):
         E, _ = evaluation.get_gs_energy(self.H, self.tensors)
         E = E/2
         print(f"Substracting {E} from Hamiltonian", level=1)
-        self.H = self.H - E * np.reshape(np.eye(self.H.shape[0]**2), self.H.shape)
+        self.H[0] = self.H[0] - E * np.reshape(np.eye(self.H[0].shape[0]**2), self.H[0].shape)
+        self.H[1] = self.H[1] - E * np.reshape(np.eye(self.H[1].shape[0]**2), self.H[1].shape)
         # self.H = np.reshape(np.eye(self.H.shape[0]**2), self.H.shape)
 
     def evaluate(self):
@@ -229,6 +230,67 @@ class iPEPS_exci(iPEPS):
 
     def compute_orth_basis(self):
         return evaluation.get_orth_basis(self.tensors)
+    
+    def run(self, params: np.ndarray) -> np.ndarray:
+        """ 
+        Run the simulation
+
+        Args:
+            params: variational parameters
+
+        Returns:
+            energy of iPEPS
+        """
+
+        if params is not None:
+            self.fill(params)
+
+        if self.reinit_env:
+            # Construct new boundary tensors and perform ctm iterations 
+            # until convergence
+            # Note: gradient tracking is disabled for this function, so 
+            # only the ctm steps in the code after this line will be tracked
+            print('Performing CTM pre-steps without tracking')
+            self.converge_boundaries()
+
+        # Perform the ctm routine to obtain updated boundary tensors
+        print('Performing CTM')
+        self.tensors, conv = run_ctm(self.tensors, sim_config.chi, conv_fun = None)
+
+        # Evaluate energy
+        res = self.evaluate()
+
+        # Stop downstream gradient tracking for iPEPS tensors, 
+        # so they become regular arrays that can be saved
+        self.tensors.stop_gradient(only_boundaries=False)
+
+        return res
+    
+    def converge_boundaries(self):
+        """ Performs CTM on the boundary tensors until convergence,
+            without gradient tracking 
+        """
+        # Make a non-tracking version of the iPEPS tensors
+        orig_B = copy.deepcopy(self.tensors.B)
+        self.tensors.B = self.tensors.B.stop_gradient()
+        self.tensors.Bd = self.tensors.Bd.stop_gradient()
+
+        # Initialize new boundary tensors
+        Cs, Ts = init_ctm_tensors(self.tensors.A, self.tensors.Ad)
+        self.tensors.Cs = Cs
+        self.tensors.Ts = Ts
+
+        # Perform CTM update steps on the boundary tensors
+        conv_fun = None
+        self.tensors.stop_gradient()
+        self.tensors, conv = run_ctm(self.tensors, sim_config.chi, conv_fun=conv_fun)
+        self.tensors.stop_gradient()
+
+        self.save_boundary_tensors()
+
+        # Restore the original (tracking) site tensors
+        self.tensors.B = orig_B
+        self.tensors.Bd = orig_B.conj()
 
 
     """ Input/output methods """

@@ -5,7 +5,7 @@
 # -> ipeps/config.py
 D:             2
 chi:           30
-model:         'heisenberg'
+model:         'ising'
 
 # (Ground state) Optimizer
 method:        'L-BFGS-B'
@@ -22,7 +22,7 @@ out_prefix:
 resume:        True
 
 model_params:
-  J:           1
+  h:           3
 
 # Set to 0 to suppress all output besides printing each step
 disp_level:    2

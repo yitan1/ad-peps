@@ -44,7 +44,7 @@ class CTM:
 
         self.singular_values  = None
         self.last_convergence = None
-        self.diffs            = [None]
+        self.diffs            = [1.0]
         self.n_steps          = 0
         self.last_ctm_time    = None
         self.convergence      = np.nan

@@ -21,7 +21,7 @@ def make_hamiltonian(J=1):
             tprod(sigmap, sigmam) / 2 + \
             tprod(sigmam, sigmap) / 2
     H = J * H
-    return H
+    return [H, H]
 
 def tprod(a,b):
     return np.outer(a,b).reshape([2,2,2,2], order='F').transpose([0,2,1,3])

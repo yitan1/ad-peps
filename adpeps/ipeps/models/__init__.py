@@ -3,5 +3,6 @@
 
 # Spin models
 from . import heisenberg
+from . import ising
 
 from . import common

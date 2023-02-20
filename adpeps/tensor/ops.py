@@ -106,7 +106,8 @@ def _svd_impl_bwd(res, g):
 
     F = (S - S[:, None])
     F = __safe_inverse(F)
-    F = jax.ops.index_update(F, np.diag_indices(F.shape[0]), 0)
+    # F = jax.ops.index_update(F, np.diag_indices(F.shape[0]), 0)
+    F.at[np.diag_indices(F.shape[0])].set(0)
 
     # G = (S + S[:, None])
     # G.diagonal().fill_(np.inf)
@@ -114,7 +115,8 @@ def _svd_impl_bwd(res, g):
 
     G = (S + S[:, None])
     G = 1/G 
-    G = jax.ops.index_update(G, np.diag_indices(G.shape[0]), 0)
+    # G = jax.ops.index_update(G, np.diag_indices(G.shape[0]), 0)
+    G.at[np.diag_indices(G.shape[0])].set(0)
 
     UdU = Ut @ dU
     VdV = Vt @ dV

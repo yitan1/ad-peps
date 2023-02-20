@@ -44,7 +44,7 @@ def run(config_file: str):
         print(' ')
         [print(' Step %3d  E: %.12f  |grad|: %2.8g' % (i,E,gradnorms[i])) for i,E in enumerate(energies)]
         print('\n')
-        # np.savez(output_file, peps=peps, v=xk, gradnorms=gradnorms, energies=energies)
+        np.savez(output_file, peps=peps, v=xk, gradnorms=gradnorms, energies=energies)
 
     print('Running')
     print(config_file)
