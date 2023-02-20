@@ -4,5 +4,6 @@
 # Spin models
 from . import heisenberg
 from . import ising
+from . import honeycomb
 
 from . import common

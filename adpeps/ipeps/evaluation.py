@@ -50,9 +50,10 @@ def get_obs(H, tensors, measure_obs=True, only_gs=False):
         with cur_loc(i):
             if not Evs.is_changed(0,0):
                 roh, rov = get_dms(tensors)
+                d = roh[0].shape[0]
 
-                nrmh = np.trace(np.reshape(roh[0], (4,4))).real
-                nrmv = np.trace(np.reshape(rov[0], (4,4))).real
+                nrmh = np.trace(np.reshape(roh[0], (d*d,d*d))).real
+                nrmv = np.trace(np.reshape(rov[0], (d*d,d*d))).real
                 nrmhs[0,1] = nrmh
                 nrmvs[0,0] = nrmv
                 roh = roh / nrmh
