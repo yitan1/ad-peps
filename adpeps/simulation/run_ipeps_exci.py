@@ -174,20 +174,25 @@ def evaluate(config_file, momentum_ix):
     kxs, kys, plot_info = make_momentum_path(sim_config.momentum_path, with_plot_info=True)
 
     import matplotlib.pyplot as plt
-    evs = []
+    start = 1
+    end = 15
+    evs = [[] for i in range(end)]
     for ix in range(len(kxs)):
         try:
             ev = evaluate_single(config_file, ix)
         except:
-            ev = [np.nan]
-        evs.append(ev[0])
+            ev = [np.nan for i in range(end)]
+        for i in range(end):
+            evs[i].append(ev[i])
 
-    plt.plot(evs, '--+')
+    for i in range(start-1, end):
+        plt.plot(evs[i], '--+')
     plt.xticks(**plot_info['xticks'])
-    plt.title(f"Dispersion {sim_config.model} D={sim_config.D}")
+    plt.title(f"Dispersion {sim_config.model} D={sim_config.D} X = {sim_config.chi}")
     plt.xlabel('k')
     plt.ylabel('$\omega$')
-    plt.show()
+    plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
+    # plt.show()
 
 
 
