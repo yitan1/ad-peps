@@ -5,5 +5,6 @@
 from . import heisenberg
 from . import ising
 from . import honeycomb
+from . import honey_brick
 
 from . import common
