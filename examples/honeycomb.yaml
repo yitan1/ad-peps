@@ -16,14 +16,14 @@ method:        'L-BFGS-B'
 seed:          1
 
 # Prefix for output file
-out_prefix:
+out_prefix: 11
 
 # Resume earlier simulation if found
 resume:        True
 
 model_params:
-  Jx:          0.2
-  Jy:          0.2
+  Jx:          1
+  Jy:          1
 
 # Set to 0 to suppress all output besides printing each step
 disp_level:    2
@@ -43,6 +43,6 @@ flush_output:  True
 # Unit cell pattern (Neel order)
 pattern:
   [
-    [0,1],
-    [1,0],
+    [0,0],
+    [0,0],
   ]
