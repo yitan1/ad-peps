@@ -18,10 +18,10 @@ def setup():
 def make_hamiltonian(Jx = 1, Jy = 1):
     """ kiteav model """
     
-    Hh = Jx*tprod4(tprod(id2, sigmax) , tprod(sigmax, id2)) / 4 + \
+    Hh = Jx*tprod4(tprod(id2, sigmax) , tprod(sigmax, id2)) / 4 *2 + \
             tprod4(tprod(sigmaz, sigmaz) , tprod(id2, id2)) / 4 / 2 + \
             tprod4(tprod(id2, id2), tprod(sigmaz, sigmaz)) / 4 / 2
-    Hv = Jy*tprod4(tprod(id2, sigmay) , tprod(sigmay, id2)) / 4 + \
+    Hv = Jy*tprod4(tprod(id2, sigmay) , tprod(sigmay, id2)) / 4 * 2 + \
             tprod4(tprod(sigmaz, sigmaz) , tprod(id2, id2)) / 4 / 2 + \
             tprod4(tprod(id2, id2), tprod(sigmaz, sigmaz)) / 4 / 2
     return [Hh, Hv]

@@ -36,7 +36,7 @@ base_sim: Union[str, None]     = None
 load_sim: bool                 = None
 """ Load previous (Python) simulation """
 
-max_iterations: int            = 100
+max_iterations: int            = 200
 """ Maximum number of optimizer iterations """
 
 disp_level: int                = 1

@@ -17,7 +17,7 @@ def setup():
 
 def make_hamiltonian(h=1):
     """ ising model """
-    H = -tprod(sigmax, sigmax) / 4 - \
+    H = -tprod(sigmax, sigmax) / 4 * 2 - \
             h* tprod(sigmaz, id2) / 2 / 2 - \
             h* tprod(id2, sigmaz) / 2 / 2
     return [H, H]
