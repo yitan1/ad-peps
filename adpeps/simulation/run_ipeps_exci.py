@@ -156,7 +156,24 @@ def evaluate_single(config_file, momentum_ix):
     ixs = np.argsort(ev)
     ev = ev[ixs]
     vectors = vectors[:,ixs]
-            
+
+    if False:
+        exci_n = basis @ P @ vectors
+        v = exci_n[:,0]
+        res, grad_H = value_and_grad(peps.compute_spectral_function, has_aux=True)(v)
+        grad_H = grad_H.conj()
+        sa = res[1].pack_data()
+        wk0 = exci_n.T @ jax.lax.stop_gradient(sa)
+        wk = exci_n.T @ jax.lax.stop_gradient(grad_H)
+        Swk0 = np.abs(wk0)**2
+        Swk = np.abs(wk)*1000
+        print("!!!!!!!!!!!", Swk0)
+        print("!!!!!!!!!!!", Swk)
+        print("!!!!!!!!!!!", ev.real)
+        import matplotlib.pyplot as plt
+        plt.plot(ev.real, Swk0, '--+')
+        plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
+        
     return sorted(ev.real)
 
 def evaluate(config_file, momentum_ix):
@@ -175,7 +192,7 @@ def evaluate(config_file, momentum_ix):
 
     import matplotlib.pyplot as plt
     start = 1
-    end = 15
+    end = 110
     evs = [[] for i in range(end)]
     for ix in range(len(kxs)):
         try:

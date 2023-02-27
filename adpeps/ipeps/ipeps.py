@@ -231,6 +231,35 @@ class iPEPS_exci(iPEPS):
     def compute_orth_basis(self):
         return evaluation.get_orth_basis(self.tensors)
     
+    def compute_spectral_function(self, params: np.ndarray) -> np.ndarray:
+        """ 
+        aaa
+        """
+
+        if params is not None:
+            self.fill_Bd(params, 2)
+
+        if self.reinit_env:
+            # Construct new boundary tensors and perform ctm iterations 
+            # until convergence
+            # Note: gradient tracking is disabled for this function, so 
+            # only the ctm steps in the code after this line will be tracked
+            print('Performing CTM pre-steps without tracking')
+            self.converge_boundaries()
+
+        # Perform the ctm routine to obtain updated boundary tensors
+        print('Performing CTM')
+        self.tensors, conv = run_ctm(self.tensors, sim_config.chi, conv_fun = None)
+
+        # Evaluate energy
+        nrm, _, envBs, _ = evaluation.compute_exci_norm(self.tensors)
+
+        # Stop downstream gradient tracking for iPEPS tensors, 
+        # so they become regular arrays that can be saved
+        self.tensors.stop_gradient(only_boundaries=False)
+
+        return nrm, envBs
+    
     def run(self, params: np.ndarray) -> np.ndarray:
         """ 
         Run the simulation
@@ -306,6 +335,17 @@ class iPEPS_exci(iPEPS):
                 self.tensors.B._data[i] = B[i]
                 self.tensors.Bd._data[i] = B[i].conj()
 
+    def fill_Bd(self, B, ii):
+        if isinstance(B, np.ndarray) and B.ndim == 1:
+            # Input is vector of elements
+            B               = self.parse_elements(B)
+            for i in range(len(self.tensors.A._data)):
+                self.tensors.B._data[i] = ncon([self.observables[ii], self.tensors.A._data[i]], ([-1,1], [1,-2,-3,-4,-5]))
+            self.tensors.Bd = B.conj()
+        else:
+            for i in range(len(self.tensors.A._data)):
+                self.tensors.B._data[i] = ncon([self.observables[ii], self.tensors.A._data[i]], ([-1,1], [1,-2,-3,-4,-5]))
+                self.tensors.Bd._data[i] = B[i].conj()
 
 def init_A_tensor(d, D, pattern):
     """
