@@ -12,7 +12,7 @@ def setup():
     """ Returns the Hamiltonian """
     H = make_hamiltonian(**sim_config.model_params)
 
-    obs  = None
+    obs  = [sigmax, sigmay, sigmaz]
     return H, obs
 
 def make_hamiltonian(Jx = 1, Jy = 1):
