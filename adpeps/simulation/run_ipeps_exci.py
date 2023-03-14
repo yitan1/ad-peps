@@ -133,19 +133,24 @@ def evaluate_single(config_file, momentum_ix):
     basis = base_sim['basis']
     peps  = base_sim['peps'].item()
 
-    # basis = basis.T @ filter_null_modes(peps.tensors, basis)
+    # P0 = basis.T @ filter_null_modes(peps.tensors, basis)
+    # N = P0.T @ N @ P0
+    # H = P0.T @ H @ P0
+    # H = H.conjugate()
     # print(basis.shape)
     # print(N.shape)
-    # N = basis.T @ N @ basis
-    # H = basis.T @ H @ basis
-    # H = H.conjugate()
 
     H = 0.5 * (H + H.T.conjugate())
     N = 0.5 * (N + N.T.conjugate())
     ev_N, P = np.linalg.eig(N)
     idx = ev_N.real.argsort()[::-1]
     ev_N = ev_N[idx]
-    selected = (ev_N/ev_N.max()) > 1e-3
+    selected = (ev_N/ev_N.max()) > 1e-4
+    # import matplotlib.pyplot as plt
+    # plt.plot(ev_N/ev_N.max(), '--+')
+    # plt.ylim([0, 0.1])
+    # print("save to", f"simulations/ev_{sim_config.out_prefix}_{sim_config.model}.png")
+    # plt.savefig(f"simulations/ev_{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
     P = P[:,idx]
     P = P[:,selected]
     N2 = P.T.conjugate() @ N @ P
@@ -157,21 +162,28 @@ def evaluate_single(config_file, momentum_ix):
     ev = ev[ixs]
     vectors = vectors[:,ixs]
 
-    if False:
+    if True:
+        # from adpeps.ipeps import models
+        # model = getattr(models, sim_config.model)
+        # _, peps.observables = model.setup()
         exci_n = basis @ P @ vectors
+        # exci_n = basis @ vectors
         v = exci_n[:,0]
-        res, grad_H = value_and_grad(peps.compute_spectral_function, has_aux=True)(v)
-        grad_H = grad_H.conj()
+        # res, grad_H = value_and_grad(peps.compute_spectral_function, has_aux=True)(v)
+        res = peps.compute_spectral_function(v)
         sa = res[1].pack_data()
         wk0 = exci_n.T @ jax.lax.stop_gradient(sa)
-        wk = exci_n.T @ jax.lax.stop_gradient(grad_H)
         Swk0 = np.abs(wk0)**2
-        Swk = np.abs(wk)*1000
-        print("!!!!!!!!!!!", Swk0)
-        print("!!!!!!!!!!!", Swk)
-        print("!!!!!!!!!!!", ev.real)
+        # grad_H = grad_H.conj()
+        # wk = exci_n.T @ jax.lax.stop_gradient(grad_H)
+        # Swk = np.abs(wk)**2
+        print("Swk0 = ", Swk0)
+        # print("!!!!!!!!!!!", Swk)
+        print("ev.real = ", ev.real)
         import matplotlib.pyplot as plt
         plt.plot(ev.real, Swk0, '--+')
+        # plt.xlim([0, 7])
+        print("save to",f"simulations/{sim_config.out_prefix}_{sim_config.model}.png")
         plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
         
     return sorted(ev.real)
@@ -192,7 +204,7 @@ def evaluate(config_file, momentum_ix):
 
     import matplotlib.pyplot as plt
     start = 1
-    end = 110
+    end = 300
     evs = [[] for i in range(end)]
     for ix in range(len(kxs)):
         try:

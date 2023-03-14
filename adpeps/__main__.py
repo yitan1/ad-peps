@@ -1,12 +1,15 @@
 """
 Main runner
 """
+from jax.config import config
+config.update("jax_enable_x64", True)
+
+config.update('jax_platform_name', 'cpu')
+from jax.lib import xla_bridge
+print("Device:",xla_bridge.get_backend().platform)
 
 import argparse
 from .simulation import run_ipeps_gs, run_ipeps_exci
-
-from jax.config import config
-config.update("jax_enable_x64", True)
 
 import adpeps
 from adpeps.utils import io
