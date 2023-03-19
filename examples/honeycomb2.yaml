@@ -3,7 +3,7 @@
 
 # Simulation options
 # -> ipeps/config.py
-D:             3
+D:             4
 chi:           50
 model:         'honeycomb'
 
@@ -13,17 +13,17 @@ method:        'L-BFGS-B'
 # If an existing state is loaded in the model initialization, 
 # the seed controls the random (small) noise that is added to 
 # the site tensors
-seed:          2
+seed:          1
 
 # Prefix for output file
-out_prefix:  "015"
+out_prefix:  "11"
 
 # Resume earlier simulation if found
-resume:        False
+resume:        True
 
 model_params:
-  Jx:          0.15
-  Jy:          0.15
+  Jx:          1
+  Jy:          1
 
 # Set to 0 to suppress all output besides printing each step
 disp_level:    2
