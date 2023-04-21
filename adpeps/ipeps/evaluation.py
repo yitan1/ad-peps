@@ -99,17 +99,19 @@ def compute_exci_norm(tensors):
     nrms    = TList(shape=A.size, pattern=A.pattern)
     nrms_gs = TList(shape=A.size, pattern=A.pattern)
     envBs   = TList(shape=A.size, pattern=A.pattern)
+    envAs   = TList(shape=A.size, pattern=A.pattern)
 
     for i in A.x_major():
         with cur_loc(i):
             if not nrms.is_changed(0,0):
-                nrm, nrm_gs, envB = _compute_one_site_exci_norm(tensors)
+                nrm, nrm_gs, envB, envA = _compute_one_site_exci_norm(tensors)
                 # Exci norm
                 nrms[0,0]    = nrm
                 # Ground state norm
                 nrms_gs[0,0] = nrm_gs
                 # Environment (exci norm without center Bd)
                 envBs[0,0]   = envB
+                envAs[0,0] = envA
     return nrms.mean(), nrms_gs.mean(), envBs, nrms_gs
 
 def _compute_one_site_exci_norm(ts):
@@ -156,12 +158,13 @@ def _compute_one_site_exci_norm(ts):
     # reduced density matrix contracted with only the ket-layer of the center site
     nrmB_open = (ncon((ts.B[0,0], n_dm), ([-1,2,3,4,5],[2,3,4,5,-2,-3,-4,-5])) +
                  ncon((ts.A[0,0], B_dm), ([-1,2,3,4,5],[2,3,4,5,-2,-3,-4,-5]))) / nrm0
+    nrmA_open= ncon((ts.A[0,0], n_dm), ([-1,2,3,4,5],[2,3,4,5,-2,-3,-4,-5]))
 
     try:
         print('B norm', nrm_exci.item(), ' | Gs norm', nrm0.item(), level=2)
     except:
         pass
-    return nrm_exci.real, nrm0, nrmB_open
+    return nrm_exci.real, nrm0, nrmB_open, nrmA_open
 
 
 def get_orth_basis(tensors):

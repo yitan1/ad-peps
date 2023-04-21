@@ -72,10 +72,19 @@ def run(config_file: str):
         print("Resuming existing simulation")
         verbose(v)
     else:
-        print("Starting new simulation")
-        key = random.PRNGKey(sim_config.seed)
-        v   = random.normal(key, (peps.numel(),))
-        v   = v / np.max(np.abs(v))
+        if sim_config.init_gs == True:
+            print("Starting new simulation with given initial state")
+            from adpeps.ipeps.models.honeycomb import make_init_gs
+            v = make_init_gs(D=4) 
+            # res = peps.run(v)
+            # print(res)
+            # import sys
+            # sys.exit()
+        else:
+            print("Starting new simulation")
+            key = random.PRNGKey(sim_config.seed)
+            v   = random.normal(key, (peps.numel(),))
+            v   = v / np.max(np.abs(v))
 
     obj = Objective(peps)
 

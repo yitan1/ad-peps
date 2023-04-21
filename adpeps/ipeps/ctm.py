@@ -413,12 +413,24 @@ def get_projectors(T1: int, T2, chi):
         projectors by performing an svd
     """
     full_chi = T1.shape[3]*T1.shape[4]*T1.shape[5]
-    new_chi  = min(full_chi, chi)
+    new_chi  = min(full_chi+1, chi)
 
     Rho       = ncon([T1, T2], ([-1,-2,-3,1,2,3], [1,2,3,-4,-5,-6]))
     Rho_shape = Rho.shape
     Rho       = np.reshape(Rho, [Rho_shape[0]*Rho_shape[1]*Rho_shape[2], -1])
-    u,s,v     = svd(Rho, new_chi, 'n')
+    u0,s0,v0     = svd(Rho, new_chi, 'n')
+    if abs(s0[-1] - s0[-2]) > 1e-10 and chi > full_chi:
+        u = u0[:,:new_chi]
+        s = np.diag(s0[:new_chi])
+        v = v0[:new_chi,:]
+    else:
+        # print(jax.lax.stop_gradient(s0[-1]), jax.lax.stop_gradient(s0[-2]))
+        # print(jax.lax.stop_gradient(s0[-1] - s0[-2]))
+        u = u0
+        s = np.diag(s0)
+        v = v0
+        
+    # print("s = ", np.diag(jax.lax.stop_gradient(s)))
     u         = np.reshape(u, [Rho_shape[0], Rho_shape[1], Rho_shape[2], -1])
     v         = np.reshape(v.T, [Rho_shape[3], Rho_shape[4], Rho_shape[5], -1])
     inv_s     = diag_inv(np.sqrt(s))

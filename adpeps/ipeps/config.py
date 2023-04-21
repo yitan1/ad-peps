@@ -27,6 +27,8 @@ method: str                    = None
 seed: int                      = 1
 """ Random seed for initial state """
 
+init_gs: bool                  = False
+
 resume: bool                   = False
 """ Resume earlier simulation if found """
 

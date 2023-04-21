@@ -145,12 +145,13 @@ def evaluate_single(config_file, momentum_ix):
     ev_N, P = np.linalg.eig(N)
     idx = ev_N.real.argsort()[::-1]
     ev_N = ev_N[idx]
-    selected = (ev_N/ev_N.max()) > 1e-4
+    selected = (ev_N/ev_N.max()) > 0.00001
     # import matplotlib.pyplot as plt
     # plt.plot(ev_N/ev_N.max(), '--+')
     # plt.ylim([0, 0.1])
     # print("save to", f"simulations/ev_{sim_config.out_prefix}_{sim_config.model}.png")
     # plt.savefig(f"simulations/ev_{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
+    # plt.show()
     P = P[:,idx]
     P = P[:,selected]
     N2 = P.T.conjugate() @ N @ P
@@ -163,17 +164,27 @@ def evaluate_single(config_file, momentum_ix):
     vectors = vectors[:,ixs]
 
     if True:
-        # from adpeps.ipeps import models
-        # model = getattr(models, sim_config.model)
-        # _, peps.observables = model.setup()
+        from adpeps.ipeps import models
+        model = getattr(models, sim_config.model)
+        _, peps.observables = model.setup()
         exci_n = basis @ P @ vectors
         # exci_n = basis @ vectors
         v = exci_n[:,0]
         # res, grad_H = value_and_grad(peps.compute_spectral_function, has_aux=True)(v)
         res = peps.compute_spectral_function(v)
         sa = res[1].pack_data()
+        # nrmA = res[2].pack_data()
+        # nrm = exci_n.T @ jax.lax.stop_gradient(nrmA)
+        # print("nrm = ", nrm)
         wk0 = exci_n.T @ jax.lax.stop_gradient(sa)
         Swk0 = np.abs(wk0)**2
+        t = np.arange(80)*0.1
+        def ft(t, b, e0, s0):
+            w = 0
+            for i in range(len(s0)):
+                w += 1/np.pi*b/((t - e0[i])**2 + b**2)*s0[i]
+            return w
+        y = np.array([ft(i, 0.04, ev.real, Swk0) for i in t])
         # grad_H = grad_H.conj()
         # wk = exci_n.T @ jax.lax.stop_gradient(grad_H)
         # Swk = np.abs(wk)**2
@@ -181,10 +192,12 @@ def evaluate_single(config_file, momentum_ix):
         # print("!!!!!!!!!!!", Swk)
         print("ev.real = ", ev.real)
         import matplotlib.pyplot as plt
-        plt.plot(ev.real, Swk0, '--+')
+        plt.plot(t, y)
+        # plt.plot(ev.real, Swk0, '--+')
         # plt.xlim([0, 7])
-        print("save to",f"simulations/{sim_config.out_prefix}_{sim_config.model}.png")
-        plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
+        # print("save to",f"simulations/{sim_config.out_prefix}_{sim_config.model}.png")
+        # plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
+        plt.show()
         
     return sorted(ev.real)
 
@@ -204,7 +217,7 @@ def evaluate(config_file, momentum_ix):
 
     import matplotlib.pyplot as plt
     start = 1
-    end = 300
+    end = 100
     evs = [[] for i in range(end)]
     for ix in range(len(kxs)):
         try:
@@ -220,8 +233,9 @@ def evaluate(config_file, momentum_ix):
     plt.title(f"Dispersion {sim_config.model} D={sim_config.D} X = {sim_config.chi}")
     plt.xlabel('k')
     plt.ylabel('$\omega$')
-    plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
-    # plt.show()
+    print("save to",f"simulations/{sim_config.out_prefix}_{sim_config.model}.png")
+    # plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
+    plt.show()
 
 
 

@@ -51,7 +51,7 @@ def svd(m, n, mode, cutoff=1e-12, use_iter=False):
 
     u,s,v = _cutoff_matrices(u,s,v,cutoff,n)
 
-    s = np.diag(s)
+    # s = np.diag(s)
 
     # try:
     #     if config.svd_fix_sign:

@@ -8,14 +8,14 @@ chi:           30
 model:         'honey_brick'
 
 # Prefix for output file
-out_prefix:  11
+out_prefix:  test
 
 # Resume earlier simulation if found
 resume:        True
 
 model_params:
-  Jx:          1
-  Jy:          1
+  Jx:          0.15
+  Jy:          0.15
 
 # Set to 0 to suppress all output besides printing each step
 disp_level:    1
@@ -27,7 +27,7 @@ ctm_conv_tol:  1.e-6
 ctm_min_iter:  4
 
 # Maximal number of CTM steps
-ctm_max_iter:  20
+ctm_max_iter:  2000
 
 # Flush output (prints with print(*args, flush=True))
 flush_output:  True

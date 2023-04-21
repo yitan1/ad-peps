@@ -252,12 +252,14 @@ class iPEPS_exci(iPEPS):
         self.tensors, conv = run_ctm(self.tensors, sim_config.chi, conv_fun = None)
 
         # Evaluate energy
+        # nrm, _, envBs, _, envA = evaluation.compute_exci_norm(self.tensors)
         nrm, _, envBs, _ = evaluation.compute_exci_norm(self.tensors)
 
         # Stop downstream gradient tracking for iPEPS tensors, 
         # so they become regular arrays that can be saved
         self.tensors.stop_gradient(only_boundaries=False)
 
+        # return nrm, envBs, envA
         return nrm, envBs
     
     def run(self, params: np.ndarray) -> np.ndarray:
