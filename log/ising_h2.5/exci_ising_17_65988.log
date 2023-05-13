@@ -1,0 +1,2445 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Namespace(version=False, sim_mode='exci', config_file='ising_D2_exci.yaml', momentum_ix=17, evaluate=False, init=False)
+Running excited-state sim
+ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+D: 2
+chi: 30
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 20
+ctm_min_iter: 4
+disp_level: 1
+flush_output: true
+model: ising
+model_params:
+  h: 2.5
+momentum_path: Bril1
+out_prefix: h25
+pattern:
+- - 0
+  - 0
+- - 0
+  - 0
+resume: true
+
+Starting simulation of basis vector 1/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 2.65
+  | CTM step 2 conv: 1.000e+00 time: 2.72
+  | CTM step 3 conv: 1.000e+00 time: 2.8
+  | CTM step 4 conv: 3.561e+02 time: 1.62
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.46
+  | CTM step 7 conv: 2.682e+02 time: 0.41
+  | CTM step 8 conv: 2.121e+02 time: 0.39
+  | CTM step 9 conv: 2.423e+02 time: 0.39
+  | CTM step 10 conv: 2.801e+02 time: 0.39
+  | CTM step 11 conv: 3.103e+02 time: 0.39
+  | CTM step 12 conv: 3.644e+02 time: 0.39
+  | CTM step 13 conv: 3.628e+02 time: 0.39
+  | CTM step 14 conv: 3.591e+02 time: 0.39
+  | CTM step 15 conv: 3.242e+02 time: 0.42
+  | CTM step 16 conv: 3.120e+02 time: 0.39
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.42
+  | CTM step 19 conv: 2.972e+02 time: 0.39
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.68
+  | CTM step 2 conv: 2.180e+02 time: 0.6
+  | CTM step 3 conv: 2.406e+02 time: 0.58
+  | CTM step 4 conv: 1.667e+02 time: 0.58
+  | CTM step 5 conv: 1.786e+02 time: 0.59
+  | CTM step 6 conv: 1.455e+02 time: 0.58
+  | CTM step 7 conv: 1.519e+02 time: 0.72
+  | CTM step 8 conv: 1.438e+02 time: 0.57
+  | CTM step 9 conv: 1.468e+02 time: 0.58
+  | CTM step 10 conv: 1.494e+02 time: 0.58
+  | CTM step 11 conv: 1.519e+02 time: 0.58
+  | CTM step 12 conv: 1.707e+02 time: 0.58
+  | CTM step 13 conv: 1.711e+02 time: 0.57
+  | CTM step 14 conv: 2.079e+02 time: 0.58
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.62
+  | CTM step 17 conv: 2.686e+02 time: 0.57
+  | CTM step 18 conv: 2.446e+02 time: 0.58
+  | CTM step 19 conv: 2.400e+02 time: 0.58
+Energies: 0.0012867111245069007 -0.0006924760198497998
+Norm: -3.5544315271190465e-05
+========== 
+Finished basis vector 1/31 
+
+Starting simulation of basis vector 2/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.33
+  | CTM step 2 conv: 1.000e+00 time: 0.36
+  | CTM step 3 conv: 1.000e+00 time: 0.39
+  | CTM step 4 conv: 3.561e+02 time: 0.43
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.46
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.43
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.41
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.39
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.51
+  | CTM step 2 conv: 2.180e+02 time: 0.61
+  | CTM step 3 conv: 2.406e+02 time: 0.62
+  | CTM step 4 conv: 1.667e+02 time: 0.61
+  | CTM step 5 conv: 1.786e+02 time: 0.69
+  | CTM step 6 conv: 1.455e+02 time: 0.63
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.58
+  | CTM step 9 conv: 1.468e+02 time: 0.57
+  | CTM step 10 conv: 1.494e+02 time: 0.58
+  | CTM step 11 conv: 1.519e+02 time: 0.64
+  | CTM step 12 conv: 1.707e+02 time: 0.58
+  | CTM step 13 conv: 1.711e+02 time: 0.59
+  | CTM step 14 conv: 2.079e+02 time: 0.64
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.57
+  | CTM step 17 conv: 2.686e+02 time: 0.58
+  | CTM step 18 conv: 2.446e+02 time: 0.58
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: 0.0008838218741236137 -0.0006924760198497998
+Norm: 0.004709678297829546
+========== 
+Finished basis vector 2/31 
+
+Starting simulation of basis vector 3/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.32
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.37
+  | CTM step 4 conv: 3.561e+02 time: 0.39
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.44
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.39
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.61
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.63
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.58
+  | CTM step 17 conv: 2.686e+02 time: 0.58
+  | CTM step 18 conv: 2.446e+02 time: 0.57
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: 0.007683654164679976 -0.0006924760198497998
+Norm: 0.003725174006187289
+========== 
+Finished basis vector 3/31 
+
+Starting simulation of basis vector 4/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.36
+  | CTM step 3 conv: 1.000e+00 time: 0.37
+  | CTM step 4 conv: 3.561e+02 time: 0.39
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.39
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.39
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.39
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.39
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.62
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.65
+  | CTM step 6 conv: 1.455e+02 time: 0.57
+  | CTM step 7 conv: 1.519e+02 time: 0.6
+  | CTM step 8 conv: 1.438e+02 time: 0.57
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.59
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.57
+  | CTM step 13 conv: 1.711e+02 time: 0.57
+  | CTM step 14 conv: 2.079e+02 time: 0.62
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.57
+  | CTM step 17 conv: 2.686e+02 time: 0.57
+  | CTM step 18 conv: 2.446e+02 time: 0.57
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: 0.005876246956584175 -0.0006924760198497998
+Norm: 0.0007845464974504879
+========== 
+Finished basis vector 4/31 
+
+Starting simulation of basis vector 5/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.42
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.39
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.57
+  | CTM step 6 conv: 1.455e+02 time: 0.6
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.57
+  | CTM step 9 conv: 1.468e+02 time: 0.57
+  | CTM step 10 conv: 1.494e+02 time: 0.57
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.57
+  | CTM step 13 conv: 1.711e+02 time: 0.57
+  | CTM step 14 conv: 2.079e+02 time: 0.57
+  | CTM step 15 conv: 2.070e+02 time: 0.62
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.57
+  | CTM step 18 conv: 2.446e+02 time: 0.57
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.0024932000417009492 -0.0006924760198497998
+Norm: 0.005578640879278229
+========== 
+Finished basis vector 5/31 
+
+Starting simulation of basis vector 6/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.47
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.39
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.6
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.58
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.62
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: 0.00976843868912608 -0.0006924760198497998
+Norm: 0.002323699748752499
+========== 
+Finished basis vector 6/31 
+
+Starting simulation of basis vector 7/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.39
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.41
+  | CTM step 8 conv: 2.121e+02 time: 0.41
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.56
+  | CTM step 14 conv: 3.591e+02 time: 0.39
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.59
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.6
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.61
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.008830703655871464 -0.0006924760198497998
+Norm: 0.004280493471511758
+========== 
+Finished basis vector 7/31 
+
+Starting simulation of basis vector 8/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.43
+  | CTM step 5 conv: 3.143e+02 time: 0.41
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.6
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.61
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.004075219521298634 -0.0006924760198497998
+Norm: 0.00047998473219949296
+========== 
+Finished basis vector 8/31 
+
+Starting simulation of basis vector 9/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.39
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.6
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.62
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -3.1795476819196367e-05 -0.0006924760198497998
+Norm: 0.0013652521476481543
+========== 
+Finished basis vector 9/31 
+
+Starting simulation of basis vector 10/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.4
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.68
+  | CTM step 8 conv: 1.438e+02 time: 0.65
+  | CTM step 9 conv: 1.468e+02 time: 0.6
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.62
+Energies: -0.009873449105124887 -0.0006924760198497998
+Norm: 0.006468166207673372
+========== 
+Finished basis vector 10/31 
+
+Starting simulation of basis vector 11/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.6
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.010530708373345576 -0.0006924760198497998
+Norm: 0.005001460648623294
+========== 
+Finished basis vector 11/31 
+
+Starting simulation of basis vector 12/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.37
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.59
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.59
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.61
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.0007199358781181386 -0.0006924760198497998
+Norm: 0.0032832017590994334
+========== 
+Finished basis vector 12/31 
+
+Starting simulation of basis vector 13/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.5
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.59
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.73
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.6
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.0025391727790609053 -0.0006924760198497998
+Norm: 0.002124614747167603
+========== 
+Finished basis vector 13/31 
+
+Starting simulation of basis vector 14/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.37
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.6
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.57
+  | CTM step 9 conv: 1.468e+02 time: 0.58
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.62
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.58
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: -0.011705365029669568 -0.0006924760198497998
+Norm: 0.005505794534024504
+========== 
+Finished basis vector 14/31 
+
+Starting simulation of basis vector 15/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.47
+  | CTM step 3 conv: 1.000e+00 time: 0.39
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.59
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.57
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.61
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.009604002041179172 -0.0006924760198497998
+Norm: 0.026951484582620755
+========== 
+Finished basis vector 15/31 
+
+Starting simulation of basis vector 16/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.37
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.51
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.57
+  | CTM step 6 conv: 1.455e+02 time: 0.63
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.57
+  | CTM step 9 conv: 1.468e+02 time: 0.57
+  | CTM step 10 conv: 1.494e+02 time: 0.61
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.57
+  | CTM step 13 conv: 1.711e+02 time: 0.57
+  | CTM step 14 conv: 2.079e+02 time: 0.57
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.57
+  | CTM step 17 conv: 2.686e+02 time: 0.57
+  | CTM step 18 conv: 2.446e+02 time: 0.57
+  | CTM step 19 conv: 2.400e+02 time: 0.63
+Energies: -0.015140687027482003 -0.0006924760198497998
+Norm: 0.0017154143824973582
+========== 
+Finished basis vector 16/31 
+
+Starting simulation of basis vector 17/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.45
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.6
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.014822703937186543 -0.0006924760198497998
+Norm: 0.003995198649290016
+========== 
+Finished basis vector 17/31 
+
+Starting simulation of basis vector 18/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.37
+  | CTM step 6 conv: 2.555e+02 time: 0.37
+  | CTM step 7 conv: 2.682e+02 time: 0.37
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.67
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.61
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.1305511658574261 -0.0006924760198497998
+Norm: 0.012533093330389275
+========== 
+Finished basis vector 18/31 
+
+Starting simulation of basis vector 19/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.37
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.37
+  | CTM step 7 conv: 2.682e+02 time: 0.37
+  | CTM step 8 conv: 2.121e+02 time: 0.37
+  | CTM step 9 conv: 2.423e+02 time: 0.37
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.39
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.73
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.6
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.58
+  | CTM step 19 conv: 2.400e+02 time: 0.63
+Energies: -0.10559708305556947 -0.0006924760198497998
+Norm: 0.01981697051542417
+========== 
+Finished basis vector 19/31 
+
+Starting simulation of basis vector 20/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.35
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.37
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.63
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: -0.00672306806277978 -0.0006924760198497998
+Norm: 0.004464984354826772
+========== 
+Finished basis vector 20/31 
+
+Starting simulation of basis vector 21/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.47
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.39
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.49
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.72
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.57
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.57
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.57
+  | CTM step 13 conv: 1.711e+02 time: 0.62
+  | CTM step 14 conv: 2.079e+02 time: 0.57
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: 0.10940798723025313 -0.0006924760198497998
+Norm: 0.017373283681754854
+========== 
+Finished basis vector 21/31 
+
+Starting simulation of basis vector 22/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.71
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.57
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.57
+  | CTM step 10 conv: 1.494e+02 time: 0.57
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.61
+  | CTM step 14 conv: 2.079e+02 time: 0.57
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.57
+  | CTM step 17 conv: 2.686e+02 time: 0.57
+  | CTM step 18 conv: 2.446e+02 time: 0.57
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: -0.10947776937915332 -0.0006924760198497998
+Norm: 0.021622360962621497
+========== 
+Finished basis vector 22/31 
+
+Starting simulation of basis vector 23/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.35
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.41
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.6
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.61
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.62
+  | CTM step 18 conv: 2.446e+02 time: 0.58
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: -0.05390977261415664 -0.0006924760198497998
+Norm: 0.03373361791729912
+========== 
+Finished basis vector 23/31 
+
+Starting simulation of basis vector 24/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.47
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.4
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.6
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.61
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.007232121835795663 -0.0006924760198497998
+Norm: 0.0007316291357688815
+========== 
+Finished basis vector 24/31 
+
+Starting simulation of basis vector 25/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.42
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.62
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.61
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.57
+  | CTM step 14 conv: 2.079e+02 time: 0.62
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.03500886075258958 -0.0006924760198497998
+Norm: 0.002289315429310586
+========== 
+Finished basis vector 25/31 
+
+Starting simulation of basis vector 26/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.37
+  | CTM step 6 conv: 2.555e+02 time: 0.37
+  | CTM step 7 conv: 2.682e+02 time: 0.37
+  | CTM step 8 conv: 2.121e+02 time: 0.37
+  | CTM step 9 conv: 2.423e+02 time: 0.37
+  | CTM step 10 conv: 2.801e+02 time: 0.37
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.39
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.59
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.62
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.026136870159877645 -0.0006924760198497998
+Norm: 0.004532042659161201
+========== 
+Finished basis vector 26/31 
+
+Starting simulation of basis vector 27/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.49
+  | CTM step 3 conv: 1.000e+00 time: 0.71
+  | CTM step 4 conv: 3.561e+02 time: 0.52
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.39
+  | CTM step 7 conv: 2.682e+02 time: 0.37
+  | CTM step 8 conv: 2.121e+02 time: 0.4
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.57
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.57
+  | CTM step 5 conv: 1.786e+02 time: 0.57
+  | CTM step 6 conv: 1.455e+02 time: 0.62
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.57
+  | CTM step 9 conv: 1.468e+02 time: 0.57
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.62
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.006508501364636432 -0.0006924760198497998
+Norm: 0.002294440013547034
+========== 
+Finished basis vector 27/31 
+
+Starting simulation of basis vector 28/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.35
+  | CTM step 4 conv: 3.561e+02 time: 0.37
+  | CTM step 5 conv: 3.143e+02 time: 0.37
+  | CTM step 6 conv: 2.555e+02 time: 0.44
+  | CTM step 7 conv: 2.682e+02 time: 0.39
+  | CTM step 8 conv: 2.121e+02 time: 0.42
+  | CTM step 9 conv: 2.423e+02 time: 0.37
+  | CTM step 10 conv: 2.801e+02 time: 0.41
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.39
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.6
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.62
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.029685188579971267 -0.0006924760198497998
+Norm: 0.002097213038291187
+========== 
+Finished basis vector 28/31 
+
+Starting simulation of basis vector 29/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.45
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.39
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.61
+  | CTM step 8 conv: 1.438e+02 time: 0.56
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.62
+  | CTM step 17 conv: 2.686e+02 time: 0.56
+  | CTM step 18 conv: 2.446e+02 time: 0.57
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.212695155996923 -0.0006924760198497998
+Norm: 0.016550384281428507
+========== 
+Finished basis vector 29/31 
+
+Starting simulation of basis vector 30/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.38
+  | CTM step 6 conv: 2.555e+02 time: 0.38
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.38
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.38
+  | CTM step 14 conv: 3.591e+02 time: 0.38
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.48
+  | CTM step 2 conv: 2.180e+02 time: 0.56
+  | CTM step 3 conv: 2.406e+02 time: 0.56
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.57
+  | CTM step 6 conv: 1.455e+02 time: 0.56
+  | CTM step 7 conv: 1.519e+02 time: 0.56
+  | CTM step 8 conv: 1.438e+02 time: 0.61
+  | CTM step 9 conv: 1.468e+02 time: 0.56
+  | CTM step 10 conv: 1.494e+02 time: 0.56
+  | CTM step 11 conv: 1.519e+02 time: 0.56
+  | CTM step 12 conv: 1.707e+02 time: 0.56
+  | CTM step 13 conv: 1.711e+02 time: 0.56
+  | CTM step 14 conv: 2.079e+02 time: 0.56
+  | CTM step 15 conv: 2.070e+02 time: 0.56
+  | CTM step 16 conv: 2.711e+02 time: 0.56
+  | CTM step 17 conv: 2.686e+02 time: 0.62
+  | CTM step 18 conv: 2.446e+02 time: 0.56
+  | CTM step 19 conv: 2.400e+02 time: 0.56
+Energies: -0.0030303332724844756 -0.0006924760198497998
+Norm: 0.0027024639936544742
+========== 
+Finished basis vector 30/31 
+
+Starting simulation of basis vector 31/31
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.31
+  | CTM step 2 conv: 1.000e+00 time: 0.34
+  | CTM step 3 conv: 1.000e+00 time: 0.36
+  | CTM step 4 conv: 3.561e+02 time: 0.38
+  | CTM step 5 conv: 3.143e+02 time: 0.4
+  | CTM step 6 conv: 2.555e+02 time: 0.41
+  | CTM step 7 conv: 2.682e+02 time: 0.38
+  | CTM step 8 conv: 2.121e+02 time: 0.38
+  | CTM step 9 conv: 2.423e+02 time: 0.46
+  | CTM step 10 conv: 2.801e+02 time: 0.38
+  | CTM step 11 conv: 3.103e+02 time: 0.38
+  | CTM step 12 conv: 3.644e+02 time: 0.38
+  | CTM step 13 conv: 3.628e+02 time: 0.46
+  | CTM step 14 conv: 3.591e+02 time: 0.65
+  | CTM step 15 conv: 3.242e+02 time: 0.38
+  | CTM step 16 conv: 3.120e+02 time: 0.38
+  | CTM step 17 conv: 2.571e+02 time: 0.38
+  | CTM step 18 conv: 2.499e+02 time: 0.38
+  | CTM step 19 conv: 2.972e+02 time: 0.38
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.52
+  | CTM step 2 conv: 2.180e+02 time: 0.64
+  | CTM step 3 conv: 2.406e+02 time: 0.57
+  | CTM step 4 conv: 1.667e+02 time: 0.56
+  | CTM step 5 conv: 1.786e+02 time: 0.56
+  | CTM step 6 conv: 1.455e+02 time: 0.57
+  | CTM step 7 conv: 1.519e+02 time: 0.57
+  | CTM step 8 conv: 1.438e+02 time: 0.57
+  | CTM step 9 conv: 1.468e+02 time: 0.62
+  | CTM step 10 conv: 1.494e+02 time: 0.57
+  | CTM step 11 conv: 1.519e+02 time: 0.57
+  | CTM step 12 conv: 1.707e+02 time: 0.57
+  | CTM step 13 conv: 1.711e+02 time: 0.59
+  | CTM step 14 conv: 2.079e+02 time: 0.58
+  | CTM step 15 conv: 2.070e+02 time: 0.57
+  | CTM step 16 conv: 2.711e+02 time: 0.57
+  | CTM step 17 conv: 2.686e+02 time: 0.57
+  | CTM step 18 conv: 2.446e+02 time: 0.63
+  | CTM step 19 conv: 2.400e+02 time: 0.57
+Energies: 0.13204737583291326 -0.0006924760198497998
+Norm: 0.01657808618070814
+========== 
+Finished basis vector 31/31 
+
+[[ 1.15649461e-02+1.71757573e-03j  8.00066310e-03-1.16818756e-02j
+  -3.81223978e-03+5.33242465e-03j  3.57825344e-03-2.08954441e-03j
+  -3.34482625e-03+3.75069330e-03j -7.29892970e-05+5.24312932e-03j
+  -1.96118867e-03+1.06554602e-02j  1.29244821e-03+1.77091622e-03j
+   9.17933224e-04-9.71785651e-03j -1.54611403e-03+7.71403128e-03j
+   2.75946552e-03-4.88777702e-03j -1.73380992e-03-4.55414562e-03j
+   9.36644624e-03-9.83758394e-04j  4.16078990e-03-8.04775782e-03j
+  -2.93932293e-03+1.79722991e-02j -2.34712265e-03+7.03097070e-03j
+   9.32504632e-03-1.52073898e-02j -6.83309876e-03+2.27626286e-02j
+   1.11302194e-02-3.00668945e-02j -7.03400458e-04-1.33125939e-02j
+   3.23030969e-03+2.08005518e-02j  2.89790307e-03-2.93934515e-02j
+  -1.23903180e-02+5.09613540e-02j -9.00164174e-04-2.11800556e-03j
+   6.79894268e-03-4.28159441e-03j -3.46474093e-03-1.27198627e-03j
+   2.26052635e-03-3.74512210e-03j  2.71759499e-04-3.86403401e-03j
+   8.06195760e-03+9.40750415e-03j  8.38250434e-04-3.96218061e-03j
+  -1.05296759e-02+3.21588498e-02j]
+ [ 4.54394995e-03+9.65336092e-03j  1.28625273e-02+1.34959687e-03j
+  -1.18086670e-02-5.54963768e-03j  1.26860021e-02+6.39488335e-04j
+  -1.08834567e-02+2.47104719e-03j -1.34089103e-02-4.02005943e-03j
+  -1.54704292e-02+4.12676501e-03j  6.92831860e-03+1.70632520e-03j
+   1.87467001e-02+1.70511860e-03j -5.64948706e-03+1.18498333e-03j
+  -6.22789206e-04-3.97362308e-03j  1.65560529e-02-9.91636543e-03j
+   3.63678777e-03-1.12142852e-03j -1.62171943e-03-4.88788359e-03j
+  -3.16095090e-02+6.60879009e-03j -2.17780301e-03+1.82715568e-03j
+   4.24910585e-03-1.55841822e-03j -8.36122302e-03+5.42825722e-03j
+   1.90729113e-02-6.49017706e-03j  6.33572286e-03-6.54782976e-03j
+  -4.94504425e-02+5.69106992e-03j  2.29128951e-02-1.11962864e-02j
+  -4.50629949e-02+9.91139293e-03j  8.42655248e-04-1.63420664e-03j
+  -7.27075019e-03+6.10814082e-04j  2.38756023e-03-2.19707168e-03j
+   7.66208702e-03-2.14376173e-03j -4.91076343e-03-2.34616570e-03j
+  -5.07637210e-02+3.59224061e-03j  1.09318739e-02-1.84316680e-03j
+  -4.12414721e-02+1.91779108e-03j]
+ [-1.87922218e-03-4.89817845e-03j -1.10311925e-02+4.29821516e-03j
+   1.31394888e-02-2.19332591e-04j -5.68521911e-03+1.22912663e-03j
+   4.87097370e-03-8.30864895e-03j  1.53417761e-03-5.76643709e-03j
+   3.63506336e-03-6.01961655e-03j  6.26382856e-05+1.27372204e-03j
+  -1.41882283e-02+7.79947068e-03j  4.70877752e-03-3.34362649e-03j
+  -7.31113416e-03+3.04553090e-03j  5.54155904e-04+1.08009674e-02j
+  -2.20299771e-03+3.35131423e-04j -5.47567576e-03+1.96338544e-03j
+   9.05446303e-03-1.59579498e-02j  3.78594189e-03-4.63752287e-04j
+  -9.42282346e-03+2.46054559e-03j  1.66063170e-02-3.80479721e-03j
+  -1.99965825e-02+9.71720045e-03j -1.71393423e-02+4.03261776e-03j
+   3.65846978e-02-2.61823428e-02j -3.08473977e-02+1.26530131e-02j
+   4.75023304e-02-1.95182773e-02j -4.84818975e-03+1.22795159e-03j
+   1.71942505e-03-3.15629623e-03j -3.81544005e-03+1.20933150e-03j
+  -1.63634721e-03+6.23193825e-03j -2.09260859e-03-2.21596136e-03j
+   2.29955974e-02-2.74093977e-02j -4.39805495e-03+6.66634103e-03j
+   3.21895147e-02-1.64034931e-02j]
+ [ 1.91672607e-03+5.99429727e-03j  1.59965933e-02-3.95008129e-03j
+  -9.09963225e-03+8.34842166e-04j  1.63317109e-02+1.65162969e-03j
+  -1.18659876e-02+8.91797536e-03j -6.87505190e-03+1.09046130e-02j
+  -1.17330826e-02+1.13336970e-02j  8.35983201e-04+9.35892755e-06j
+   1.28476113e-02-8.30913888e-03j -1.13062039e-02+7.79881069e-03j
+   1.01136774e-02+2.70452964e-03j  3.41765268e-03-1.46826879e-02j
+   4.24714703e-03+5.71533984e-03j  8.62005557e-03+4.50255884e-04j
+  -2.53256193e-02+2.10538160e-02j -5.44898117e-03+2.59169760e-03j
+   7.39992396e-03-4.72818798e-03j -1.91112213e-02+5.18505456e-03j
+   2.38657665e-02-9.23192982e-03j  1.36950754e-02-2.84949090e-03j
+  -2.24646260e-02+1.85790974e-02j  3.13408668e-02-8.88234754e-03j
+  -4.45033308e-02+2.52378614e-02j  1.61611553e-03+1.07413958e-03j
+  -1.85912928e-03-9.13911033e-04j  2.67087636e-03+2.83505438e-03j
+   1.85241495e-03-6.34900634e-03j  1.93961512e-03+6.86834395e-04j
+  -1.46348467e-02+2.23909971e-02j  6.30450086e-03-6.15813964e-03j
+  -2.80853671e-02+2.74090579e-02j]
+ [-1.01659569e-03+7.39558215e-04j -7.57904967e-03-4.89845348e-03j
+   3.74183157e-03+8.46567956e-03j -8.58297666e-03-2.66797004e-03j
+   3.02779505e-02+3.80204001e-04j  1.17624236e-02+7.76773948e-03j
+   1.05340720e-02-2.96250759e-03j -1.85278272e-03-8.64319701e-04j
+  -1.19331674e-02+3.04675398e-03j  4.02888162e-03+2.42187671e-03j
+  -3.38016325e-03+2.95342384e-03j -9.70436102e-03+4.54466110e-03j
+   1.03173061e-02+1.01939532e-02j -1.73645416e-03+1.30155290e-03j
+   2.78468376e-02-2.70499943e-03j  1.85112007e-03-2.23612770e-03j
+  -4.78887982e-03+2.12199193e-03j  1.43345984e-02-5.04733423e-03j
+  -9.86340333e-03+3.97971592e-03j -5.40500927e-03+5.90435500e-03j
+   1.00029321e-02+5.13163312e-03j -1.38486666e-02+1.06897311e-02j
+   3.69508471e-03+2.94949889e-04j -6.35203078e-03+3.56592478e-03j
+   5.52963401e-03-7.70723126e-04j -1.06120112e-02+8.09448271e-03j
+   9.76781739e-03-5.82114479e-03j  6.09928465e-03-2.99202147e-04j
+  -3.90510323e-03+1.19499531e-02j  9.45269309e-03-5.63098155e-03j
+  -1.88972573e-02+1.88733036e-02j]
+ [ 1.86838718e-03-2.12266739e-03j -1.16545267e-02+1.48774771e-03j
+   6.91472793e-04+6.41185478e-03j -5.78769017e-03-7.74090708e-03j
+   1.15725920e-02-4.67608774e-03j  1.30221779e-02+1.18998802e-03j
+   7.75500856e-03-5.99351458e-03j -6.82565521e-05-4.08753791e-03j
+  -5.76107992e-03+2.99788479e-03j  7.60827907e-03-5.88572188e-03j
+  -8.25160391e-03+7.68611672e-03j -1.47824750e-02+2.97996015e-03j
+   4.88673102e-04-3.03077504e-03j -8.73539252e-03+9.35991554e-03j
+   1.71311441e-02-8.43648651e-03j  4.51725648e-03-3.09135510e-03j
+  -1.54532561e-02+8.31853422e-04j  1.81687706e-02-8.15771759e-03j
+  -2.88169692e-02+5.84125664e-03j -1.00847960e-02+6.37610415e-03j
+   3.30617180e-02+9.10922958e-04j -2.31012842e-02+1.13190932e-02j
+   4.47854618e-02-4.85249379e-03j -4.53148446e-03+1.59225136e-03j
+  -1.11136348e-03-2.07015292e-03j -4.29536287e-03+3.95536087e-03j
+  -2.74025440e-03-3.38452636e-03j  1.11863087e-03+1.23272619e-03j
+   2.02197939e-02+6.88237417e-03j -3.64348274e-03-1.21714998e-03j
+   2.81808982e-02+8.25183486e-03j]
+ [ 1.91536995e-03-1.16433324e-02j -2.12656222e-02-3.91935189e-03j
+   9.16529563e-03+8.15376146e-03j -1.07799214e-02-1.26750739e-02j
+   1.85113893e-02+2.82652677e-03j  1.17601241e-02+5.17724712e-03j
+   8.34085696e-03-1.54028954e-03j -3.84997356e-03-3.96465611e-03j
+  -8.51999047e-03-1.20745802e-03j  5.58314476e-03+8.97047368e-04j
+  -8.21660237e-03+1.92585790e-03j -8.59216065e-03+8.69618662e-04j
+  -4.71163306e-03-4.26025121e-03j -8.86675446e-03+2.34895725e-03j
+   1.47967970e-02+2.76632286e-03j  9.82688601e-04-1.34145980e-03j
+  -9.08904331e-03+4.59101460e-04j  6.85930079e-03-3.57123954e-03j
+  -2.79301577e-02+1.09279858e-03j -9.18672080e-03+7.85968183e-03j
+   6.29371703e-02-4.56633420e-03j -2.72665716e-02+9.60851735e-03j
+   5.11233528e-02-1.47859927e-02j  7.44106866e-04-1.13770142e-05j
+   6.64058378e-03+3.33574536e-04j  1.83416089e-03-2.21790346e-03j
+  -1.54453697e-02+2.58159603e-03j  5.04346199e-03+4.55661391e-03j
+   5.90138078e-02-2.24615318e-03j -1.77637411e-02+4.07567688e-03j
+   4.60856221e-02-1.43168827e-02j]
+ [ 1.29035730e-03-9.14445846e-04j  7.67651887e-03-2.54140983e-03j
+  -5.92838940e-04-8.85571253e-04j  1.32102423e-03+1.07039623e-03j
+  -1.82870305e-03+2.33333322e-03j -1.57648994e-04+5.34777683e-03j
+  -5.26761039e-03+3.80313230e-03j -4.13441076e-04+7.05695853e-05j
+   1.15259295e-03-4.14393348e-03j -4.63610104e-03+2.06694105e-03j
+   9.03543367e-03+3.35664882e-04j  5.62447297e-05-2.29189684e-03j
+  -3.31661645e-04+4.82215240e-04j  9.64854775e-03-9.80877492e-04j
+  -1.13737437e-02+7.61766137e-03j -4.92569168e-03+2.60949692e-03j
+   8.82175621e-03-5.00598075e-03j -1.61115345e-02+7.81728467e-03j
+   1.55447911e-02-1.08378687e-02j  7.96407433e-03-4.33719774e-03j
+   5.45896942e-03+9.49144996e-03j  1.58816029e-02-1.00787971e-02j
+  -2.16843585e-02+1.61802738e-02j  2.64698927e-03-9.35202740e-04j
+   4.65625900e-03+2.38989629e-05j  2.82624332e-03-1.64406072e-03j
+  -2.99130776e-03-8.41946849e-04j  3.89416020e-03+1.63793945e-04j
+   1.23170970e-02+5.53409056e-03j -2.30272371e-03-8.89841444e-04j
+  -7.34444391e-03+9.19152745e-03j]
+ [-1.80522012e-03+1.19021831e-02j  2.29039447e-02-2.97700813e-03j
+  -1.73089296e-02-8.64478193e-03j  1.19879034e-02+1.12652339e-02j
+  -1.75598380e-02-2.92150117e-04j -9.08522270e-03-4.02574348e-04j
+  -8.29653023e-03+1.52339956e-03j  2.09093258e-04+4.73137758e-03j
+   1.09516155e-02+6.87490872e-04j -1.10920870e-02+8.14116526e-04j
+   1.03206496e-02-6.00473020e-03j  4.55592746e-03+6.53649779e-04j
+  -4.95168484e-04+2.11883110e-05j  1.11779622e-02-6.18152990e-03j
+  -2.40604623e-02-5.15482427e-03j -5.47128703e-03+3.37669062e-03j
+   1.53606753e-02-1.08542682e-02j -2.22043252e-02+1.16715778e-02j
+   3.75904485e-02-1.47922748e-02j  1.34998834e-02-8.02900232e-03j
+  -4.96204609e-02+4.75743275e-03j  3.74401732e-02-1.50026404e-02j
+  -6.12503884e-02+3.05197882e-02j  2.12053385e-03-6.35179823e-04j
+  -8.88380599e-04-7.34074047e-03j  1.68641990e-03+2.75548459e-03j
+   1.00527337e-02-4.42298941e-03j -2.24083881e-03-4.91360650e-03j
+  -3.78624509e-02-2.60841639e-03j  1.16841322e-02-3.46714849e-03j
+  -4.39149595e-02+2.35969718e-02j]
+ [ 3.14932262e-03-6.82184963e-03j -8.42900002e-03-2.04785361e-03j
+   8.06212118e-03+4.26907060e-03j -8.00977695e-03-6.64418841e-03j
+   1.11860200e-02-2.20284171e-03j  1.06840493e-02+6.60844382e-03j
+  -5.38193198e-04-2.09436399e-03j -3.44998757e-03-1.67345552e-03j
+  -6.88052512e-03+3.51238165e-04j -9.39600227e-04-2.49828615e-04j
+   4.30765444e-03+2.48543009e-03j -4.91519623e-03+3.29899208e-03j
+  -5.71710336e-03-7.55647010e-04j  6.23786211e-03+2.49763103e-03j
+   2.69779099e-03+1.32637349e-03j -4.14633915e-04-1.52750461e-05j
+  -5.49776056e-03-2.03067248e-03j  6.35132879e-03+1.63806141e-03j
+  -1.82245829e-02-6.63878129e-03j -6.65901986e-03+1.44789510e-03j
+   4.75142109e-02+9.21760212e-03j -1.99279973e-02-5.22574245e-04j
+   3.04706482e-02+3.62005322e-03j -8.79629015e-04-4.58906043e-04j
+   5.78036304e-03+1.66183849e-03j  1.22017131e-04-1.92866236e-03j
+  -8.94304537e-03-6.14643550e-04j  4.84788566e-03+2.84982411e-03j
+   4.00457232e-02+6.43698041e-03j -1.08692763e-02+2.98040044e-04j
+   2.77311018e-02+2.16803346e-03j]
+ [ 1.31698932e-03+5.80052364e-03j -1.94794106e-04+4.27366797e-03j
+  -7.75691112e-03-3.43324777e-03j  9.32209046e-03-2.41956984e-03j
+  -6.38249163e-03-6.40787043e-04j -9.28516844e-03-8.21455751e-03j
+  -6.04786006e-03-3.52176412e-03j  9.01074996e-03+7.35947103e-05j
+   8.88965635e-03+6.94341473e-03j  5.12303118e-03-2.75723366e-03j
+  -1.03230024e-02-6.78479072e-04j  1.04312459e-02-4.71430808e-03j
+   4.06945282e-03-3.30600164e-03j -1.64533065e-02-1.55693248e-03j
+  -1.87940798e-02-8.21547900e-03j  2.46258924e-03-7.64693347e-04j
+  -8.55605344e-03+9.44316097e-04j  2.23974027e-03-5.58750133e-03j
+  -7.31327849e-05+7.36694055e-03j  3.46256675e-03+3.70971026e-03j
+  -3.45452693e-02-1.98098965e-02j  9.93966723e-03+8.38189597e-03j
+  -6.91727566e-03-1.59351822e-02j -2.41940735e-04+1.27687297e-03j
+  -1.14902007e-02-4.96029031e-03j  1.82620105e-03+1.59423743e-03j
+   3.96692508e-03+5.20221095e-05j -4.64820959e-03-1.05151370e-03j
+  -3.74412244e-02-1.52449856e-02j  7.51291363e-03+2.84923244e-03j
+  -9.05730210e-03-1.27664629e-02j]
+ [-4.52563538e-03+5.48006453e-03j  2.02195164e-02+8.27770250e-03j
+  -4.03207383e-03-1.09415944e-02j  3.45750890e-03+1.59943505e-02j
+  -1.50985621e-02-2.20124687e-03j -1.62738854e-02-1.61307884e-03j
+  -8.29503946e-03+1.40290368e-03j -6.00845123e-04+2.44289519e-03j
+   4.65928098e-03-9.34153775e-04j -8.80608532e-03-1.66025032e-03j
+   1.11196185e-02+5.24302201e-03j  1.14471988e-02-7.53179178e-04j
+  -9.26175753e-04+2.96619232e-03j  1.08692881e-02+2.51397653e-03j
+  -2.19068326e-02-6.47855442e-03j -6.25825778e-03-9.99161856e-04j
+   1.63772497e-02+5.06135088e-03j -2.67210865e-02-8.30689208e-03j
+   4.14234536e-02+1.29363924e-02j  1.83877278e-02+5.56200050e-03j
+  -5.26440805e-02-1.21629930e-02j  4.38148094e-02+1.31522788e-02j
+  -6.82138984e-02-1.26575271e-02j  3.34194686e-03+3.53698513e-03j
+  -1.74081304e-03-1.59054394e-03j  2.62843888e-03+5.79655612e-03j
+   8.80307354e-03-2.07909371e-03j  1.35185232e-05-1.37110906e-03j
+  -3.74945446e-02-2.82828298e-03j  1.20806498e-02-1.64536101e-03j
+  -4.57761668e-02+9.05303188e-04j]
+ [ 7.42303104e-03+7.48602368e-03j  1.43920104e-02-6.06982352e-03j
+  -9.97602994e-03+1.09473584e-03j  5.86279202e-03+3.63305959e-03j
+   2.67600079e-04-2.59909436e-03j -3.37757319e-03+1.06973675e-02j
+  -1.21163234e-02+7.56830206e-03j -1.95012003e-03+1.69207040e-03j
+   4.32931437e-03+2.73161277e-03j -1.87638122e-02+4.97690325e-03j
+   9.15707050e-03+5.32395205e-03j  2.82643140e-03-2.46131093e-03j
+   2.79316711e-03+7.09800100e-03j  1.12726877e-02+1.18170240e-03j
+  -1.84225800e-02+5.53826257e-03j  3.25382085e-05+1.59072360e-03j
+  -5.70108380e-03-4.48255230e-03j  1.29384878e-02+3.58092919e-03j
+  -7.39723771e-03-7.30507152e-03j -9.08032373e-03-3.05090692e-03j
+   1.54776978e-02+1.63471955e-02j -1.25815728e-02-4.66021953e-03j
+   2.65605994e-03+3.56832108e-02j -1.20329701e-02+4.24228136e-03j
+   6.33618716e-03-4.66796196e-03j -1.82682056e-02+1.18787596e-02j
+   1.46956168e-02-1.16687772e-02j  6.01892964e-03-5.89501179e-03j
+  -5.18152693e-03+2.04783628e-02j  1.61352904e-02-1.29709031e-02j
+  -2.73885169e-02+5.38261685e-02j]
+ [ 2.57167534e-03+8.41855381e-03j -5.48656493e-04+5.53313464e-03j
+  -6.63094403e-03-2.57352903e-03j  7.51736741e-03-9.44707600e-04j
+  -6.19219165e-03-3.69536239e-04j -1.00905523e-02-1.05598440e-02j
+  -6.42966195e-03-3.04142963e-03j  9.52739529e-03+1.13900640e-03j
+   9.84678713e-03+6.55400367e-03j  6.66009050e-03-2.84596197e-03j
+  -1.62334659e-02+6.20856506e-04j  9.71376591e-03-2.71878744e-03j
+   4.64565120e-03-1.63781762e-03j -1.15231881e-02-3.16824838e-04j
+  -1.94804442e-02-9.74729227e-03j  2.29249516e-03-1.16958339e-03j
+   2.75194248e-03+2.81077014e-03j  1.72214106e-03-5.97688670e-03j
+   9.07438237e-03+8.93472505e-03j -7.72797329e-03+4.75949033e-03j
+  -3.40556089e-02-2.26956872e-02j  8.60864558e-04+1.19877074e-02j
+  -6.21899857e-03-1.64954328e-02j -4.03214904e-04+1.06334418e-03j
+  -5.20055204e-03-2.34544893e-03j  1.24857664e-03+1.10980965e-03j
+   7.08734382e-03+2.61336085e-03j -1.05004853e-02-1.97212998e-03j
+  -3.68938311e-02-1.94691637e-02j  5.44606653e-03+4.90156392e-03j
+  -9.57609974e-03-1.43946203e-02j]
+ [ 2.77359241e-03-1.95437447e-02j -3.66839846e-02-7.64157675e-03j
+   1.44150122e-02+1.81603062e-02j -2.30169769e-02-2.13443395e-02j
+   3.87806101e-02+3.74392528e-06j  2.21473040e-02+8.54343347e-03j
+   1.02920427e-02-2.61795240e-03j -1.00623411e-02-7.72507182e-03j
+  -2.21032818e-02+4.03888943e-03j  6.10832307e-03-1.43590762e-03j
+  -1.99174084e-02+7.76415884e-03j -2.04702860e-02+8.16445191e-03j
+  -4.88803559e-03-3.27158994e-03j -2.03096238e-02+9.38071841e-03j
+   4.54068493e-02+1.00775040e-03j  6.86482420e-03-2.79105075e-03j
+  -2.92992339e-02+5.29359083e-03j  3.99422823e-02-3.81009352e-03j
+  -7.02195428e-02+6.04130131e-03j -3.01334219e-02+7.37034482e-03j
+   1.28053648e-01-3.61789030e-03j -7.36379836e-02+1.08865559e-02j
+   1.20060947e-01-1.55908469e-02j -9.32537490e-03+1.64664291e-04j
+   1.05033735e-02+1.89844007e-03j -8.91129211e-03-5.50561343e-04j
+  -1.69940405e-02+4.73037573e-03j  9.36610346e-03+2.16359848e-03j
+   9.91085105e-02-2.61470531e-04j -2.14086981e-02+3.44422263e-03j
+   8.32716964e-02-8.78214426e-03j]
+ [-2.00827453e-03-6.46009610e-03j -2.39854422e-03-2.42783017e-03j
+   4.61275465e-03+1.12282324e-03j -5.24854005e-03-1.94238487e-03j
+   1.23626307e-03+2.84189091e-03j  5.24039036e-03+3.62995179e-03j
+   1.87378810e-03+1.53617452e-03j -4.85537296e-03-2.25748058e-03j
+  -5.51750364e-03-2.99534071e-03j -5.27660365e-04+2.25929575e-04j
+   3.49407314e-03+5.78843348e-04j -6.26336321e-03+1.45891419e-03j
+  -3.02316836e-04+1.51362008e-04j  3.23742663e-03+1.00413355e-03j
+   8.42153033e-03+4.04912203e-03j  1.90925472e-03-9.72657169e-06j
+   3.52077720e-03+1.27478898e-03j -1.05063755e-02-5.18373907e-04j
+   1.48094927e-02-1.55834589e-04j  8.08933419e-03-1.47754611e-04j
+  -7.23965267e-03-3.24250784e-03j  1.64577238e-02+1.33804088e-03j
+  -1.59862069e-02-8.70550429e-04j  4.36229557e-03+2.46098832e-04j
+  -2.38326681e-03+2.13163521e-03j  8.64979378e-03-7.71716027e-04j
+  -8.44175189e-03+2.67849005e-03j  2.65952797e-05-3.33129070e-04j
+   6.21299704e-03-5.22317745e-03j -8.84953902e-03+2.08807706e-03j
+   1.41100741e-02-3.55077622e-03j]
+ [ 8.32303721e-03+1.37224154e-02j  5.32014943e-03+2.76164699e-03j
+  -1.10996247e-02-3.71464748e-03j  6.50689660e-03+3.33857968e-03j
+  -5.84366606e-03-4.23789554e-03j -1.67891094e-02-1.98734526e-03j
+  -1.01018038e-02-2.96437696e-05j  8.06293620e-03+4.49046959e-03j
+   1.54477997e-02+9.34745050e-03j -6.62638384e-03+2.20324810e-03j
+  -8.07484465e-03-1.34003263e-03j  1.63286347e-02-6.28869630e-03j
+  -8.18881703e-03+6.58416924e-04j  3.26256796e-03-2.95210289e-03j
+  -3.35222233e-02-5.96052977e-03j  3.59217334e-03-1.27856734e-03j
+   2.56876588e-02+6.54240502e-05j  1.65705684e-02-3.88468479e-03j
+   1.90438003e-02-5.56870070e-03j -3.41362468e-02+4.28046651e-03j
+  -6.80753072e-02+8.98791607e-03j -1.59988486e-02+3.38645000e-03j
+  -4.55910904e-04+1.10901222e-02j -3.91352749e-03+2.48078917e-03j
+  -7.78394225e-03+3.91757081e-03j -1.50730996e-04+1.88850250e-03j
+   2.31975384e-02-1.27198898e-03j -3.04892179e-02+1.50163221e-04j
+  -8.51971832e-02+8.05639145e-03j  1.57562745e-02-3.41864466e-03j
+  -1.22817274e-02+8.80351382e-03j]
+ [-5.98885703e-03-2.16524459e-02j -9.43998781e-03-6.56829716e-03j
+   1.91520432e-02+5.26934070e-03j -1.87078914e-02-3.89230860e-03j
+   1.30854779e-02+5.47269977e-03j  2.03926979e-02+9.35123672e-03j
+   1.03251413e-02+4.95037996e-03j -1.57009325e-02-7.11955117e-03j
+  -2.29449358e-02-1.10562475e-02j  7.15222281e-03-1.37711555e-03j
+   4.19527911e-03+5.83284071e-03j -2.74967190e-02+9.07995883e-03j
+   1.24440637e-02-8.97557040e-04j  3.28258507e-03+6.29279945e-03j
+   4.68406585e-02+7.23292427e-03j -1.05382561e-02+4.82786650e-04j
+   1.65189930e-02+3.82992244e-03j -2.84520262e-02-3.00691947e-05j
+   2.23969638e-02+2.62129342e-03j  1.75045820e-02-1.87446416e-03j
+   5.08762272e-02-8.71083549e-03j  2.41594689e-02+1.88496179e-03j
+  -3.59962667e-02-5.10390484e-03j  9.12564798e-03+7.61743807e-04j
+   1.98934080e-02+2.47644263e-03j  9.79302659e-03+4.26374550e-04j
+  -2.47137298e-02+2.87609780e-03j  2.13003132e-02-3.27995826e-03j
+   7.59133763e-02-1.15503991e-02j -2.40705380e-02+1.91091537e-03j
+   1.63682740e-02-6.03709244e-03j]
+ [ 8.26364287e-03+2.92884894e-02j  2.23986325e-02+7.36600464e-03j
+  -2.48650045e-02-1.12462398e-02j  2.19791004e-02+8.14754767e-03j
+  -1.35345466e-02-3.11245351e-03j -3.28262520e-02-6.90443982e-03j
+  -3.04465158e-02-3.55617199e-03j  1.47162495e-02+9.99712375e-03j
+   3.64574351e-02+1.49492568e-02j -1.87087145e-02+5.84273754e-03j
+  -2.88325602e-03-7.55170884e-03j  4.02614848e-02-1.30234019e-02j
+  -1.27793176e-02+5.96528383e-03j  7.19534778e-03-8.72893895e-03j
+  -7.78569240e-02-1.13469197e-02j  1.48748938e-02+1.34424806e-04j
+   1.91082169e-02+5.71012160e-03j  2.23872662e-02-2.65399979e-03j
+   2.79583483e-02+1.09631954e-04j -1.67471035e-02+2.16885498e-03j
+  -1.00106433e-01+9.42102757e-03j -1.46178260e-02-1.38351929e-03j
+  -1.56430429e-02+5.31870660e-03j -1.92331884e-03+2.99412368e-03j
+  -8.05186056e-03+9.36148794e-03j -7.14861203e-03-3.36878555e-04j
+   3.47482399e-02+1.18710039e-03j -2.42731500e-02+2.39777695e-03j
+  -9.60625927e-02+1.39881197e-02j  2.67186552e-02-3.77200505e-03j
+  -4.56932781e-02+6.29025246e-03j]
+ [-1.00879583e-03+1.25560704e-02j  7.10256594e-03+7.15393356e-03j
+  -1.83934122e-02-4.83771951e-03j  1.36595952e-02+2.26269350e-03j
+  -5.40317967e-03-6.31922384e-03j -1.12954079e-02-6.98743857e-03j
+  -1.12812938e-02-8.48844801e-03j  7.54726166e-03+4.06722660e-03j
+   1.41116306e-02+7.48869057e-03j -7.86715330e-03-1.32464572e-03j
+   3.28542324e-03-4.20486157e-03j  1.93644079e-02-6.04492790e-03j
+  -9.37819358e-03+1.97366065e-03j -7.39214301e-03-5.41562451e-03j
+  -3.49682253e-02-8.48745569e-03j  8.09575372e-03+1.41273653e-04j
+  -3.41592005e-02-4.21521667e-03j  1.74811133e-02+1.85507542e-03j
+  -1.68123431e-02-2.12697941e-03j  3.44009675e-02+1.24651273e-05j
+  -8.16933940e-02+5.94127958e-03j  2.63166270e-02-2.14353634e-03j
+  -9.98256065e-03+5.37403553e-03j -1.40165219e-03-1.40309355e-03j
+  -3.13691228e-02-3.30894658e-03j -5.94038460e-04-5.86622591e-04j
+   1.49277874e-02-8.61735058e-04j -4.84758424e-03+1.56603127e-03j
+  -8.94603574e-02+6.89669696e-03j  2.34305735e-02-5.17114063e-04j
+  -1.55542705e-02+5.35261659e-03j]
+ [ 7.18553661e-03-2.06614699e-02j -5.16664948e-02-7.47287075e-03j
+   3.98671905e-02+2.77091853e-02j -1.98782785e-02-1.83446127e-02j
+   1.42702108e-02-4.78734067e-03j  3.64502732e-02+2.41143982e-04j
+   6.04607566e-02+6.71972888e-03j  5.29801654e-03-8.54447074e-03j
+  -4.43953345e-02-6.27253368e-03j  4.30532821e-02-6.48026083e-03j
+  -2.78222232e-02+1.62942575e-02j -4.75525360e-02+1.12504234e-02j
+   2.12192881e-02-1.29931686e-02j -2.73282052e-02+1.91402036e-02j
+   1.22566510e-01+1.22407048e-02j -7.22631989e-03+3.25121553e-03j
+  -6.84856317e-02-8.87894775e-03j  5.10192297e-02+8.69953938e-03j
+  -1.00567255e-01-9.38891135e-03j -8.18588049e-02-5.93764514e-03j
+   1.98389825e-01+9.59372518e-05j -1.08653964e-01-1.02500773e-02j
+   1.79483317e-01+1.16184070e-02j -2.89528915e-02-2.89426498e-03j
+  -7.72089950e-03-5.72456284e-03j -1.07299225e-02-2.75926719e-03j
+  -1.42900899e-02+1.45749687e-03j -1.48376297e-02-7.06531262e-04j
+   6.47655611e-02-6.57954969e-03j -1.94116720e-02+2.09562389e-03j
+   1.02325401e-01+1.49519870e-03j]
+ [ 1.48241825e-03+2.88076001e-02j  2.50766199e-02+1.16518762e-02j
+  -3.46283083e-02-1.37928046e-02j  3.10479783e-02+8.04203887e-03j
+  -1.42816709e-02-8.92260624e-03j -2.66079569e-02-1.22359427e-02j
+  -3.16076072e-02-1.22408804e-02j  1.56661597e-02+9.34750256e-03j
+   3.76499849e-02+1.54171941e-02j -2.03752078e-02-5.00757440e-05j
+   6.71898445e-03-8.60761373e-03j  4.43293350e-02-1.31097117e-02j
+  -1.31362033e-02+4.34612312e-03j -2.36570434e-03-1.23188457e-02j
+  -8.18774460e-02-1.58910343e-02j  1.64492132e-02-1.31791440e-03j
+  -1.60030060e-02-3.32767738e-03j  2.40928665e-02-1.81045466e-03j
+  -1.47288546e-02+1.38236103e-03j  2.62700787e-02+2.16138188e-03j
+  -1.08487893e-01+1.03973746e-02j  3.40619466e-02-3.43892070e-05j
+  -2.89384380e-02+7.67004077e-03j  3.92551251e-05-9.23394335e-04j
+  -2.36481722e-02-4.27312500e-03j -7.23546227e-03+5.82164207e-04j
+   2.65342174e-02-4.14048050e-03j -3.95338388e-03+3.42936645e-03j
+  -1.01053593e-01+1.71151966e-02j  3.75065503e-02-1.80486167e-03j
+  -5.67175053e-02+1.41197709e-02j]
+ [-6.03674795e-03-4.50288207e-02j -4.84395528e-02-1.70656798e-02j
+   5.28873944e-02+2.53927361e-02j -3.93056715e-02-1.95932967e-02j
+   5.65605358e-03+1.09468720e-02j  5.01531360e-02+1.00403448e-02j
+   5.02865058e-02+1.34821734e-02j -1.96138965e-02-1.32881216e-02j
+  -5.66166647e-02-2.57740826e-02j  2.89795569e-02-1.73439608e-03j
+  -3.82597825e-03+1.24192832e-02j -6.38575774e-02+1.72920068e-02j
+   1.34837910e-02-1.54880031e-02j -3.54984967e-03+1.31390951e-02j
+   1.24205085e-01+2.40041789e-02j -1.60582979e-02+7.79476952e-04j
+  -1.22966674e-03-1.12219625e-02j -3.57354657e-02+4.94413544e-03j
+  -1.62641954e-02-5.39352921e-03j -1.03861417e-02-5.55351334e-03j
+   1.78426387e-01-1.17512350e-02j -2.91227548e-02-7.47716843e-03j
+   1.43667517e-01+2.43576123e-04j  7.77992402e-03-5.37359012e-03j
+   8.23359206e-03-4.80219660e-03j  2.84279670e-02-8.36295487e-03j
+  -6.70734616e-02+1.50472433e-02j -4.75215117e-04+2.83869901e-03j
+   1.97263223e-01-3.46399136e-02j -7.79202311e-02+1.56838020e-02j
+   2.06515266e-01-2.63865265e-02j]
+ [ 5.87648389e-04+3.16184754e-03j  9.10062569e-04+6.47856385e-04j
+  -4.99818228e-03-8.73456916e-04j  3.26479685e-03-1.87385571e-04j
+  -5.34369563e-03-1.21456776e-03j -4.47048946e-03-9.92527200e-04j
+  -2.52449589e-03-1.36567979e-03j  3.00107518e-03+1.36699255e-03j
+   4.28540703e-03+1.81308859e-03j -2.35832035e-03+5.79340073e-04j
+  -4.99184506e-04-2.33155429e-03j  5.57079110e-03-2.64727727e-03j
+  -8.38607743e-03-4.23064682e-04j -4.66498833e-04-2.09782730e-03j
+  -1.32461495e-02-4.41566669e-04j  4.26592535e-03-2.42051400e-04j
+  -4.05821884e-03-2.51725490e-03j  8.97548060e-03-7.60543335e-04j
+  -1.84450326e-03-2.95428585e-03j -1.49448731e-03+1.34621585e-03j
+  -2.94726645e-02+2.74218123e-03j  2.22418471e-04+9.71253307e-04j
+   7.69276669e-03+5.50258751e-03j  3.09224038e-03-2.00939716e-05j
+  -1.25332726e-02-3.21350596e-04j  4.68809159e-03-6.77887088e-04j
+   4.26726186e-03+1.41024718e-03j -1.14104589e-02+1.39480796e-03j
+  -3.21356590e-02+1.00007151e-03j  3.62444801e-03+1.34413586e-03j
+   1.10613452e-02+2.21117038e-03j]
+ [ 6.03647515e-03+2.68525116e-03j -7.23294631e-03+5.60440746e-04j
+   1.72080502e-03+2.42312883e-03j -2.82041180e-03-3.90424266e-04j
+   5.70958244e-03-2.54033669e-03j -1.01870339e-03+1.21193118e-03j
+   8.03046273e-03+1.85054436e-03j  3.71642309e-03-3.14066494e-04j
+  -9.52399149e-04+4.94485854e-03j  4.55984585e-03-6.63171817e-04j
+  -8.55243916e-03+4.66489237e-03j -1.94678480e-03-2.69661585e-04j
+   3.72580246e-03-2.48866487e-05j -2.66242206e-03+2.10699280e-03j
+   9.49218520e-03+4.04596663e-04j -2.29981394e-03-2.10675086e-03j
+  -7.62684749e-03-3.82866064e-03j  2.00193099e-02-2.44602643e-03j
+  -8.16841629e-03-9.39789837e-03j -3.12705161e-02+3.37336910e-03j
+  -7.29711412e-03+5.97865732e-03j -2.37808689e-02+4.21936531e-03j
+   8.19280497e-03+4.73083303e-03j -1.24380959e-02+3.31737686e-04j
+   2.30304951e-03+3.06746776e-05j -7.64027849e-03+1.63378031e-03j
+   1.74025584e-02-3.72607169e-03j -1.52706245e-02-5.97126379e-04j
+  -5.66099029e-02+2.40497474e-03j  1.18374343e-02-1.87676778e-03j
+  -1.83772436e-02-1.21639648e-03j]
+ [-3.56103222e-04+4.08873923e-03j  2.43673964e-03-3.25102743e-05j
+  -4.21300486e-03-2.95444229e-04j  6.27378249e-03-6.07308216e-04j
+  -8.17497007e-03-2.26652103e-03j -4.32625578e-03-2.48794427e-03j
+  -4.97141016e-03-1.64960019e-03j  4.11593341e-03+2.45683989e-03j
+   5.75139716e-03+7.69295760e-04j -1.58188731e-03+1.31353151e-03j
+  -4.72274048e-04-3.12347296e-03j  6.73495763e-03-3.15414838e-03j
+  -9.68287181e-03-2.82774953e-03j -8.12671979e-04-2.55100268e-03j
+  -1.55442864e-02-1.78542204e-03j  8.44411934e-03+7.96533760e-04j
+  -4.39638079e-04-2.09392502e-03j  9.44672952e-03-3.59348125e-04j
+  -6.78058844e-03+3.69214536e-04j -8.46163331e-04+3.87041455e-04j
+  -1.20531603e-02+2.28759204e-03j -6.81716039e-03-5.13069841e-04j
+   2.83364939e-02+8.89918617e-03j  4.51236633e-03+6.08478463e-04j
+  -7.75981820e-03-1.70964869e-03j  5.58305664e-03-7.70017248e-06j
+   1.41967785e-03+1.37154781e-03j -8.86001019e-03+1.20736428e-03j
+   1.81531365e-03+3.92864246e-03j -1.63992025e-04+7.14034922e-04j
+   2.61895079e-02+1.09096604e-02j]
+ [-5.51520261e-04+2.53940378e-03j  8.29910508e-03+3.17361803e-03j
+  -2.50050527e-03-6.72614853e-03j -6.04159302e-04+5.47775902e-03j
+   7.62424703e-03+3.61719657e-03j -3.46770658e-03+2.86678629e-03j
+  -1.04734772e-02-5.43291133e-04j -3.67582450e-03+2.93156988e-04j
+   6.58926748e-03+2.85154420e-03j -7.14500581e-03+8.35419622e-04j
+   3.98936057e-03+1.42581462e-03j  5.30477887e-03+7.34002178e-04j
+   8.70242938e-03+7.21744441e-03j  7.04760775e-03-1.20093891e-03j
+  -1.16272541e-02-4.30735208e-03j -8.27253825e-03-2.65738699e-03j
+   2.35795820e-02+1.29879284e-03j -2.43515287e-02-2.79226506e-03j
+   3.44379659e-02-1.36283814e-03j  1.51052016e-02+9.22955322e-04j
+  -1.36671586e-02-1.03914753e-03j  2.62129489e-02+3.96138266e-03j
+  -6.85598988e-02-1.51082310e-02j  3.84646721e-03-1.21793224e-03j
+   1.81603545e-02+3.55121210e-03j  4.55280524e-05-8.46255621e-04j
+   3.70680128e-03-4.71564907e-04j  1.19430069e-02+9.62621865e-05j
+  -5.77219025e-03-3.96525357e-03j  2.92269031e-03+1.35284958e-03j
+  -6.25561805e-02-2.08234077e-02j]
+ [-4.51719425e-04+2.60668431e-03j -4.81008557e-03+3.42692964e-03j
+  -1.95963530e-03+1.48621407e-03j  8.84360648e-04-1.60422167e-03j
+   6.26824473e-03-2.42018259e-03j  1.07524279e-03-1.91323046e-03j
+   6.24202995e-03-2.91128445e-03j  2.98878201e-03-3.66518680e-04j
+  -2.51166936e-03+3.04444663e-03j  3.68950122e-03-2.03356616e-03j
+  -2.40447796e-03+9.19500003e-04j  2.69934947e-05-1.62508182e-04j
+   3.59269256e-03+2.34719548e-03j -7.67068379e-03+1.53522878e-03j
+   8.42148774e-03-3.98334865e-04j  8.04690860e-05+3.56516622e-04j
+  -3.03216616e-02-1.08049930e-04j  2.13792992e-02+3.31701907e-03j
+  -2.43237819e-02-2.46536117e-03j -4.70135603e-03-1.50878536e-03j
+  -1.44929128e-02+8.16371937e-04j -4.09359828e-03-3.52994410e-03j
+  -7.86752432e-04-3.07951258e-03j -1.13640308e-02-1.41869573e-03j
+  -1.52156318e-02+6.42612079e-04j -8.85861762e-03-1.33911976e-03j
+   1.13942006e-02-2.14269477e-04j  4.54891770e-03+4.28804218e-05j
+  -5.93895841e-02+1.24729594e-04j  1.87273582e-02-9.19524184e-04j
+  -2.51360998e-02-6.53525017e-03j]
+ [ 1.37250744e-02-9.23959702e-03j -5.20210713e-02-5.40899165e-03j
+   2.50598649e-02+2.83092907e-02j -1.03141456e-02-2.22556487e-02j
+   1.10957327e-03-1.12879812e-02j  2.27396974e-02-6.01106029e-03j
+   5.10120456e-02+3.30044659e-03j  1.21636715e-02-4.52695573e-03j
+  -2.92411753e-02+1.19196092e-03j  3.26348585e-02-3.58734567e-03j
+  -3.01718333e-02+1.03306389e-02j -2.89654377e-02+1.91367023e-03j
+   3.94450595e-03-1.60026092e-02j -2.91678255e-02+1.46049472e-02j
+   8.41956216e-02+8.25327265e-03j  6.13631686e-03+5.26278964e-03j
+  -8.57940114e-02-7.95350358e-03j  7.58790061e-02+1.15443764e-02j
+  -9.63188303e-02-1.37595671e-02j -8.97327383e-02-6.95727672e-03j
+   6.42634988e-02+6.60623498e-03j -1.00909793e-01-1.68236678e-02j
+   1.99033480e-01+3.49834268e-02j -3.14768629e-02-1.18359091e-03j
+  -5.73126908e-02-2.20985328e-03j  3.60099935e-03-4.52723276e-03j
+  -5.98221874e-03+4.60738704e-03j -5.99802071e-02-1.49183819e-04j
+  -4.72036000e-02-1.17203134e-04j -1.35116613e-02+1.08111987e-03j
+   1.55520202e-01+2.29257613e-02j]
+ [-2.26150650e-03+2.28264111e-03j  1.15644224e-02+3.26489871e-03j
+  -5.17902985e-03-7.42764983e-03j  3.33084433e-03+4.82552721e-03j
+   7.22553320e-03+2.48425895e-03j -4.66122428e-03+2.56924104e-04j
+  -1.22987084e-02-1.38233819e-03j -3.11349022e-03+1.67115969e-04j
+   7.77490645e-03+1.32877242e-03j -8.80222545e-03-1.41795829e-05j
+   7.51342789e-03-1.02447323e-03j  8.14624816e-03-2.05527469e-04j
+   9.32701754e-03+6.81887915e-03j  5.26508151e-03-3.31449952e-03j
+  -1.55204027e-02-3.00349931e-03j -8.67374602e-03-2.02587443e-03j
+   1.61488239e-02+3.42814121e-03j -2.37218942e-02-1.78708274e-03j
+   2.65711942e-02+3.60280841e-03j  2.36595831e-02+6.37939042e-04j
+  -1.86828921e-02-1.56454705e-03j  3.69754960e-02+1.58249119e-03j
+  -7.94239572e-02-1.55874000e-02j  3.21736862e-03-1.10969261e-03j
+   1.24579925e-02+1.68231247e-03j -1.51730146e-03-1.57121255e-04j
+   2.69647486e-03-2.26391401e-03j  1.93328120e-02+7.95281312e-04j
+  -1.30938531e-02-3.02026400e-04j  9.23091713e-03-5.68789523e-04j
+  -7.77822641e-02-1.52086861e-02j]
+ [-3.23295543e-04-2.29850878e-02j -4.23212121e-02-1.24574180e-02j
+   3.42587033e-02+2.30428230e-02j -1.79573652e-02-1.93853798e-02j
+  -1.61396804e-02+1.55082505e-03j  3.13220018e-02-1.34435855e-03j
+   3.24244105e-02+7.01969900e-03j -3.99295029e-03-5.49598103e-03j
+  -3.23758824e-02-1.45097909e-02j  2.16206129e-02-5.94951825e-04j
+  -9.07920167e-03+5.91442004e-03j -3.44882119e-02+6.90479372e-03j
+  -6.43617819e-03-2.08889550e-02j -9.23645562e-03+8.06851855e-03j
+   6.99548614e-02+1.31457582e-02j  1.37783340e-02+3.51679678e-03j
+  -1.36393224e-02-9.15200221e-03j  1.61617522e-02+5.97785678e-03j
+  -4.59789315e-02-6.26228683e-03j -1.63803831e-02-5.80904380e-03j
+   9.95031704e-02-1.96938973e-03j -5.62527492e-02-1.38748246e-02j
+   2.06937845e-01+2.81428529e-02j  1.10047625e-02-2.09462461e-03j
+  -1.86128782e-02+9.80189405e-04j  2.63756514e-02-1.03555218e-02j
+  -5.90222299e-02+2.11958633e-02j -2.49220594e-02+5.97377923e-03j
+   1.51145500e-01-2.28562584e-02j -7.43181604e-02+1.58065388e-02j
+   2.82966386e-01+1.73116828e-03j]]
+[[-3.55443153e-05+5.54191239e-04j  9.22997506e-04+1.09445818e-04j
+  -7.25841490e-04-2.22212732e-03j  1.54291604e-03+1.84939094e-03j
+  -6.25032079e-04-4.86373602e-04j -1.00286232e-03-2.17800607e-03j
+  -2.24036377e-04-3.23382140e-04j  4.72984434e-04+5.29304817e-04j
+  -5.63120467e-05+1.45825489e-03j -4.45808694e-04-1.05521615e-03j
+   6.49882244e-04-1.44200486e-03j  1.58307449e-03+7.58966856e-04j
+   1.94274750e-05-9.40611625e-04j  4.82786387e-04-2.03305021e-03j
+  -2.12873800e-03-2.34252951e-03j -4.58728716e-04+5.23395754e-04j
+   8.04163916e-04-4.95565070e-04j -1.28307432e-03+1.13048214e-03j
+   2.16674128e-03-1.68948199e-03j  6.93685592e-04-6.30892791e-04j
+  -1.67926769e-03+6.93195557e-04j  1.29565189e-03-1.36180815e-03j
+  -1.77940554e-03+1.86267945e-03j  2.98809572e-04-2.51588875e-04j
+  -2.21161008e-04+1.63622288e-04j  6.71898844e-04-5.66116717e-04j
+   1.00626998e-04-1.05394175e-04j -1.87373489e-04+4.93069062e-04j
+  -1.34320775e-03-4.15484360e-04j -6.81278252e-04+4.13196490e-04j
+   7.39119430e-05+3.12310852e-04j]
+ [ 2.16791180e-03+1.37943098e-03j  4.70967830e-03-1.31709256e-03j
+  -3.91354595e-03-1.59146601e-04j  2.34841026e-03-1.36999751e-03j
+  -5.40090859e-03+1.90914357e-03j -2.67429216e-03+3.42435920e-03j
+  -5.41323486e-03+1.38158668e-03j  2.90402692e-04-1.38023373e-04j
+   4.90515633e-03-5.26088577e-04j -5.49523577e-03+1.52518892e-03j
+   2.26425104e-03-1.25511024e-04j  3.65819122e-03-3.62742562e-03j
+  -3.03297069e-03+1.72989265e-03j  2.69381660e-03+9.29854177e-05j
+  -1.13884888e-02+4.17845292e-03j -1.09062296e-03+4.08734971e-04j
+   7.35108472e-04-1.41797930e-03j -2.99490934e-03+1.65143845e-03j
+   5.27723487e-03-1.47894775e-03j  9.70616193e-04-1.54574765e-03j
+  -8.82604924e-03+9.70696770e-04j  6.20993300e-03-1.90117422e-03j
+  -9.77674058e-03+3.08289379e-03j -4.05936679e-06-3.47669322e-04j
+  -1.77109459e-03-5.48325624e-04j  1.45449233e-03+5.14396452e-05j
+   1.32828786e-03+5.10351929e-04j -1.65258481e-03-1.40587768e-03j
+  -9.27296431e-03+3.14718803e-05j  2.13399626e-03-1.99367945e-04j
+  -6.88594536e-03+1.39232003e-03j]
+ [-2.57767153e-03+3.03684699e-05j -2.29350853e-03+2.19356984e-03j
+   3.72517401e-03-2.59316666e-03j -9.26719778e-04+2.07751673e-03j
+   2.41969517e-03-3.47849158e-03j  1.40054030e-03-4.40404693e-03j
+   2.65434147e-03-3.51186248e-03j -3.54288226e-04-5.21945013e-05j
+  -3.66389680e-03+2.77238318e-03j  2.80509439e-03-4.51540814e-03j
+  -2.48592010e-04+8.65336697e-05j -6.89428490e-04+4.67859522e-03j
+   2.04774395e-03-2.66035110e-03j -5.35662094e-04-5.52292289e-05j
+   6.04589345e-03-8.55932906e-03j  5.01510842e-04-8.23519505e-04j
+  -9.54037718e-05+1.38499817e-03j  1.34860007e-03-2.81319724e-03j
+  -2.43335261e-03+4.50296559e-03j -8.80684870e-04+1.44193367e-03j
+   5.68486547e-03-5.49088048e-03j -3.37447839e-03+4.82264602e-03j
+   5.19016028e-03-6.92986009e-03j -4.50249720e-05+3.20390047e-04j
+   1.43724173e-03-7.74658041e-04j -7.43401613e-04+1.14598565e-03j
+  -6.38430041e-04+6.15575266e-04j  6.14958951e-04-2.91453367e-04j
+   5.84447448e-03-4.90731715e-03j -1.44114183e-03+1.12040000e-03j
+   3.98205663e-03-3.53415532e-03j]
+ [ 7.85452595e-04-8.08229467e-05j  6.66303224e-04-1.25269289e-04j
+  -1.36841838e-03-2.33304255e-04j  7.84546497e-04+1.13888273e-03j
+  -1.67533285e-04+1.06172157e-03j -5.49277770e-04-5.41344871e-04j
+  -8.02405993e-05+1.33087375e-03j  3.98053596e-04+9.09441101e-04j
+   6.00519395e-04-1.83099246e-04j -4.34124515e-04+1.59463525e-03j
+   2.45776915e-04-8.33261025e-04j  6.43092833e-04-7.44447971e-04j
+  -2.24326328e-04+5.16659466e-04j  3.91291512e-04-1.53127301e-03j
+  -1.45264831e-03+1.89446745e-03j -2.11497144e-04+6.82361940e-04j
+  -4.02907500e-05-1.88731836e-04j -3.74441503e-04+1.83467746e-03j
+   6.71365992e-04-2.97787916e-03j  4.38603353e-04-3.24780288e-04j
+  -2.81441972e-03+1.51123791e-03j  7.86791093e-04-2.97781758e-03j
+  -7.83303294e-05+3.47155866e-03j  7.12404973e-05-1.24541918e-04j
+  -1.01736062e-03+7.46942635e-04j  5.00581715e-04-1.00794777e-03j
+  -2.40659203e-04-5.64234545e-04j -3.97639347e-04+1.16025179e-03j
+  -3.04334339e-03+6.31755976e-04j -9.67864200e-05-3.16464715e-04j
+   9.78494475e-04+9.56007816e-04j]
+ [-2.82366734e-03-2.64330365e-04j -5.07876547e-03+2.84320231e-03j
+   3.05862377e-03-2.24931021e-03j -1.80424790e-03+3.40206409e-03j
+   5.57864088e-03-3.13762276e-03j  9.84643293e-04-6.02079562e-03j
+   5.41441007e-03-2.78343835e-03j -7.54298281e-05+9.96345575e-04j
+  -5.49929168e-03+2.87323168e-03j  4.49226333e-03-2.85892651e-03j
+  -3.31808051e-03-7.11663568e-04j -2.44323851e-03+5.03580258e-03j
+   2.69345203e-03-2.58000131e-03j -3.89639732e-03-9.05354551e-04j
+   1.04108568e-02-8.48978775e-03j  1.12768768e-03-8.41829064e-04j
+  -1.00792768e-03+2.68540541e-03j  3.12085539e-03-3.23341746e-03j
+  -4.78404312e-03+3.28458804e-03j -1.04982439e-03+2.63303980e-03j
+   7.50296836e-03-3.30160677e-03j -5.91230436e-03+3.99736194e-03j
+   9.04336046e-03-6.03889052e-03j -2.26301430e-04+7.18452916e-04j
+   1.29175940e-03+7.86622740e-04j -1.58484532e-03+5.69261241e-04j
+  -7.01551949e-04-9.74206661e-04j  1.57517772e-03+1.65488965e-03j
+   7.15771835e-03-1.71524418e-03j -1.60369962e-03-1.69789054e-04j
+   5.70563541e-03-2.22252437e-03j]
+ [-4.17108732e-04-1.40385739e-03j -2.65979711e-03+6.15718265e-04j
+   2.21160394e-03+1.71517495e-03j -2.11946486e-03+3.10976847e-04j
+   3.82373408e-03+2.67817675e-04j  2.32369975e-03-6.19064887e-04j
+   3.09600912e-03+4.13870074e-04j -2.20815247e-04+3.21891962e-04j
+  -2.31669726e-03-9.28700475e-04j  3.35467925e-03+1.27183097e-03j
+  -1.11423409e-03+9.05185400e-04j -2.80928638e-03+1.01337343e-03j
+   2.05551978e-03-1.73564371e-04j -1.17981376e-03+5.01256159e-04j
+   7.21141835e-03+5.52011251e-04j  9.09700020e-04-1.82646103e-04j
+  -1.49264167e-03+8.15234000e-04j  2.61509864e-03-4.95017115e-04j
+  -4.15488719e-03-3.26171970e-04j -9.38986765e-04+8.86621986e-04j
+   4.65145653e-03+2.73150317e-04j -4.35377791e-03-2.68185407e-04j
+   7.08401657e-03-1.64183746e-05j -2.74270160e-04+2.19759954e-04j
+   1.32254222e-04+5.52634910e-04j -1.00178819e-03-3.75687921e-04j
+  -7.60307784e-04-8.59609448e-04j  9.74185628e-04+1.07465993e-03j
+   3.81329593e-03+9.16940210e-04j -8.63743741e-04-6.59626394e-04j
+   4.36455067e-03+4.26800366e-04j]
+ [-2.46226458e-04-2.41557101e-03j -3.04605008e-03-1.88861175e-03j
+   3.37974377e-03+4.45025090e-03j -2.37923611e-03-2.58362650e-03j
+   4.63399013e-03+1.09386914e-03j  4.19225577e-03+2.17838613e-03j
+   4.28049347e-03+1.69840983e-03j -1.55219181e-04-1.28298045e-03j
+  -2.44638830e-03-3.71261855e-03j  5.67416298e-03+1.80978458e-03j
+  -1.10771741e-03+1.05980348e-03j -5.04015488e-03-3.35009155e-04j
+   3.43810473e-03+8.66716781e-04j -1.34708519e-03+1.05115740e-03j
+   1.01082846e-02+5.05746868e-03j  8.15159989e-04+2.77710646e-04j
+  -2.05226658e-04-6.19794733e-04j  2.25377527e-03+8.98313753e-04j
+  -5.11467111e-03-1.74272387e-03j -6.22769726e-04-2.19558872e-04j
+   8.67905605e-03+4.75668587e-03j -5.19454434e-03-1.70676103e-03j
+   6.05182260e-03+2.73374321e-03j -6.08354744e-05-5.43260925e-05j
+   2.76624768e-03+4.67468226e-04j -2.01138832e-03-6.07064427e-04j
+  -1.22752218e-03-3.91370083e-04j  2.13453273e-03+7.45301180e-04j
+   9.07992031e-03+5.58683671e-03j -1.33092628e-03-2.23383936e-04j
+   2.31109060e-03+1.73291230e-03j]
+ [ 1.35698382e-04-2.54935011e-04j -5.50229298e-04-1.82367310e-04j
+   1.42334066e-04+2.29283457e-04j  1.26435456e-04+3.22516542e-04j
+   8.33180259e-04+1.55497502e-04j  2.87748764e-04-5.49725197e-04j
+   1.21713057e-03+3.94597751e-04j  4.79984732e-04+1.38318717e-04j
+  -6.86621005e-04-2.94317187e-04j  1.49983599e-03+3.07525047e-04j
+  -7.21185861e-04-4.30362777e-04j -6.90410328e-04+1.27838853e-04j
+   7.18732418e-04+5.43236433e-05j -7.96105486e-04-5.09670261e-04j
+   1.62228183e-03+4.85021675e-04j  1.41915423e-04+3.53038152e-04j
+   1.78153182e-04-9.56245173e-05j  1.40136887e-04+8.18407727e-04j
+  -4.86825492e-04-1.38420572e-03j  1.56247475e-04-1.97104456e-04j
+   1.69212217e-03+1.47997608e-03j -6.87413705e-04-1.39546393e-03j
+   8.75572582e-04+1.50836022e-03j  1.21387506e-04-7.74110456e-05j
+   5.43205510e-04+6.06794299e-04j -1.98452230e-04-6.05374947e-04j
+  -3.62848637e-04-1.24210451e-04j  5.75483244e-04+6.39552191e-04j
+   1.96999155e-03+1.17690700e-03j -5.22618236e-04-1.02923074e-04j
+   8.66127254e-04+2.97093969e-04j]
+ [-4.02134873e-04+1.50918445e-03j  2.48422119e-03+3.05119922e-04j
+  -1.72268709e-03-3.64897048e-03j  2.43930829e-03+2.45742776e-03j
+  -2.33409675e-03-1.36081207e-04j -1.87240550e-03-2.38474735e-03j
+  -2.39580509e-03-8.41861049e-04j  1.68139023e-04+1.12566998e-03j
+   1.36525215e-03+2.38115431e-03j -2.85628741e-03-1.08901444e-03j
+   2.38693945e-03-2.07802459e-03j  3.74409420e-03+5.16539374e-04j
+  -1.02575988e-03-7.70435183e-04j  2.08744776e-03-2.97959034e-03j
+  -6.41580950e-03-3.63335684e-03j -8.77460528e-04+1.23019207e-04j
+   6.44871604e-04-4.73172405e-05j -2.08488329e-03+1.16527893e-04j
+   4.06610564e-03-5.08028468e-04j  1.15484831e-03-1.72875401e-04j
+  -6.77955610e-03-1.05577209e-03j  3.45394358e-03+1.68819751e-04j
+  -4.26925848e-03-9.14182342e-06j  3.45765809e-04-1.02216374e-04j
+  -1.88970819e-03-1.46892761e-04j  1.58148334e-03-4.49623019e-05j
+   7.37779912e-04-4.86637148e-04j -1.18681957e-03+1.82386889e-04j
+  -6.91137183e-03-1.80990452e-03j  4.06559003e-05+3.51002978e-04j
+  -1.29887572e-03-1.55444233e-04j]
+ [-8.79626894e-04-1.71358101e-03j -4.68650513e-03-2.74122675e-04j
+   2.81975534e-03+2.57247189e-03j -2.24343911e-03-7.88447274e-04j
+   4.77905239e-03-6.16899055e-04j  2.49885710e-03-7.19652799e-04j
+   5.70102404e-03+1.70529771e-04j  4.36555844e-04-6.59383585e-04j
+  -4.21756786e-03-1.62462494e-03j  6.46816621e-03+4.10147531e-05j
+  -4.13515895e-03+2.40416670e-04j -4.98814934e-03+1.47357282e-03j
+   2.75549931e-03-3.05548900e-04j -4.56624998e-03+1.07138885e-03j
+   1.15934123e-02+5.69032024e-04j  1.36425289e-03-1.36195610e-05j
+  -4.14096597e-04+6.32280664e-04j  2.98633643e-03-3.88846573e-04j
+  -5.57891330e-03-6.71596583e-05j -8.07310605e-04+7.32305118e-04j
+   1.12929387e-02+2.73160199e-03j -6.03226256e-03-3.42979953e-04j
+   7.54659660e-03-1.17392072e-04j -4.84532606e-05+2.27624161e-04j
+   3.18077793e-03+1.15370547e-03j -2.23457787e-03-4.61958592e-04j
+  -1.18617482e-03-8.82858501e-05j  2.77639437e-03+1.11026351e-03j
+   1.20853472e-02+3.81311624e-03j -1.53389733e-03-6.70904180e-04j
+   3.97425041e-03+1.67632378e-04j]
+ [ 4.13161268e-04+1.43681120e-03j  4.35648875e-03-6.76930359e-04j
+  -1.42867142e-03-2.24233306e-03j  2.42546347e-03-2.03479828e-04j
+  -4.26463690e-03+4.83389686e-04j -9.66997080e-04+7.11087560e-04j
+  -5.00824857e-03-4.04664225e-04j -1.58042457e-04+1.22173017e-04j
+   3.71422953e-03+8.37733807e-04j -4.70603092e-03-4.96391720e-04j
+   5.00146065e-03-8.19829963e-04j  4.27596223e-03-1.30785187e-03j
+  -1.27790701e-03-2.25487179e-05j  4.68374395e-03-1.67202518e-03j
+  -1.00179302e-02-6.96368444e-04j -1.16166641e-03-1.75895205e-04j
+   1.37386036e-04-7.82945640e-04j -2.52512148e-03-6.77179385e-05j
+   3.96167797e-03+8.33861742e-04j  8.18024672e-04-5.70418824e-04j
+  -8.77284225e-03-2.19469880e-03j  4.90315018e-03+1.34984816e-03j
+  -6.47972493e-03-9.47412894e-04j  9.92791925e-05-1.30930423e-04j
+  -2.42609748e-03-1.43695221e-03j  1.71909608e-03+9.13574454e-04j
+   7.27715674e-04+8.96065896e-05j -2.06788195e-03-1.33747686e-03j
+  -9.78519191e-03-2.58081942e-03j  1.06842363e-03+7.44390991e-04j
+  -3.92353413e-03-2.24079880e-04j]
+ [ 1.79141968e-04+1.43535549e-03j  2.09780956e-03+2.49255455e-03j
+  -9.38231532e-04-2.90732628e-03j  6.81418808e-04+2.54026322e-03j
+  -1.84740963e-03-1.26577946e-03j -1.65760378e-03-1.71456954e-03j
+  -2.69851409e-03-1.32648897e-03j -1.80287322e-04+1.18402655e-03j
+   1.72070077e-03+2.62983253e-03j -2.92885333e-03-1.09918790e-03j
+   1.96841872e-03+7.22934208e-04j  3.28320176e-03+1.03421827e-03j
+  -1.15349749e-03-6.22689620e-04j  2.66831899e-03-1.03180091e-04j
+  -5.79856541e-03-4.10152573e-03j -8.70037647e-04-2.41943271e-04j
+   7.86472418e-04+6.60158719e-04j -1.95752495e-03-6.96006040e-04j
+   3.37003766e-03+1.02331401e-03j  9.84036592e-04+5.32819130e-04j
+  -6.87908109e-03-4.78718350e-03j  3.72815393e-03+1.67701973e-03j
+  -3.92628686e-03-2.37200463e-03j  3.20051078e-04+1.30027856e-04j
+  -1.75177511e-03-5.94554614e-04j  1.53252609e-03+5.04369482e-04j
+   1.06346732e-04-2.10473551e-04j -1.44236120e-03-2.53078600e-04j
+  -6.80536988e-03-5.61618280e-03j  5.35192853e-04+6.07716139e-04j
+  -9.64477003e-04-1.68475279e-03j]
+ [-2.78045530e-03-2.57570606e-04j -4.82094573e-03+3.72066709e-03j
+   1.97591728e-03-4.60979165e-03j -8.49524323e-04+6.09481137e-03j
+   5.08623717e-03-3.79218358e-03j -5.28137870e-04-9.13810701e-03j
+   5.97724867e-03-2.87830502e-03j  4.16333408e-04+1.92638086e-03j
+  -6.35551223e-03+4.65652849e-03j  4.04202361e-03-3.73679134e-03j
+  -3.69125104e-03-2.06072532e-03j -1.19961869e-03+6.25002804e-03j
+   2.12461475e-03-4.01785570e-03j -4.34217627e-03-2.71508984e-03j
+   9.63022836e-03-1.09528738e-02j  1.24244719e-03-2.17434951e-04j
+  -1.28130283e-03+2.79482906e-03j  3.15338267e-03-1.86109596e-03j
+  -4.24853375e-03+1.49914314e-03j -1.01817303e-03+2.36312396e-03j
+   6.70860651e-03-4.23607221e-03j -6.21307412e-03+1.80789944e-03j
+   1.04312215e-02-4.37191804e-03j -2.74837605e-04+5.44942428e-04j
+   6.38574854e-04+1.26274467e-03j -1.43673930e-03-3.76286296e-04j
+  -6.80687318e-04-7.87782824e-04j  1.49331495e-03+2.56182673e-03j
+   6.13968470e-03-3.97658820e-03j -2.19433274e-03-2.00305964e-04j
+   8.16071571e-03-2.72345145e-03j]
+ [ 1.52660638e-03+1.42028062e-03j  4.03555661e-03+1.04814129e-03j
+  -1.02397626e-03-2.30466608e-04j  8.59162055e-04-2.51354024e-04j
+  -3.38781120e-03+7.89433466e-04j -7.69757711e-04+2.68045709e-03j
+  -5.39496579e-03-3.87434904e-04j -3.15729722e-04+2.62234921e-04j
+   4.36574691e-03+6.15075568e-04j -4.62977929e-03+6.10906946e-04j
+   4.05963954e-03+2.51555217e-03j  3.61357107e-03-1.46095455e-03j
+  -1.25918383e-03+1.48779822e-03j  5.50579453e-03+1.64815816e-03j
+  -9.83591904e-03+8.21989756e-04j -1.21566693e-03-1.33727372e-04j
+   6.50074532e-04-8.35685296e-04j -2.63234234e-03+2.18486879e-04j
+   4.34361068e-03+2.06223120e-04j  3.81250326e-04-7.30034394e-04j
+  -8.71030559e-03-3.58043219e-03j  4.65605712e-03+6.81359929e-04j
+  -6.50194990e-03+5.98619232e-05j  1.42817412e-04-2.09985109e-04j
+  -2.27106729e-03-1.55150497e-03j  1.79562878e-03+5.64102988e-04j
+   5.15047193e-04+1.66920891e-04j -2.32384045e-03-1.64845456e-03j
+  -9.60825940e-03-4.73390031e-03j  1.13632422e-03+7.33847060e-04j
+  -3.89251976e-03-7.87298668e-05j]
+ [-2.93502172e-03-5.02898231e-03j -8.57953546e-03-9.02577038e-04j
+   7.81391085e-03+5.10628284e-03j -6.02682662e-03-1.18184287e-03j
+   1.14471597e-02-5.81753065e-04j  7.30576841e-03-1.61027096e-03j
+   1.15411635e-02+8.33057014e-04j -1.08318455e-03-1.55896552e-03j
+  -9.12074285e-03-3.59752717e-03j  1.22341007e-02+2.55194575e-04j
+  -4.72305801e-03+8.59029695e-04j -1.03047824e-02+3.79210830e-03j
+   6.73277444e-03-1.41928491e-03j -5.70264600e-03+1.01425459e-03j
+   2.69514846e-02+1.74598276e-03j  3.04519696e-03-1.96165228e-04j
+  -2.28559905e-03+1.50622614e-03j  7.74491157e-03-1.08187869e-03j
+  -1.29022083e-02+6.23162051e-04j -2.88958961e-03+1.52242917e-03j
+   2.02865788e-02+3.76737268e-03j -1.42314063e-02-8.11329790e-05j
+   1.87288716e-02-8.87654315e-04j -8.66300261e-04+3.94441680e-04j
+   5.17433682e-03+1.55492163e-03j -5.15347928e-03-7.02041212e-04j
+  -1.60531735e-03-3.96342697e-04j  4.56374677e-03+2.08956488e-03j
+   2.00036989e-02+6.13953498e-03j -2.55794527e-03-7.08168354e-04j
+   9.15143949e-03+1.04060103e-04j]
+ [-5.42321235e-04-1.09293897e-03j -1.19501565e-03-4.17552134e-04j
+   1.09148282e-03+1.01915541e-03j -1.03123268e-03-6.32100149e-04j
+   1.47996810e-03+4.42009181e-04j  1.22353022e-03+2.24614337e-04j
+   1.63140386e-03+2.73698357e-04j -3.35281055e-04-4.44267971e-04j
+  -1.39473973e-03-7.98848290e-04j  1.46294154e-03+2.20668029e-04j
+  -4.89386290e-04+1.37146696e-04j -1.80961257e-03+2.08470584e-04j
+   9.05461995e-04+1.13020788e-04j -7.31974918e-04+1.09188735e-04j
+   4.28992348e-03+1.18830171e-03j  1.71541438e-03+2.35822927e-05j
+  -1.73875822e-03+2.07602402e-04j  4.14165989e-03-1.52246011e-05j
+  -4.80024994e-03-4.14653032e-05j -1.67988660e-03+3.96597239e-05j
+   2.93010573e-03+2.25824986e-06j -4.95732743e-03-7.95999040e-06j
+   5.36597209e-03-9.25969522e-05j -6.05313365e-04+6.62000877e-05j
+   7.23149540e-04+2.40606603e-04j -2.06582420e-03-9.32129476e-05j
+   6.38241907e-04+6.68642914e-05j  8.28519956e-04+2.77552926e-05j
+   1.08290008e-03+7.85459792e-05j  6.03142670e-04+3.83050323e-05j
+   5.80427039e-04-1.89433185e-04j]
+ [ 8.78139602e-04+1.63550220e-03j  1.52883818e-03+6.33667011e-04j
+  -1.25875365e-03-1.42868037e-03j  1.25133303e-03+9.54146868e-04j
+  -1.76420911e-03-7.76597325e-04j -1.82265598e-03-2.37985923e-04j
+  -2.23961062e-03-4.29553350e-04j  5.11957395e-04+5.62755729e-04j
+   1.82746227e-03+1.29995829e-03j -1.64883211e-03-4.57561022e-04j
+   1.71056513e-04+1.31439922e-05j  2.35218057e-03-8.18919477e-05j
+  -9.37329862e-04-2.35798658e-04j  9.11967936e-04+8.27850227e-05j
+  -5.45006623e-03-2.03185674e-03j -1.88489109e-03-8.84273224e-05j
+   3.99519865e-03+5.92081471e-05j -5.31447883e-03-1.89835218e-04j
+   7.25796268e-03+6.27416027e-05j  2.00043831e-03+1.13367658e-04j
+  -3.77525293e-03+9.32550464e-05j  6.01064547e-03+2.81219895e-04j
+  -8.09614102e-03+1.65756797e-04j  1.07880195e-03+9.47693269e-05j
+   4.12849562e-04+9.78873464e-05j  2.29373672e-03+2.14768941e-04j
+  -7.47973759e-04-4.25833290e-05j -7.69339236e-04-1.44221956e-04j
+  -2.45918171e-04+1.13773052e-05j -9.18293171e-04-1.04923841e-04j
+  -1.18656692e-03+3.49898374e-04j]
+ [-1.54434023e-03-3.29583592e-03j -3.48493723e-03-1.27199354e-03j
+   3.24478044e-03+3.01053681e-03j -3.08651920e-03-1.91168415e-03j
+   4.35764737e-03+1.35410328e-03j  3.67040642e-03+6.79341957e-04j
+   4.76944404e-03+8.98299759e-04j -1.14286277e-03-1.29086025e-03j
+  -4.09362973e-03-2.42392022e-03j  4.16003325e-03+7.19407601e-04j
+  -1.30925765e-03+3.89116157e-04j -5.34395587e-03+5.93173600e-04j
+   2.60273323e-03+3.36870853e-04j -1.99426682e-03+2.11766978e-04j
+   1.26946250e-02+3.59800000e-03j  4.32594303e-03+6.12576493e-05j
+  -5.09787729e-03+4.85309651e-04j  1.25330933e-02-3.16775045e-05j
+  -1.45520147e-02-3.73348450e-05j -5.17579220e-03+1.17926381e-04j
+   8.29625673e-03-3.65379869e-05j -1.51714495e-02-2.08031492e-05j
+   1.65589400e-02-3.41222753e-04j -1.95437963e-03+1.55657390e-04j
+   1.75698018e-03+4.74407237e-04j -6.05158005e-03-2.11699704e-04j
+   2.16829507e-03+1.16253902e-04j  1.92305080e-03+3.50040934e-05j
+   2.55948263e-03+1.22144985e-04j  2.07413517e-03+6.86859728e-05j
+   1.51946474e-03-5.28367245e-04j]
+ [ 2.11202227e-03+4.61437149e-03j  5.49474387e-03+1.58873501e-03j
+  -4.49546173e-03-4.42223531e-03j  4.23713240e-03+2.77883058e-03j
+  -6.25705134e-03-1.39255274e-03j -5.49235778e-03-6.99436928e-04j
+  -7.29567976e-03-8.92878198e-04j  1.28945401e-03+1.80786516e-03j
+   5.86629569e-03+3.54779110e-03j -6.22337509e-03-6.38952002e-04j
+   1.97748622e-03-6.75205951e-04j  7.66466032e-03-1.02014913e-03j
+  -3.69674833e-03-1.62412275e-04j  3.36340720e-03-5.91081467e-04j
+  -1.79303608e-02-4.67734698e-03j -4.90655631e-03+3.59594637e-05j
+   7.40337640e-03+1.31187184e-04j -1.45106192e-02+1.93677213e-05j
+   1.98169705e-02+1.58893991e-04j  5.62356128e-03-1.41701143e-04j
+  -1.29818529e-02-2.39639630e-04j  1.81224644e-02+6.39042629e-05j
+  -2.24643071e-02+1.61023923e-04j  2.40336575e-03+4.14423817e-05j
+  -1.90759689e-03+2.49145534e-04j  7.16700843e-03+1.38428140e-04j
+  -1.63565921e-03+1.21887138e-04j -2.88528773e-03-4.73853287e-05j
+  -5.99857611e-03-3.88066248e-04j -1.81099255e-03-4.76753675e-06j
+  -3.40671608e-03+2.67787083e-04j]
+ [ 5.63633119e-04+1.63191961e-03j  1.70542218e-03+8.26868810e-04j
+  -1.77575651e-03-1.54463835e-03j  1.62861892e-03+9.49790209e-04j
+  -1.85689416e-03-9.49248131e-04j -1.65460360e-03-3.54064473e-04j
+  -2.41921316e-03-7.20769492e-04j  5.01208103e-04+6.11823656e-04j
+   1.92991928e-03+1.24327054e-03j -1.87237336e-03-6.01704705e-04j
+   6.76155916e-04-3.43070081e-05j  2.65834434e-03-1.93713152e-04j
+  -1.08069275e-03-2.26680354e-04j  5.19392029e-04+7.45522263e-06j
+  -5.84229058e-03-2.08164074e-03j -1.86227392e-03-6.53126829e-05j
+   2.09153275e-03-3.02675199e-04j -5.56939841e-03-5.83768126e-05j
+   6.09597090e-03+8.98604531e-05j  4.46498435e-03-3.31365588e-05j
+  -4.62468823e-03+2.59688409e-05j  8.18401892e-03+1.23438755e-04j
+  -8.94282379e-03+1.59120897e-04j  1.23731875e-03-8.48691259e-05j
+  -7.50458669e-04-3.36171848e-04j  2.42204350e-03+1.69521113e-04j
+  -1.02532237e-03-1.12644516e-04j  3.58919457e-04-4.38541661e-05j
+  -7.70659901e-04-4.52044881e-05j -7.06252555e-04-6.27139724e-05j
+  -1.45536184e-03+3.90772850e-04j]
+ [-1.45898021e-03-3.83252827e-03j -6.21292367e-03-7.00853270e-04j
+   5.56711655e-03+4.09258518e-03j -4.29191547e-03-2.22654728e-03j
+   6.62297421e-03-1.49344544e-04j  5.21510997e-03-2.60364976e-04j
+   7.95148927e-03-1.56451162e-04j -6.12494321e-04-1.63857275e-03j
+  -6.49964310e-03-2.76469239e-03j  7.42447085e-03-4.19364029e-04j
+  -3.27522787e-03+1.34185634e-03j -7.74073953e-03+2.25908375e-03j
+   4.45643587e-03-7.36021568e-04j -3.68284785e-03+1.65729134e-03j
+   1.79757960e-02+1.72046582e-03j  2.94504416e-03-2.02849444e-06j
+  -3.88699958e-03-1.18800800e-04j  8.47072403e-03+2.66753872e-05j
+  -1.31580370e-02+5.07383373e-05j -4.72044059e-03+1.86353454e-05j
+   1.73732837e-02+4.93437680e-05j -1.39785729e-02-7.12116689e-05j
+   1.86698210e-02-1.20493611e-04j -1.59526621e-03-1.48604688e-05j
+   3.37030809e-03-2.38327713e-04j -4.61890362e-03-8.32251233e-05j
+  -4.15990899e-04+4.68859239e-05j  2.68895031e-03+1.03522643e-05j
+   1.37837546e-02+2.51797773e-04j -7.83196381e-04+1.04652928e-04j
+   6.60623750e-03-3.23836398e-05j]
+ [ 1.88439398e-03+4.63824292e-03j  5.72190469e-03+1.80417315e-03j
+  -5.32257664e-03-4.52796415e-03j  4.74960564e-03+2.75375590e-03j
+  -6.40087477e-03-1.71613884e-03j -5.11799576e-03-7.82455658e-04j
+  -7.50901444e-03-1.24776911e-03j  1.33628068e-03+1.87560857e-03j
+   6.20852570e-03+3.46552963e-03j -6.47284127e-03-9.46222758e-04j
+   2.56550135e-03-6.36377701e-04j  7.91396908e-03-1.17606941e-03j
+  -3.81969855e-03-1.81732962e-04j  2.82291749e-03-6.47360073e-04j
+  -1.85284646e-02-4.66375883e-03j -4.99221061e-03-8.47539099e-05j
+   5.68599338e-03-5.89905248e-04j -1.50631878e-02-1.04344273e-05j
+   1.80046559e-02+3.40427172e-05j  8.30175919e-03-1.49054723e-04j
+  -1.38095208e-02-6.64750568e-06j  2.16223610e-02+8.77760858e-05j
+  -2.38435923e-02+5.21263690e-04j  2.65942241e-03-2.19198699e-04j
+  -2.95922876e-03-5.98569772e-04j  7.45158241e-03+2.86667954e-04j
+  -2.20593598e-03-2.49251844e-04j -1.71847945e-03-4.46294085e-06j
+  -6.38169786e-03-2.24633969e-04j -1.55116134e-03-9.26683586e-05j
+  -3.84893593e-03+7.79801657e-04j]
+ [-2.67297170e-03-6.29066966e-03j -8.36934205e-03-2.23309635e-03j
+   6.97827797e-03+6.06300248e-03j -6.16947342e-03-3.74621840e-03j
+   7.92646783e-03+1.83812007e-03j  7.27417172e-03+3.93659562e-04j
+   1.01816138e-02+1.32346873e-03j -1.50525226e-03-2.34234439e-03j
+  -8.35003977e-03-4.68638700e-03j  8.26541152e-03+9.80823150e-04j
+  -2.96364510e-03+7.72836987e-04j -1.04890909e-02+1.58895564e-03j
+   4.44336935e-03-2.83047572e-04j -3.92592484e-03+6.39593777e-04j
+   2.40196824e-02+5.78004976e-03j  5.39387761e-03+5.20342369e-05j
+  -8.42207106e-03-2.50241146e-04j  1.67553429e-02+1.71487158e-04j
+  -2.27231708e-02-2.50116507e-04j -9.23967289e-03+8.53748645e-05j
+   1.85407444e-02+1.99871471e-04j -2.42674176e-02-5.06557795e-04j
+   3.37336179e-02-3.14028076e-05j -3.05024908e-03-1.17772665e-04j
+   1.63974354e-03-1.39782919e-04j -7.10455928e-03-5.70369081e-04j
+   1.05387623e-03+4.00415944e-04j  1.14126011e-03+3.70492462e-04j
+   1.02621927e-02-8.70983707e-05j  3.53922946e-04+4.94338447e-04j
+   1.17041061e-02-8.61001190e-04j]
+ [ 2.69015004e-04+5.03889195e-04j  3.79950547e-04+1.93569196e-04j
+  -4.56737526e-04-4.24888847e-04j  5.01123926e-04+2.38578183e-04j
+  -7.56791152e-04-3.00042325e-04j -5.47906786e-04-8.44677027e-05j
+  -7.15853336e-04-1.99878417e-04j  2.07190413e-04+1.97559638e-04j
+   6.32360715e-04+3.62433662e-04j -5.61544688e-04-1.70384713e-04j
+   1.33849947e-04-4.24403476e-05j  8.44859387e-04-6.87623431e-05j
+  -5.85859154e-04-1.64267430e-04j  2.59846418e-04+7.11159504e-05j
+  -2.06911162e-03-6.53323155e-04j -7.41351909e-04-2.74356718e-05j
+   1.09746944e-03-1.44921353e-04j -2.27692328e-03-4.09662028e-05j
+   2.66586047e-03+5.60764328e-05j  1.17936689e-03-4.65603289e-06j
+  -1.54464567e-03-1.90552091e-06j  2.83820171e-03+8.78068983e-05j
+  -2.58638027e-03+2.43442059e-04j  7.31629136e-04-1.45252637e-05j
+  -4.38275030e-04-1.28288472e-04j  1.52340996e-03+6.89783605e-05j
+  -8.29889842e-04+8.56680018e-05j -4.67028777e-04-5.25278523e-05j
+   1.56898854e-04-7.99175691e-05j -8.63826148e-04+3.83543987e-05j
+   1.00117448e-03+3.20484195e-04j]
+ [-1.41440567e-04-3.87269860e-04j -9.38362137e-04+1.11805354e-04j
+   8.89774853e-04+5.08883122e-04j -7.26632987e-04-1.27632175e-04j
+   1.47578592e-03-2.87720670e-04j  7.74614252e-04-2.90881013e-05j
+   1.24835386e-03-1.98944513e-04j  4.09145917e-05-3.27095151e-04j
+  -1.04823957e-03-1.60525020e-04j  1.49745031e-03-3.52746177e-04j
+  -8.95316932e-04+4.91468124e-04j -1.28188306e-03+6.18780037e-04j
+   1.31161244e-03-7.90063671e-05j -7.71985597e-04+4.57021195e-04j
+   3.24064552e-03-2.41145300e-04j  6.03159886e-04-1.14900761e-04j
+   3.67934980e-04-3.16069405e-05j  1.48696751e-03-1.46932379e-04j
+  -2.14312349e-03-1.89169662e-04j -5.64059401e-04+1.70389923e-04j
+   3.35800450e-03+2.41465462e-04j -2.61586299e-03+2.40288857e-04j
+   1.35798243e-03-1.89404659e-04j -3.85307942e-04+4.82399386e-05j
+   2.28931543e-03+3.40132884e-05j -1.91953286e-03+1.32197331e-04j
+   6.16933477e-04-2.10310010e-04j  1.44377262e-03-8.89448669e-05j
+   2.99255866e-03+2.31941158e-04j  4.35854786e-04-9.39721639e-05j
+  -1.82889566e-03-2.33117519e-04j]
+ [ 7.83193706e-04+1.26945053e-03j  1.46566777e-03+2.43321774e-04j
+  -1.44777993e-03-1.13371467e-03j  1.49262453e-03+5.56166019e-04j
+  -2.45503005e-03-3.37688273e-04j -1.51862034e-03-1.32605208e-04j
+  -2.20849631e-03-1.68347758e-04j  4.23907635e-04+5.90753280e-04j
+   1.97632584e-03+7.99166434e-04j -2.07274021e-03-2.09790853e-05j
+   8.75843698e-04-4.03928844e-04j  2.45309057e-03-5.65801687e-04j
+  -1.90317166e-03-2.37870579e-04j  1.22598563e-03-2.13711705e-04j
+  -6.36670878e-03-9.96241644e-04j -2.03758799e-03+7.20024454e-05j
+   2.04874119e-03-3.74141941e-04j -5.92803117e-03+1.73390468e-04j
+   7.27754949e-03+1.39689620e-05j  2.14007528e-03-1.93235064e-04j
+  -4.75485883e-03+3.18998238e-05j  7.57991261e-03-1.53015249e-04j
+  -6.23793791e-03+9.26937851e-04j  1.40613138e-03-7.90569911e-05j
+  -2.13632938e-03-3.18287667e-04j  4.53204266e-03+5.60905242e-05j
+  -1.94919047e-03+2.28661954e-04j -2.17448860e-03-6.32305060e-05j
+  -1.65933869e-03-1.22644009e-04j -2.05026907e-03+1.21853223e-04j
+   3.12930407e-03+1.00815763e-03j]
+ [-3.39186943e-04+1.32813767e-04j  5.75574104e-04+1.90005333e-04j
+  -2.25838205e-04-4.12804196e-04j  7.04549303e-07+3.85145353e-04j
+   2.26292304e-04+2.38734842e-04j -1.19629118e-04-5.37816401e-05j
+  -3.65924580e-04-6.65939430e-07j -1.23785626e-04-1.72683670e-05j
+   5.24255891e-05+3.61796199e-04j -3.89640670e-04-2.91428245e-05j
+   2.79304242e-04-1.19584259e-05j  1.85759080e-04+7.61299586e-05j
+   5.44700900e-04+4.28011467e-04j  2.37167640e-04-3.73390243e-04j
+   2.57457142e-04-1.29195765e-04j  6.41499259e-04-7.99885397e-05j
+  -7.38609223e-04+1.83694450e-04j  2.28573331e-03-1.30798160e-04j
+  -2.16915728e-03-1.12624507e-04j -8.59437987e-04+1.52980529e-04j
+  -2.90802178e-04-1.73445043e-04j -2.39305528e-03+2.29046518e-04j
+   1.25236164e-04-1.14714003e-03j -9.99735375e-04-2.59647867e-05j
+   9.30559350e-04+2.75736228e-04j -2.44387375e-03-1.01085534e-04j
+   2.29444001e-03-1.79235545e-04j  8.49348567e-04+1.39707020e-04j
+  -2.70787772e-03-2.52948094e-04j  2.19280741e-03+6.94035982e-05j
+  -5.23005835e-03-1.49801174e-03j]
+ [-3.09330379e-04-3.93881064e-04j -8.01821622e-04+1.38436019e-04j
+   7.50350274e-04+4.69824354e-04j -6.06719249e-04-1.51115587e-04j
+   1.44287071e-03-2.56763171e-04j  6.61096919e-04-7.71769731e-05j
+   1.11567316e-03-2.35705404e-04j  9.40402381e-06-2.12234707e-04j
+  -1.01963434e-03-2.45899307e-04j  1.33429579e-03-2.58540525e-04j
+  -6.49096386e-04+3.83990847e-04j -1.09949927e-03+4.71654852e-04j
+   1.21041331e-03-1.26053984e-05j -9.24711131e-04+3.99252044e-04j
+   3.02676018e-03-1.23910543e-04j  6.52587102e-04-1.39290518e-05j
+  -4.97101849e-04+1.31481927e-04j  1.50950817e-03+1.25999011e-05j
+  -2.44925515e-03-1.00248276e-04j  2.68769685e-04+2.92417891e-05j
+   2.74031107e-03+3.99735008e-05j -2.02559783e-03-5.34032827e-05j
+   9.63095634e-04-3.30485982e-04j -3.88502166e-04+1.30079031e-05j
+   1.46086458e-03+1.38485959e-04j -1.93656049e-03-4.97275248e-05j
+   4.74952865e-04-1.47929507e-04j  2.09721304e-03+2.57975906e-05j
+   2.31711732e-03+1.34425821e-04j  8.03697311e-04-1.15690880e-04j
+  -2.19104108e-03-3.89738334e-04j]
+ [-7.48396218e-04-2.36585760e-03j -5.28171399e-03+1.41012403e-04j
+   4.46259166e-03+2.78230339e-03j -3.16088209e-03-1.39442161e-03j
+   5.04496092e-03-1.49078203e-03j  3.70408132e-03-8.19434213e-04j
+   6.14967993e-03-1.01425741e-03j -2.41510258e-04-1.12741211e-03j
+  -5.16070231e-03-1.51593640e-03j  6.32986558e-03-1.26691368e-03j
+  -3.32681071e-03+1.45312805e-03j -5.67206469e-03+2.50990995e-03j
+   3.38907859e-03-1.41780723e-03j -3.42688936e-03+2.10495318e-03j
+   1.33578225e-02-9.87199068e-04j  1.09098673e-03-4.34542718e-05j
+  -2.84707755e-04+3.69454407e-05j  2.52654569e-03-1.20596107e-04j
+  -5.85925316e-03+3.95431044e-04j -7.92319715e-04-3.89737659e-06j
+   1.38048341e-02-1.54342625e-04j -6.23617882e-03+1.15361276e-04j
+   1.08717161e-02+3.47127655e-04j  2.13147006e-04+8.09613022e-05j
+   3.01714479e-03-2.11861670e-04j -1.29673288e-03+1.10110752e-04j
+  -2.61292325e-03+1.85104536e-04j  2.29580635e-03-1.43575398e-04j
+   1.65503843e-02+7.15509208e-05j -3.09834865e-03+8.30125655e-05j
+   9.39165944e-03+9.03738974e-04j]
+ [-2.71858306e-04+1.09588315e-04j  7.06536937e-04+1.55539989e-04j
+  -2.94457011e-04-3.92688426e-04j  2.46359366e-06+3.61185701e-04j
+   2.85634656e-04+2.13291705e-04j -2.72266055e-04+3.94524945e-06j
+  -4.66210245e-04+1.17479204e-04j -1.32953832e-04+1.25695905e-04j
+   2.35052067e-04+2.24827941e-04j -4.94723735e-04+1.10308181e-04j
+   3.70620866e-04+2.32448915e-05j  2.04385529e-04-1.13987794e-04j
+   5.53093177e-04+4.51123404e-04j  1.51732433e-04-3.49876283e-04j
+   1.08047911e-04+1.15733933e-04j  6.15375334e-04-8.60730018e-05j
+  -7.92326524e-04+2.98337462e-04j  2.22581979e-03-1.56652210e-04j
+  -2.14364904e-03-7.16091535e-05j -7.47572470e-04+1.73849973e-04j
+  -6.12927372e-04-2.06309499e-04j -2.13280646e-03+1.11986569e-04j
+  -4.28864153e-04-1.13300605e-03j -1.03547223e-03-7.14908175e-06j
+   7.53075932e-04+2.47568602e-04j -2.52979586e-03-8.68383657e-05j
+   2.10212791e-03-3.51185651e-04j  1.10007090e-03+1.61622026e-04j
+  -3.15404897e-03-1.41465392e-04j  2.70246399e-03-1.62302386e-04j
+  -5.99330082e-03-1.31434176e-03j]
+ [-6.31507971e-04-2.23359450e-03j -4.06735707e-03-7.26219362e-04j
+   2.81515350e-03+2.21837593e-03j -2.21111835e-03-1.51295221e-03j
+   1.78095206e-03-2.32972322e-05j  2.59373154e-03-5.22463228e-04j
+   3.71830483e-03+1.33451208e-04j -2.06535504e-04-7.19143947e-04j
+  -3.22311002e-03-1.61139801e-03j  2.98060744e-03-3.19618259e-06j
+  -1.34885916e-03+1.50201497e-04j -3.63421509e-03+7.78516161e-04j
+   2.61367847e-04-1.10958874e-03j -1.47300841e-03+4.99601499e-04j
+   7.25623363e-03+1.03374040e-03j  6.83508846e-04+1.58967117e-04j
+  -1.53729066e-03-3.59218577e-04j  1.74927256e-03+3.13611416e-04j
+  -3.41634960e-03+2.26921931e-05j -1.69814496e-03-2.34384323e-04j
+   6.39788423e-03-2.29989995e-05j -3.93502481e-03-6.65878411e-04j
+   1.30696940e-02+1.43212655e-03j  5.51226710e-04-1.02818098e-04j
+  -1.54187994e-03-2.03875425e-04j  2.14700182e-03-4.22959256e-04j
+  -3.31913620e-03+8.58194659e-04j -1.90586857e-03+2.55845771e-04j
+   8.42737257e-03-6.08128226e-04j -4.19745784e-03+6.40029087e-04j
+   1.65780862e-02+8.75013293e-04j]]
+Done
+Saved to /share/home/tanyi/ad-peps/simulations/exci/h25_ising_D2_X30/17_0.125_0.125.npz

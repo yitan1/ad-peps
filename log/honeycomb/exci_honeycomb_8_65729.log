@@ -1,0 +1,3720 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Namespace(version=False, sim_mode='exci', config_file='honeycomb_exci.yaml', momentum_ix=8, evaluate=False, init=False)
+Running excited-state sim
+honeycomb_exci.yaml
+/share/home/tanyi/ad-peps/examples/honeycomb_exci.yaml
+/share/home/tanyi/ad-peps/examples/honeycomb_exci.yaml
+D: 2
+chi: 30
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 20
+ctm_min_iter: 4
+disp_level: 1
+flush_output: true
+model: honeycomb
+model_params:
+  Jx: 0.2
+  Jy: 0.2
+momentum_path: Bril1
+out_prefix: null
+pattern:
+- - 0
+  - 1
+- - 1
+  - 0
+resume: true
+
+Starting simulation of basis vector 1/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 2.93
+  | CTM step 2 conv: 1.000e+00 time: 2.98
+  | CTM step 3 conv: 1.000e+00 time: 3.15
+  | CTM step 4 conv: 7.689e-02 time: 1.97
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 1.12
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.07720791078559125 2.6577517970537627e-14
+Norm: 0.07720791195654915
+========== 
+Finished basis vector 1/126 
+
+Starting simulation of basis vector 2/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.74
+  | CTM step 4 conv: 7.689e-02 time: 0.8
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.76
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.78
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.89
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.79
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.18428312511726702 2.6577517970537627e-14
+Norm: 0.18428312565457253
+========== 
+Finished basis vector 2/126 
+
+Starting simulation of basis vector 3/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.7
+  | CTM step 4 conv: 7.689e-02 time: 0.77
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.76
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.76
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.95
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.23
+Energies: 0.10612566991913397 2.6577517970537627e-14
+Norm: 0.10612567493653989
+========== 
+Finished basis vector 3/126 
+
+Starting simulation of basis vector 4/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.71
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.76
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.99
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.49971792782366226 2.6577517970537627e-14
+Norm: 0.4997179285410939
+========== 
+Finished basis vector 4/126 
+
+Starting simulation of basis vector 5/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.82
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.76
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.86
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.76
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.29020191247268745 2.6577517970537627e-14
+Norm: 0.2902019212821712
+========== 
+Finished basis vector 5/126 
+
+Starting simulation of basis vector 6/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.84
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.11
+Energies: 0.5495664697747269 2.6577517970537627e-14
+Norm: 0.5495664716081146
+========== 
+Finished basis vector 6/126 
+
+Starting simulation of basis vector 7/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.3139498009938773 2.6577517970537627e-14
+Norm: 0.31394981058094173
+========== 
+Finished basis vector 7/126 
+
+Starting simulation of basis vector 8/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.9
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.16
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.09709710927788091 2.6577517970537627e-14
+Norm: 0.0970971111757826
+========== 
+Finished basis vector 8/126 
+
+Starting simulation of basis vector 9/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.71
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 1.05
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.06227440419044795 2.6577517970537627e-14
+Norm: 0.062274405625544885
+========== 
+Finished basis vector 9/126 
+
+Starting simulation of basis vector 10/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.76
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.95
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.12995466864972927 2.6577517970537627e-14
+Norm: 0.12995466710013673
+========== 
+Finished basis vector 10/126 
+
+Starting simulation of basis vector 11/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.14
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.08129859992177807 2.6577517970537627e-14
+Norm: 0.08129859934949328
+========== 
+Finished basis vector 11/126 
+
+Starting simulation of basis vector 12/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.79
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.3644338870646751 2.6577517970537627e-14
+Norm: 0.3644338936486206
+========== 
+Finished basis vector 12/126 
+
+Starting simulation of basis vector 13/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.78
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.17
+Energies: 0.23110255568446456 2.6577517970537627e-14
+Norm: 0.23110256064499013
+========== 
+Finished basis vector 13/126 
+
+Starting simulation of basis vector 14/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.39406381082438113 2.6577517970537627e-14
+Norm: 0.39406382999817163
+========== 
+Finished basis vector 14/126 
+
+Starting simulation of basis vector 15/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.8
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.2464083492444826 2.6577517970537627e-14
+Norm: 0.2464083632965203
+========== 
+Finished basis vector 15/126 
+
+Starting simulation of basis vector 16/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.78
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.76
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.79
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.95
+  | CTM step 2 conv: 1.623e-07 time: 1.15
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 8.573563034006804e-05 2.6577517970537627e-14
+Norm: 0.13369388435229487
+========== 
+Finished basis vector 16/126 
+
+Starting simulation of basis vector 17/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.8
+  | CTM step 6 conv: 1.004e-02 time: 0.78
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0001681398978943859 2.6577517970537627e-14
+Norm: 0.07712328911013017
+========== 
+Finished basis vector 17/126 
+
+Starting simulation of basis vector 18/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.79
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.78
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.88
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.95
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.0005011788380254081 2.6577517970537627e-14
+Norm: 0.17293418665324903
+========== 
+Finished basis vector 18/126 
+
+Starting simulation of basis vector 19/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.76
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.0013572255493445504 2.6577517970537627e-14
+Norm: 0.10501659155017748
+========== 
+Finished basis vector 19/126 
+
+Starting simulation of basis vector 20/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.76
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.029049834991407814 2.6577517970537627e-14
+Norm: 0.31514656720437245
+========== 
+Finished basis vector 20/126 
+
+Starting simulation of basis vector 21/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.81
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00022170080218174087 2.6577517970537627e-14
+Norm: 0.2608202416909781
+========== 
+Finished basis vector 21/126 
+
+Starting simulation of basis vector 22/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.83
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0005593265059020008 2.6577517970537627e-14
+Norm: 0.5207302261888677
+========== 
+Finished basis vector 22/126 
+
+Starting simulation of basis vector 23/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.005269238877604188 2.6577517970537627e-14
+Norm: 0.31639050923079476
+========== 
+Finished basis vector 23/126 
+
+Starting simulation of basis vector 24/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.8
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0004410044687403555 2.6577517970537627e-14
+Norm: 0.09236540542265989
+========== 
+Finished basis vector 24/126 
+
+Starting simulation of basis vector 25/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.88
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.77
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 5.119756609209278e-07 2.6577517970537627e-14
+Norm: 0.06272981519161651
+========== 
+Finished basis vector 25/126 
+
+Starting simulation of basis vector 26/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.81
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00031547701728677085 2.6577517970537627e-14
+Norm: 0.1267617899699492
+========== 
+Finished basis vector 26/126 
+
+Starting simulation of basis vector 27/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.77
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.72
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 2.0506881738682205e-06 2.6577517970537627e-14
+Norm: 0.07664719280959316
+========== 
+Finished basis vector 27/126 
+
+Starting simulation of basis vector 28/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.87
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.76
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.015305244569576631 2.6577517970537627e-14
+Norm: 0.282271108002294
+========== 
+Finished basis vector 28/126 
+
+Starting simulation of basis vector 29/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.95
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.002112595107716482 2.6577517970537627e-14
+Norm: 0.22965942650496943
+========== 
+Finished basis vector 29/126 
+
+Starting simulation of basis vector 30/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.76
+  | CTM step 7 conv: 6.712e-03 time: 0.76
+  | CTM step 8 conv: 2.530e-03 time: 0.76
+  | CTM step 9 conv: 1.567e-04 time: 0.76
+  | CTM step 10 conv: 4.314e-04 time: 0.76
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.76
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.76
+  | CTM step 15 conv: 1.446e-05 time: 0.76
+  | CTM step 16 conv: 1.728e-06 time: 0.76
+  | CTM step 17 conv: 1.917e-06 time: 0.76
+  | CTM step 18 conv: 1.408e-06 time: 0.77
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0004567439718041067 2.6577517970537627e-14
+Norm: 0.3947717961502401
+========== 
+Finished basis vector 30/126 
+
+Starting simulation of basis vector 31/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.72
+  | CTM step 5 conv: 5.328e-03 time: 0.71
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.76
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.15
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0005298898040382317 2.6577517970537627e-14
+Norm: 0.23087477479072446
+========== 
+Finished basis vector 31/126 
+
+Starting simulation of basis vector 32/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 9.562536220479607e-06 2.6577517970537627e-14
+Norm: 0.1268939371067114
+========== 
+Finished basis vector 32/126 
+
+Starting simulation of basis vector 33/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.83
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.78
+  | CTM step 8 conv: 2.530e-03 time: 0.72
+  | CTM step 9 conv: 1.567e-04 time: 0.72
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.82
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.0001531526873737706 2.6577517970537627e-14
+Norm: 0.08014889406251548
+========== 
+Finished basis vector 33/126 
+
+Starting simulation of basis vector 34/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.72
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.99
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.00025988032697229905 2.6577517970537627e-14
+Norm: 0.1802711654315818
+========== 
+Finished basis vector 34/126 
+
+Starting simulation of basis vector 35/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.77
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 2.5080497230317433e-05 2.6577517970537627e-14
+Norm: 0.10472505427421033
+========== 
+Finished basis vector 35/126 
+
+Starting simulation of basis vector 36/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.85
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.91
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.16
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.020978123840108342 2.6577517970537627e-14
+Norm: 0.378815444110806
+========== 
+Finished basis vector 36/126 
+
+Starting simulation of basis vector 37/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.0038480018849535932 2.6577517970537627e-14
+Norm: 0.2753398602539674
+========== 
+Finished basis vector 37/126 
+
+Starting simulation of basis vector 38/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.83
+  | CTM step 5 conv: 5.328e-03 time: 0.81
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.004393408348981593 2.6577517970537627e-14
+Norm: 0.5021971434708197
+========== 
+Finished basis vector 38/126 
+
+Starting simulation of basis vector 39/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.81
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.77
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0011219144271211099 2.6577517970537627e-14
+Norm: 0.3089727075192664
+========== 
+Finished basis vector 39/126 
+
+Starting simulation of basis vector 40/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.84
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.78
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00023530098272343084 2.6577517970537627e-14
+Norm: 0.10093817994967266
+========== 
+Finished basis vector 40/126 
+
+Starting simulation of basis vector 41/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.87
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.14
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00013529194654247526 2.6577517970537627e-14
+Norm: 0.06005667012710934
+========== 
+Finished basis vector 41/126 
+
+Starting simulation of basis vector 42/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.89
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.004742061668200213 2.6577517970537627e-14
+Norm: 0.09188617289600223
+========== 
+Finished basis vector 42/126 
+
+Starting simulation of basis vector 43/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.83
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.001841958981839396 2.6577517970537627e-14
+Norm: 0.0687582513300859
+========== 
+Finished basis vector 43/126 
+
+Starting simulation of basis vector 44/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.81
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.76
+  | CTM step 8 conv: 2.530e-03 time: 0.79
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0008764022181764531 2.6577517970537627e-14
+Norm: 0.38784307076076335
+========== 
+Finished basis vector 44/126 
+
+Starting simulation of basis vector 45/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00437054862092714 2.6577517970537627e-14
+Norm: 0.2239102281474317
+========== 
+Finished basis vector 45/126 
+
+Starting simulation of basis vector 46/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.019192254590844067 2.6577517970537627e-14
+Norm: 0.23026575141002797
+========== 
+Finished basis vector 46/126 
+
+Starting simulation of basis vector 47/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.2
+Energies: 0.013399319773445913 2.6577517970537627e-14
+Norm: 0.16631133201051237
+========== 
+Finished basis vector 47/126 
+
+Starting simulation of basis vector 48/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.14
+Energies: 0.13195870162040668 2.6577517970537627e-14
+Norm: 0.13195869800278423
+========== 
+Finished basis vector 48/126 
+
+Starting simulation of basis vector 49/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0772079178186178 2.6577517970537627e-14
+Norm: 0.07720791899449393
+========== 
+Finished basis vector 49/126 
+
+Starting simulation of basis vector 50/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.79
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.18428331158421352 2.6577517970537627e-14
+Norm: 0.1842833119275852
+========== 
+Finished basis vector 50/126 
+
+Starting simulation of basis vector 51/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.8
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.87
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.14
+  | CTM step 3 conv: 7.443e-08 time: 1.11
+Energies: 0.10612566474032015 2.6577517970537627e-14
+Norm: 0.10612566974611694
+========== 
+Finished basis vector 51/126 
+
+Starting simulation of basis vector 52/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.49971733423150705 2.6577517970537627e-14
+Norm: 0.4997173349889668
+========== 
+Finished basis vector 52/126 
+
+Starting simulation of basis vector 53/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.8
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.82
+  | CTM step 15 conv: 1.446e-05 time: 0.87
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.29020189689024145 2.6577517970537627e-14
+Norm: 0.2902019056890884
+========== 
+Finished basis vector 53/126 
+
+Starting simulation of basis vector 54/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.78
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.85
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.5495663891173785 2.6577517970537627e-14
+Norm: 0.549566391240853
+========== 
+Finished basis vector 54/126 
+
+Starting simulation of basis vector 55/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.3139498019493866 2.6577517970537627e-14
+Norm: 0.3139498115069258
+========== 
+Finished basis vector 55/126 
+
+Starting simulation of basis vector 56/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.84
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.09709707612326904 2.6577517970537627e-14
+Norm: 0.09709707801747725
+========== 
+Finished basis vector 56/126 
+
+Starting simulation of basis vector 57/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0622744041545436 2.6577517970537627e-14
+Norm: 0.062274405641326684
+========== 
+Finished basis vector 57/126 
+
+Starting simulation of basis vector 58/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.84
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.76
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.12995467059838656 2.6577517970537627e-14
+Norm: 0.12995466930675084
+========== 
+Finished basis vector 58/126 
+
+Starting simulation of basis vector 59/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.83
+  | CTM step 5 conv: 5.328e-03 time: 0.89
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.08129860000542505 2.6577517970537627e-14
+Norm: 0.08129859940466726
+========== 
+Finished basis vector 59/126 
+
+Starting simulation of basis vector 60/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.77
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.36443388851464026 2.6577517970537627e-14
+Norm: 0.36443389509605917
+========== 
+Finished basis vector 60/126 
+
+Starting simulation of basis vector 61/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.87
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.78
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.23110255515944722 2.6577517970537627e-14
+Norm: 0.23110256013695982
+========== 
+Finished basis vector 61/126 
+
+Starting simulation of basis vector 62/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.39406380017712134 2.6577517970537627e-14
+Norm: 0.3940638191155088
+========== 
+Finished basis vector 62/126 
+
+Starting simulation of basis vector 63/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.77
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.2464083471778946 2.6577517970537627e-14
+Norm: 0.2464083612491079
+========== 
+Finished basis vector 63/126 
+
+Starting simulation of basis vector 64/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.86
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.42655508008979054 2.6577517970537627e-14
+Norm: 0.4265550918190467
+========== 
+Finished basis vector 64/126 
+
+Starting simulation of basis vector 65/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.81
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.72
+  | CTM step 7 conv: 6.712e-03 time: 0.76
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.76
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.14419943332437696 2.6577517970537627e-14
+Norm: 0.14419939178920216
+========== 
+Finished basis vector 65/126 
+
+Starting simulation of basis vector 66/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.74
+  | CTM step 4 conv: 7.689e-02 time: 0.87
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.5898071120479172 2.6577517970537627e-14
+Norm: 0.5898070930584676
+========== 
+Finished basis vector 66/126 
+
+Starting simulation of basis vector 67/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.8
+  | CTM step 6 conv: 1.004e-02 time: 0.76
+  | CTM step 7 conv: 6.712e-03 time: 0.72
+  | CTM step 8 conv: 2.530e-03 time: 0.72
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.77
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.15653626937730478 2.6577517970537627e-14
+Norm: 0.15653624576081993
+========== 
+Finished basis vector 67/126 
+
+Starting simulation of basis vector 68/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.8
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.3374358093294112 2.6577517970537627e-14
+Norm: 0.33743582798789556
+========== 
+Finished basis vector 68/126 
+
+Starting simulation of basis vector 69/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.77
+  | CTM step 6 conv: 1.004e-02 time: 0.78
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.10553134657073202 2.6577517970537627e-14
+Norm: 0.10553132304228657
+========== 
+Finished basis vector 69/126 
+
+Starting simulation of basis vector 70/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.77
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.43088132926970013 2.6577517970537627e-14
+Norm: 0.43088133453975136
+========== 
+Finished basis vector 70/126 
+
+Starting simulation of basis vector 71/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.72
+  | CTM step 9 conv: 1.567e-04 time: 0.72
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.10917507468861784 2.6577517970537627e-14
+Norm: 0.10917508257349075
+========== 
+Finished basis vector 71/126 
+
+Starting simulation of basis vector 72/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.81
+  | CTM step 5 conv: 5.328e-03 time: 0.79
+  | CTM step 6 conv: 1.004e-02 time: 0.76
+  | CTM step 7 conv: 6.712e-03 time: 0.77
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.23996667536920888 2.6577517970537627e-14
+Norm: 0.2399666749415704
+========== 
+Finished basis vector 72/126 
+
+Starting simulation of basis vector 73/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.71
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.88
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.07974634433343017 2.6577517970537627e-14
+Norm: 0.07974635553826934
+========== 
+Finished basis vector 73/126 
+
+Starting simulation of basis vector 74/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.72
+  | CTM step 7 conv: 6.712e-03 time: 0.72
+  | CTM step 8 conv: 2.530e-03 time: 0.72
+  | CTM step 9 conv: 1.567e-04 time: 0.91
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.72
+  | CTM step 12 conv: 5.663e-05 time: 0.77
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.35914681281897953 2.6577517970537627e-14
+Norm: 0.3591467928050858
+========== 
+Finished basis vector 74/126 
+
+Starting simulation of basis vector 75/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.72
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.08702122104602705 2.6577517970537627e-14
+Norm: 0.08702122703284032
+========== 
+Finished basis vector 75/126 
+
+Starting simulation of basis vector 76/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.81
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.95
+  | CTM step 2 conv: 1.623e-07 time: 1.14
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.1912041569480849 2.6577517970537627e-14
+Norm: 0.191204160070644
+========== 
+Finished basis vector 76/126 
+
+Starting simulation of basis vector 77/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.84
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.81
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0576214481196399 2.6577517970537627e-14
+Norm: 0.05762145988979035
+========== 
+Finished basis vector 77/126 
+
+Starting simulation of basis vector 78/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.2594215659680122 2.6577517970537627e-14
+Norm: 0.25942155453579324
+========== 
+Finished basis vector 78/126 
+
+Starting simulation of basis vector 79/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.78
+  | CTM step 7 conv: 6.712e-03 time: 0.72
+  | CTM step 8 conv: 2.530e-03 time: 0.77
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.81
+  | CTM step 11 conv: 2.718e-04 time: 0.72
+  | CTM step 12 conv: 5.663e-05 time: 0.72
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.98
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0008100276685451444 2.6577517970537627e-14
+Norm: 0.1976071726698881
+========== 
+Finished basis vector 79/126 
+
+Starting simulation of basis vector 80/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.72
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.00544016882401536 2.6577517970537627e-14
+Norm: 0.3728443284722056
+========== 
+Finished basis vector 80/126 
+
+Starting simulation of basis vector 81/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.77
+  | CTM step 5 conv: 5.328e-03 time: 0.79
+  | CTM step 6 conv: 1.004e-02 time: 0.71
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.78
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.00011337430711330666 2.6577517970537627e-14
+Norm: 0.14212259780106634
+========== 
+Finished basis vector 81/126 
+
+Starting simulation of basis vector 82/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.04464182995178953 2.6577517970537627e-14
+Norm: 0.38605401301181524
+========== 
+Finished basis vector 82/126 
+
+Starting simulation of basis vector 83/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.71
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.14
+Energies: 0.00036854633423967606 2.6577517970537627e-14
+Norm: 0.148357553657311
+========== 
+Finished basis vector 83/126 
+
+Starting simulation of basis vector 84/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.88
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.88
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0039038301431714565 2.6577517970537627e-14
+Norm: 0.3276989639230461
+========== 
+Finished basis vector 84/126 
+
+Starting simulation of basis vector 85/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.84
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 8.02582809555298e-05 2.6577517970537627e-14
+Norm: 0.10470875990375159
+========== 
+Finished basis vector 85/126 
+
+Starting simulation of basis vector 86/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00281339666601888 2.6577517970537627e-14
+Norm: 0.4200708170414264
+========== 
+Finished basis vector 86/126 
+
+Starting simulation of basis vector 87/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.72
+  | CTM step 8 conv: 2.530e-03 time: 0.77
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.82
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.79
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0026445948606548986 2.6577517970537627e-14
+Norm: 0.10837634366214025
+========== 
+Finished basis vector 87/126 
+
+Starting simulation of basis vector 88/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.79
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.009657973299669591 2.6577517970537627e-14
+Norm: 0.17849126602992957
+========== 
+Finished basis vector 88/126 
+
+Starting simulation of basis vector 89/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.86
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.77
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.79
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00016264027377364842 2.6577517970537627e-14
+Norm: 0.0813811284280775
+========== 
+Finished basis vector 89/126 
+
+Starting simulation of basis vector 90/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.77
+  | CTM step 6 conv: 1.004e-02 time: 0.72
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.89
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.03705537473813911 2.6577517970537627e-14
+Norm: 0.23315928392748148
+========== 
+Finished basis vector 90/126 
+
+Starting simulation of basis vector 91/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.72
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.76
+  | CTM step 7 conv: 6.712e-03 time: 0.72
+  | CTM step 8 conv: 2.530e-03 time: 0.72
+  | CTM step 9 conv: 1.567e-04 time: 0.72
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0004716824666278004 2.6577517970537627e-14
+Norm: 0.08798989817755776
+========== 
+Finished basis vector 91/126 
+
+Starting simulation of basis vector 92/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.64
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.72
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.77
+  | CTM step 7 conv: 6.712e-03 time: 0.71
+  | CTM step 8 conv: 2.530e-03 time: 0.72
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.008449540331818363 2.6577517970537627e-14
+Norm: 0.17084712421860027
+========== 
+Finished basis vector 92/126 
+
+Starting simulation of basis vector 93/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.79
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.15
+Energies: 1.1801858332863556e-07 2.6577517970537627e-14
+Norm: 0.05714773462860781
+========== 
+Finished basis vector 93/126 
+
+Starting simulation of basis vector 94/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.88
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.78
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.002347311823270707 2.6577517970537627e-14
+Norm: 0.2201712770717377
+========== 
+Finished basis vector 94/126 
+
+Starting simulation of basis vector 95/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.00779507733331282 2.6577517970537627e-14
+Norm: 0.1564884680627635
+========== 
+Finished basis vector 95/126 
+
+Starting simulation of basis vector 96/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.16
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.022996832365102318 2.6577517970537627e-14
+Norm: 0.3659910818560588
+========== 
+Finished basis vector 96/126 
+
+Starting simulation of basis vector 97/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.79
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.78
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.0008327658171645002 2.6577517970537627e-14
+Norm: 0.14344667937931152
+========== 
+Finished basis vector 97/126 
+
+Starting simulation of basis vector 98/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.0018585479107540068 2.6577517970537627e-14
+Norm: 0.4980728383946601
+========== 
+Finished basis vector 98/126 
+
+Starting simulation of basis vector 99/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.97
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0021655896912059843 2.6577517970537627e-14
+Norm: 0.14536142595582463
+========== 
+Finished basis vector 99/126 
+
+Starting simulation of basis vector 100/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.79
+  | CTM step 5 conv: 5.328e-03 time: 0.78
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.76
+  | CTM step 8 conv: 2.530e-03 time: 0.77
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.013511937427802382 2.6577517970537627e-14
+Norm: 0.2742214317099903
+========== 
+Finished basis vector 100/126 
+
+Starting simulation of basis vector 101/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.67
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.87
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.001145646286587951 2.6577517970537627e-14
+Norm: 0.10569609846730686
+========== 
+Finished basis vector 101/126 
+
+Starting simulation of basis vector 102/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.019818950768528326 2.6577517970537627e-14
+Norm: 0.3874440378136961
+========== 
+Finished basis vector 102/126 
+
+Starting simulation of basis vector 103/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.8
+  | CTM step 5 conv: 5.328e-03 time: 0.77
+  | CTM step 6 conv: 1.004e-02 time: 0.72
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.13
+Energies: 0.0012358972333861942 2.6577517970537627e-14
+Norm: 0.10404263049685565
+========== 
+Finished basis vector 103/126 
+
+Starting simulation of basis vector 104/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.82
+  | CTM step 6 conv: 1.004e-02 time: 0.77
+  | CTM step 7 conv: 6.712e-03 time: 0.81
+  | CTM step 8 conv: 2.530e-03 time: 0.76
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.78
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.0036272313889763584 2.6577517970537627e-14
+Norm: 0.2063757348249008
+========== 
+Finished basis vector 104/126 
+
+Starting simulation of basis vector 105/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.75
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.75
+  | CTM step 11 conv: 2.718e-04 time: 0.75
+  | CTM step 12 conv: 5.663e-05 time: 0.75
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.75
+  | CTM step 15 conv: 1.446e-05 time: 0.75
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.75
+  | CTM step 18 conv: 1.408e-06 time: 0.75
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.00029159155159854105 2.6577517970537627e-14
+Norm: 0.07928222360017613
+========== 
+Finished basis vector 105/126 
+
+Starting simulation of basis vector 106/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 2.9064565862142603e-05 2.6577517970537627e-14
+Norm: 0.3680476851358753
+========== 
+Finished basis vector 106/126 
+
+Starting simulation of basis vector 107/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.85
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.79
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.92
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.00019045347515206015 2.6577517970537627e-14
+Norm: 0.08549801031746598
+========== 
+Finished basis vector 107/126 
+
+Starting simulation of basis vector 108/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.76
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.81
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.72
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.79
+  | CTM step 10 conv: 4.314e-04 time: 0.85
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.72
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.0021553237112794926 2.6577517970537627e-14
+Norm: 0.1898745186756656
+========== 
+Finished basis vector 108/126 
+
+Starting simulation of basis vector 109/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.77
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.72
+  | CTM step 7 conv: 6.712e-03 time: 0.79
+  | CTM step 8 conv: 2.530e-03 time: 0.78
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.96
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 2.6810847736636607e-06 2.6577517970537627e-14
+Norm: 0.06012470667936084
+========== 
+Finished basis vector 109/126 
+
+Starting simulation of basis vector 110/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.81
+  | CTM step 5 conv: 5.328e-03 time: 0.75
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.8
+  | CTM step 8 conv: 2.530e-03 time: 0.75
+  | CTM step 9 conv: 1.567e-04 time: 0.75
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.93
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.91
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.0012496697418808264 2.6577517970537627e-14
+Norm: 0.2551621993957726
+========== 
+Finished basis vector 110/126 
+
+Starting simulation of basis vector 111/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.72
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.75
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.1978666952635658 2.6577517970537627e-14
+Norm: 0.1978666547468027
+========== 
+Finished basis vector 111/126 
+
+Starting simulation of basis vector 112/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 7.689e-02 time: 0.8
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.75
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.09
+Energies: 0.42655585482969105 2.6577517970537627e-14
+Norm: 0.4265558664195377
+========== 
+Finished basis vector 112/126 
+
+Starting simulation of basis vector 113/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.7
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.81
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.15
+Energies: 0.14419951325563923 2.6577517970537627e-14
+Norm: 0.14419947175184594
+========== 
+Finished basis vector 113/126 
+
+Starting simulation of basis vector 114/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.75
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.94
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.5898071806949357 2.6577517970537627e-14
+Norm: 0.5898071617970194
+========== 
+Finished basis vector 114/126 
+
+Starting simulation of basis vector 115/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.91
+  | CTM step 2 conv: 1.623e-07 time: 1.07
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.15653627000946727 2.6577517970537627e-14
+Norm: 0.15653624638889663
+========== 
+Finished basis vector 115/126 
+
+Starting simulation of basis vector 116/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.63
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.83
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.75
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.11
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.3374358055671537 2.6577517970537627e-14
+Norm: 0.33743582420176327
+========== 
+Finished basis vector 116/126 
+
+Starting simulation of basis vector 117/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 7.689e-02 time: 0.76
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.84
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.76
+  | CTM step 13 conv: 3.225e-05 time: 0.71
+  | CTM step 14 conv: 3.391e-05 time: 0.71
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.105531346445233 2.6577517970537627e-14
+Norm: 0.10553132291867906
+========== 
+Finished basis vector 117/126 
+
+Starting simulation of basis vector 118/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.57
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.74
+  | CTM step 5 conv: 5.328e-03 time: 0.74
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.93
+  | CTM step 2 conv: 1.623e-07 time: 1.1
+  | CTM step 3 conv: 7.443e-08 time: 1.14
+Energies: 0.4308813311732982 2.6577517970537627e-14
+Norm: 0.4308813364474621
+========== 
+Finished basis vector 118/126 
+
+Starting simulation of basis vector 119/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.83
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.95
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.10917545034411737 2.6577517970537627e-14
+Norm: 0.10917545819230912
+========== 
+Finished basis vector 119/126 
+
+Starting simulation of basis vector 120/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 7.689e-02 time: 0.79
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.84
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.91
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.1
+Energies: 0.23996657333412308 2.6577517970537627e-14
+Norm: 0.23996657288167011
+========== 
+Finished basis vector 120/126 
+
+Starting simulation of basis vector 121/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 7.689e-02 time: 0.75
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.13
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.07974634787241751 2.6577517970537627e-14
+Norm: 0.07974635908143536
+========== 
+Finished basis vector 121/126 
+
+Starting simulation of basis vector 122/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.359146834216129 2.6577517970537627e-14
+Norm: 0.35914681422870864
+========== 
+Finished basis vector 122/126 
+
+Starting simulation of basis vector 123/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.77
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.09
+  | CTM step 3 conv: 7.443e-08 time: 1.12
+Energies: 0.0870212253414827 2.6577517970537627e-14
+Norm: 0.0870212313367225
+========== 
+Finished basis vector 123/126 
+
+Starting simulation of basis vector 124/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 7.689e-02 time: 0.78
+  | CTM step 5 conv: 5.328e-03 time: 0.76
+  | CTM step 6 conv: 1.004e-02 time: 0.71
+  | CTM step 7 conv: 6.712e-03 time: 0.71
+  | CTM step 8 conv: 2.530e-03 time: 0.7
+  | CTM step 9 conv: 1.567e-04 time: 0.7
+  | CTM step 10 conv: 4.314e-04 time: 0.72
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.77
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 1.07
+  | CTM step 2 conv: 1.623e-07 time: 1.08
+  | CTM step 3 conv: 7.443e-08 time: 1.07
+Energies: 0.19120415627573714 2.6577517970537627e-14
+Norm: 0.19120415940449115
+========== 
+Finished basis vector 124/126 
+
+Starting simulation of basis vector 125/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.78
+  | CTM step 4 conv: 7.689e-02 time: 0.73
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.74
+  | CTM step 7 conv: 6.712e-03 time: 0.74
+  | CTM step 8 conv: 2.530e-03 time: 0.74
+  | CTM step 9 conv: 1.567e-04 time: 0.74
+  | CTM step 10 conv: 4.314e-04 time: 0.74
+  | CTM step 11 conv: 2.718e-04 time: 0.74
+  | CTM step 12 conv: 5.663e-05 time: 0.74
+  | CTM step 13 conv: 3.225e-05 time: 0.74
+  | CTM step 14 conv: 3.391e-05 time: 0.74
+  | CTM step 15 conv: 1.446e-05 time: 0.74
+  | CTM step 16 conv: 1.728e-06 time: 0.74
+  | CTM step 17 conv: 1.917e-06 time: 0.74
+  | CTM step 18 conv: 1.408e-06 time: 0.74
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.07
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.05762144934159626 2.6577517970537627e-14
+Norm: 0.057621461107713656
+========== 
+Finished basis vector 125/126 
+
+Starting simulation of basis vector 126/126
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.56
+  | CTM step 2 conv: 1.000e+00 time: 0.62
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 7.689e-02 time: 0.82
+  | CTM step 5 conv: 5.328e-03 time: 0.73
+  | CTM step 6 conv: 1.004e-02 time: 0.73
+  | CTM step 7 conv: 6.712e-03 time: 0.73
+  | CTM step 8 conv: 2.530e-03 time: 0.73
+  | CTM step 9 conv: 1.567e-04 time: 0.73
+  | CTM step 10 conv: 4.314e-04 time: 0.73
+  | CTM step 11 conv: 2.718e-04 time: 0.73
+  | CTM step 12 conv: 5.663e-05 time: 0.73
+  | CTM step 13 conv: 3.225e-05 time: 0.73
+  | CTM step 14 conv: 3.391e-05 time: 0.73
+  | CTM step 15 conv: 1.446e-05 time: 0.73
+  | CTM step 16 conv: 1.728e-06 time: 0.73
+  | CTM step 17 conv: 1.917e-06 time: 0.73
+  | CTM step 18 conv: 1.408e-06 time: 0.73
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.623e-07 time: 1.12
+  | CTM step 3 conv: 7.443e-08 time: 1.08
+Energies: 0.25942156580084785 2.6577517970537627e-14
+Norm: 0.25942155436942543
+========== 
+Finished basis vector 126/126 
+
+[[ 1.54415822e-01+7.61704571e-14j  8.43411382e-03-1.06638022e-12j
+   3.46201604e-02-6.82201000e-13j ...  1.21694209e-03-5.87000546e-04j
+   6.31585555e-04+3.73045453e-04j -4.07253051e-04+1.21755354e-04j]
+ [ 8.43411382e-03+5.55667574e-12j  3.68566250e-01+5.75044047e-11j
+   4.24346999e-02+1.05764703e-11j ...  2.14999418e-03-4.32869396e-04j
+   4.62127229e-04+1.14536896e-04j -9.84459339e-04+6.03028914e-04j]
+ [ 3.46201604e-02+7.37985899e-13j  4.24346998e-02-1.23718988e-11j
+   2.12251340e-01-1.03333828e-12j ...  2.41838230e-03-3.91815683e-04j
+   2.35092275e-04+2.33636109e-04j -5.47251268e-04-5.74435852e-05j]
+ ...
+ [ 1.21694208e-03+5.87000547e-04j  2.14999416e-03+4.32869431e-04j
+   2.41838234e-03+3.91815686e-04j ...  3.82408313e-01+1.17263854e-12j
+   1.31973351e-02-9.01638214e-12j -6.46437723e-02+1.54159255e-11j]
+ [ 6.31585554e-04-3.73045454e-04j  4.62127208e-04-1.14536913e-04j
+   2.35092273e-04-2.33636107e-04j ...  1.31973351e-02+2.80227239e-12j
+   1.15242899e-01+1.19728507e-12j -3.87899606e-02-6.17045520e-12j]
+ [-4.07253051e-04-1.21755353e-04j -9.84459340e-04-6.03028892e-04j
+  -5.47251266e-04+5.74435828e-05j ... -6.46437723e-02-4.68732021e-12j
+  -3.87899606e-02+3.51534078e-12j  5.18843132e-01+1.14160767e-12j]]
+[[ 1.54415824e-01-2.66934992e-15j  8.43411180e-03-2.42050661e-12j
+   3.46201576e-02-6.68679219e-13j ... -1.28925780e-12-7.23120701e-12j
+  -4.16498896e-12-2.80010128e-12j -2.92555668e-12-3.37856709e-12j]
+ [ 8.43411180e-03+2.41317882e-12j  3.68566251e-01+2.01369300e-13j
+   4.24347004e-02+9.45324772e-13j ...  2.69336320e-11+1.25292778e-11j
+  -1.05598217e-11-7.10300019e-12j  3.46893282e-12-8.58503276e-12j]
+ [ 3.46201576e-02+6.75952484e-13j  4.24347004e-02-9.66738017e-13j
+   2.12251350e-01+4.83635339e-15j ...  1.21485865e-11+2.83221799e-11j
+   5.25503971e-12+4.41360696e-13j -1.30626163e-12-1.79234024e-12j]
+ ...
+ [-1.27666065e-12+7.22588286e-12j  2.70345111e-11-1.26962564e-11j
+   1.19579414e-11-2.83152508e-11j ...  3.82408319e-01-7.60616134e-15j
+   1.31973415e-02-1.56113897e-12j -6.46437735e-02+9.81718158e-13j]
+ [-4.16011984e-12+2.80119391e-12j -1.06906305e-11+7.11784686e-12j
+   5.33768500e-12-4.30033668e-13j ...  1.31973415e-02+1.60408106e-12j
+   1.15242922e-01-1.23473644e-14j -3.87899574e-02-2.24368893e-12j]
+ [-2.91752175e-12+3.35978534e-12j  3.50234571e-12+8.58433004e-12j
+  -1.42401180e-12+1.78404990e-12j ... -6.46437735e-02-1.04944049e-12j
+  -3.87899574e-02+2.27622965e-12j  5.18843109e-01-4.75719064e-14j]]
+Done
+Saved to /share/home/tanyi/ad-peps/simulations/exci/honeycomb_D2_X30/8_1.0_0.77778.npz

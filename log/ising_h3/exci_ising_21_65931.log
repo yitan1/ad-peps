@@ -1,0 +1,130 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Namespace(version=False, sim_mode='exci', config_file='ising_D2_exci.yaml', momentum_ix=21, evaluate=False, init=False)
+Running excited-state sim
+ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+D: 2
+chi: 30
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 20
+ctm_min_iter: 4
+disp_level: 1
+flush_output: true
+model: ising
+model_params:
+  h: 3
+momentum_path: Bril1
+out_prefix: h3
+pattern:
+- - 0
+  - 1
+- - 1
+  - 0
+resume: true
+
+Starting simulation of basis vector 1/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 2.91
+  | CTM step 2 conv: 1.000e+00 time: 7.08
+  | CTM step 3 conv: 1.000e+00 time: 9.25
+  | CTM step 4 conv: 1.949e-04 time: 8.38
+  | CTM step 5 conv: 4.707e-05 time: 4.7
+  | CTM step 6 conv: 7.630e-06 time: 0.68
+  | CTM step 7 conv: 1.451e-06 time: 0.72
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 1.97
+  | CTM step 2 conv: 8.110e-09 time: 1.28
+  | CTM step 3 conv: 1.453e-09 time: 1.06
+Energies: 0.12702777862981204 2.0385509415504072e-13
+Norm: 0.021369283547397828
+========== 
+Finished basis vector 1/62 
+
+Starting simulation of basis vector 2/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.59
+  | CTM step 2 conv: 1.000e+00 time: 0.67
+  | CTM step 3 conv: 1.000e+00 time: 0.69
+  | CTM step 4 conv: 1.949e-04 time: 0.7
+  | CTM step 5 conv: 4.707e-05 time: 0.69
+  | CTM step 6 conv: 7.630e-06 time: 0.68
+  | CTM step 7 conv: 1.451e-06 time: 0.68
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.89
+  | CTM step 2 conv: 8.110e-09 time: 1.12
+  | CTM step 3 conv: 1.453e-09 time: 1.05
+Energies: 0.1620760293116461 2.0385509415504072e-13
+Norm: 0.02931663353061863
+========== 
+Finished basis vector 2/62 
+
+Starting simulation of basis vector 3/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.65
+  | CTM step 3 conv: 1.000e+00 time: 0.67
+  | CTM step 4 conv: 1.949e-04 time: 0.74
+  | CTM step 5 conv: 4.707e-05 time: 0.68
+  | CTM step 6 conv: 7.630e-06 time: 0.68
+  | CTM step 7 conv: 1.451e-06 time: 0.68
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.89
+  | CTM step 2 conv: 8.110e-09 time: 1.06
+  | CTM step 3 conv: 1.453e-09 time: 1.05
+Energies: 0.18350792848155395 2.0385509415504072e-13
+Norm: 0.0315004939713076
+========== 
+Finished basis vector 3/62 
+
+Starting simulation of basis vector 4/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.65
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 1.949e-04 time: 0.7
+  | CTM step 5 conv: 4.707e-05 time: 0.69
+  | CTM step 6 conv: 7.630e-06 time: 0.72
+  | CTM step 7 conv: 1.451e-06 time: 0.68
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.89
+  | CTM step 2 conv: 8.110e-09 time: 1.06
+  | CTM step 3 conv: 1.453e-09 time: 1.06
+Energies: 0.05336259316595852 2.0385509415504072e-13
+Norm: 0.008955072259917096
+========== 
+Finished basis vector 4/62 
+
+Starting simulation of basis vector 5/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.59
+  | CTM step 2 conv: 1.000e+00 time: 0.66
+  | CTM step 3 conv: 1.000e+00 time: 0.83
+  | CTM step 4 conv: 1.949e-04 time: 0.68
+  | CTM step 5 conv: 4.707e-05 time: 0.68
+  | CTM step 6 conv: 7.630e-06 time: 0.68
+  | CTM step 7 conv: 1.451e-06 time: 0.68
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.88
+  | CTM step 2 conv: 8.110e-09 time: 1.05
+  | CTM step 3 conv: 1.453e-09 time: 1.05
+Energies: 0.004755692143414918 2.0385509415504072e-13
+Norm: 0.00042542321510637463
+Traceback (most recent call last):
+  File "/share/software/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/share/software/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/share/home/tanyi/ad-peps/adpeps/__main__.py", line 87, in <module>
+    run_ipeps_exci.run(args.config_file, args.momentum_ix-1)
+  File "/share/home/tanyi/ad-peps/adpeps/simulation/run_ipeps_exci.py", line 63, in run
+    grad_H, grad_N = sim(m)
+  File "/share/home/tanyi/ad-peps/adpeps/simulation/run_ipeps_exci.py", line 231, in __call__
+    grad_H = grad_H.conj()
+  File "/share/home/tanyi/ad-peps/adpeps/simulation/run_ipeps_exci.py", line 209, in basis_size
+    def basis_size(self):
+  File "/share/home/tanyi/.local/lib/python3.9/site-packages/jax/_src/numpy/lax_numpy.py", line 306, in load
+    out = np.load(*args, **kwargs)
+  File "/share/software/anaconda3/lib/python3.9/site-packages/numpy/lib/npyio.py", line 417, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/tanyi/ad-peps/simulations/exci/h2.base.npz'

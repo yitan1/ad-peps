@@ -1,0 +1,26 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Namespace(version=False, sim_mode='exci', config_file='ising_D2_exci.yaml', momentum_ix=22, evaluate=False, init=False)
+Running excited-state sim
+ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+D: 2
+chi: 30
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 20
+ctm_min_iter: 4
+disp_level: 1
+flush_output: true
+model: ising
+model_params:
+  h: 3
+momentum_path: Bril1
+out_prefix: h2.5
+pattern:
+- - 0
+  - 0
+- - 0
+  - 0
+resume: true
+
+Base file /share/home/tanyi/ad-peps/simulations/exci/h2.base.npz not found. Prepare the simulation first by                 running with option '-i'

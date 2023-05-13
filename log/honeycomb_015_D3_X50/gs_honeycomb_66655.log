@@ -1,0 +1,190 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Namespace(version=False, sim_mode='gs', config_file='honeycomb.yaml')
+Running ground-state sim
+Running
+/share/home/tanyi/ad-peps/examples/honeycomb.yaml
+D: 3
+chi: 50
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 8
+ctm_min_iter: 4
+disp_level: 2
+flush_output: true
+method: L-BFGS-B
+model: honeycomb
+model_params:
+  Jx: 0.15
+  Jy: 0.15
+out_prefix: '015'
+pattern:
+- - 0
+  - 0
+- - 0
+  - 0
+resume: true
+seed: 1
+
+Output file /share/home/tanyi/ad-peps/simulations/gs/015_honeycomb_D3_X50.npz
+Resuming existing simulation
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.446376407865  |grad|: 0.093416687
+ Step   1  E: -0.468440103413  |grad|: 0.085669257
+ Step   2  E: -0.494811296958  |grad|: 0.030896881
+ Step   3  E: -0.499137622375  |grad|: 0.010203275
+ Step   4  E: -0.499744192507  |grad|: 0.0042182753
+ Step   5  E: -0.499867938874  |grad|: 0.0026714488
+ Step   6  E: -0.499941681892  |grad|: 0.0015760206
+ Step   7  E: -0.499968925531  |grad|: 0.0017354211
+ Step   8  E: -0.499981651976  |grad|: 0.0010802854
+ Step   9  E: -0.499986979321  |grad|: 0.00066299397
+ Step  10  E: -0.499993010530  |grad|: 0.00043488173
+ Step  11  E: -0.499995893624  |grad|: 0.00047689852
+ Step  12  E: -0.499997691513  |grad|: 0.00045976086
+ Step  13  E: -0.499998804488  |grad|: 0.00019824623
+ Step  14  E: -0.499999353258  |grad|: 0.00015530736
+ Step  15  E: -0.499999728860  |grad|: 0.00012346395
+ Step  16  E: -0.499999823820  |grad|: 0.00015396838
+ Step  17  E: -0.499999923905  |grad|: 5.2432896e-05
+ Step  18  E: -0.499999948375  |grad|: 3.8106975e-05
+ Step  19  E: -0.499999970154  |grad|: 4.1598487e-05
+ Step  20  E: -0.499999981743  |grad|: 4.0189318e-05
+ Step  21  E: -0.499999988415  |grad|: 1.9425545e-05
+ Step  22  E: -0.499999992829  |grad|: 1.4161209e-05
+ Step  23  E: -0.499999995481  |grad|: 1.3246414e-05
+ Step  24  E: -0.499999997129  |grad|: 1.924183e-05
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 3.805e-10 time: 2.21 obj: -0.500000
+  | CTM step 2 conv: 1.052e-10 time: 2.15 obj: -0.500000
+  | CTM step 3 conv: 5.021e-11 time: 1.37 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 2.801e-12 time: 0.99 obj: -0.500000
+  | CTM step 2 conv: 9.904e-13 time: 0.7 obj: -0.500000
+  | CTM step 3 conv: 7.166e-14 time: 0.73 obj: -0.500000
+Energy: -0.49999999712887555
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 4.288e-03 time: 0.31 obj: -0.475381
+  | CTM step 2 conv: 1.132e-03 time: 0.39 obj: -0.476513
+  | CTM step 3 conv: 2.202e-04 time: 0.5 obj: -0.476293
+  | CTM step 4 conv: 4.859e-05 time: 0.5 obj: -0.476244
+  | CTM step 5 conv: 3.916e-05 time: 0.52 obj: -0.476283
+  | CTM step 6 conv: 1.017e-05 time: 0.51 obj: -0.476273
+Performing CTM
+  | CTM step 1 conv: 1.723e-06 time: 0.66 obj: -0.476274
+  | CTM step 2 conv: 5.175e-07 time: 0.75 obj: -0.476273
+  | CTM step 3 conv: 7.179e-09 time: 0.75 obj: -0.476273
+Energy: -0.476273527585521
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 9.153e-05 time: 0.3 obj: -0.499396
+  | CTM step 2 conv: 2.771e-05 time: 0.37 obj: -0.499423
+  | CTM step 3 conv: 6.060e-06 time: 0.54 obj: -0.499417
+Performing CTM
+  | CTM step 1 conv: 1.122e-06 time: 0.64 obj: -0.499417
+  | CTM step 2 conv: 3.681e-07 time: 0.74 obj: -0.499417
+  | CTM step 3 conv: 7.325e-09 time: 0.68 obj: -0.499417
+Energy: -0.49941711873335587
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 2.225e-06 time: 0.3 obj: -0.499985
+  | CTM step 2 conv: 6.758e-07 time: 0.37 obj: -0.499986
+  | CTM step 3 conv: 1.484e-07 time: 0.52 obj: -0.499986
+Performing CTM
+  | CTM step 1 conv: 2.745e-08 time: 0.62 obj: -0.499986
+  | CTM step 2 conv: 9.059e-09 time: 0.69 obj: -0.499986
+  | CTM step 3 conv: 2.055e-10 time: 0.67 obj: -0.499986
+Energy: -0.49998581769397804
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 5.748e-08 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 1.741e-08 time: 0.39 obj: -0.500000
+  | CTM step 3 conv: 3.839e-09 time: 0.54 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 7.088e-10 time: 0.68 obj: -0.500000
+  | CTM step 2 conv: 2.337e-10 time: 0.69 obj: -0.500000
+  | CTM step 3 conv: 4.963e-12 time: 0.65 obj: -0.500000
+Energy: -0.4999996369712066
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.541e-09 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 4.634e-10 time: 0.39 obj: -0.500000
+  | CTM step 3 conv: 8.552e-11 time: 0.72 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 2.038e-11 time: 0.63 obj: -0.500000
+  | CTM step 2 conv: 6.603e-12 time: 0.64 obj: -0.500000
+  | CTM step 3 conv: 1.320e-13 time: 0.69 obj: -0.500000
+Energy: -0.499999987016564
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 3.646e-10 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 1.060e-10 time: 0.36 obj: -0.500000
+  | CTM step 3 conv: 4.629e-11 time: 0.46 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 2.801e-12 time: 0.64 obj: -0.500000
+  | CTM step 2 conv: 1.013e-12 time: 0.69 obj: -0.500000
+  | CTM step 3 conv: 2.864e-14 time: 0.73 obj: -0.500000
+Energy: -0.4999999978318558
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.446376407865  |grad|: 0.093416687
+ Step   1  E: -0.468440103413  |grad|: 0.085669257
+ Step   2  E: -0.494811296958  |grad|: 0.030896881
+ Step   3  E: -0.499137622375  |grad|: 0.010203275
+ Step   4  E: -0.499744192507  |grad|: 0.0042182753
+ Step   5  E: -0.499867938874  |grad|: 0.0026714488
+ Step   6  E: -0.499941681892  |grad|: 0.0015760206
+ Step   7  E: -0.499968925531  |grad|: 0.0017354211
+ Step   8  E: -0.499981651976  |grad|: 0.0010802854
+ Step   9  E: -0.499986979321  |grad|: 0.00066299397
+ Step  10  E: -0.499993010530  |grad|: 0.00043488173
+ Step  11  E: -0.499995893624  |grad|: 0.00047689852
+ Step  12  E: -0.499997691513  |grad|: 0.00045976086
+ Step  13  E: -0.499998804488  |grad|: 0.00019824623
+ Step  14  E: -0.499999353258  |grad|: 0.00015530736
+ Step  15  E: -0.499999728860  |grad|: 0.00012346395
+ Step  16  E: -0.499999823820  |grad|: 0.00015396838
+ Step  17  E: -0.499999923905  |grad|: 5.2432896e-05
+ Step  18  E: -0.499999948375  |grad|: 3.8106975e-05
+ Step  19  E: -0.499999970154  |grad|: 4.1598487e-05
+ Step  20  E: -0.499999981743  |grad|: 4.0189318e-05
+ Step  21  E: -0.499999988415  |grad|: 1.9425545e-05
+ Step  22  E: -0.499999992829  |grad|: 1.4161209e-05
+ Step  23  E: -0.499999995481  |grad|: 1.3246414e-05
+ Step  24  E: -0.499999997129  |grad|: 1.924183e-05
+ Step  25  E: -0.499999997832  |grad|: 1.5309272e-05
+
+
+ This problem is unconstrained.
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =          324     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f= -5.00000D-01    |proj g|=  6.14137D-06
+
+At iterate    1    f= -5.00000D-01    |proj g|=  5.06754D-06
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+  324      1      7      1     0     0   5.068D-06  -5.000D-01
+  F = -0.49999999783185578     
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             

@@ -1,0 +1,36 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Traceback (most recent call last):
+  File "/share/software/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/share/software/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/share/home/tanyi/ad-peps/adpeps/__main__.py", line 87, in <module>
+    run_ipeps_exci.run(args.config_file, args.momentum_ix-1)
+  File "/share/home/tanyi/ad-peps/adpeps/simulation/run_ipeps_exci.py", line 53, in run
+    sim_config.px = kxs[momentum_ix]
+IndexError: index 33 is out of bounds for axis 0 with size 31
+Namespace(version=False, sim_mode='exci', config_file='honeycomb_exci.yaml', momentum_ix=34, evaluate=False, init=False)
+Running excited-state sim
+honeycomb_exci.yaml
+/share/home/tanyi/ad-peps/examples/honeycomb_exci.yaml
+/share/home/tanyi/ad-peps/examples/honeycomb_exci.yaml
+D: 2
+chi: 30
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 20
+ctm_min_iter: 4
+disp_level: 1
+flush_output: true
+model: honeycomb
+model_params:
+  Jx: 0.2
+  Jy: 0.2
+momentum_path: Bril1
+out_prefix: null
+pattern:
+- - 0
+  - 1
+- - 1
+  - 0
+resume: true
+

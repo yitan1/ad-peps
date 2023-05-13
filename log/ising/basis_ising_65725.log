@@ -1,0 +1,91 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Namespace(version=False, sim_mode='exci', config_file='ising_D2_exci.yaml', momentum_ix=1, evaluate=False, init=False)
+Running excited-state sim
+ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+/share/home/tanyi/ad-peps/examples/ising_D2_exci.yaml
+D: 2
+chi: 30
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 20
+ctm_min_iter: 4
+disp_level: 1
+flush_output: true
+model: ising
+model_params:
+  h: 3
+momentum_path: Bril1
+out_prefix: null
+pattern:
+- - 0
+  - 1
+- - 1
+  - 0
+resume: true
+
+Starting simulation of basis vector 1/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 2.91
+  | CTM step 2 conv: 1.000e+00 time: 6.09
+  | CTM step 3 conv: 1.000e+00 time: 8.62
+  | CTM step 4 conv: 1.556e-05 time: 4.83
+  | CTM step 5 conv: 5.657e-06 time: 0.65
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 1.75
+  | CTM step 2 conv: 1.427e-09 time: 1.19
+  | CTM step 3 conv: 1.389e-10 time: 1.13
+Energies: 0.008002808663230401 7.86804288374957e-14
+Norm: 0.0011945809015461925
+========== 
+Finished basis vector 1/62 
+
+Starting simulation of basis vector 2/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.59
+  | CTM step 2 conv: 1.000e+00 time: 0.66
+  | CTM step 3 conv: 1.000e+00 time: 0.68
+  | CTM step 4 conv: 1.556e-05 time: 0.69
+  | CTM step 5 conv: 5.657e-06 time: 0.69
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.9
+  | CTM step 2 conv: 1.427e-09 time: 1.07
+  | CTM step 3 conv: 1.389e-10 time: 1.03
+Energies: 0.0058348268128453566 7.86804288374957e-14
+Norm: 0.0009025959491445741
+========== 
+Finished basis vector 2/62 
+
+Starting simulation of basis vector 3/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.65
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 1.556e-05 time: 0.67
+  | CTM step 5 conv: 5.657e-06 time: 0.66
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.87
+  | CTM step 2 conv: 1.427e-09 time: 1.05
+  | CTM step 3 conv: 1.389e-10 time: 1.09
+Energies: 0.07175857157933407 7.86804288374957e-14
+Norm: 0.011576579428229036
+========== 
+Finished basis vector 3/62 
+
+Starting simulation of basis vector 4/62
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.000e+00 time: 0.58
+  | CTM step 2 conv: 1.000e+00 time: 0.65
+  | CTM step 3 conv: 1.000e+00 time: 0.66
+  | CTM step 4 conv: 1.556e-05 time: 0.66
+  | CTM step 5 conv: 5.657e-06 time: 0.66
+Performing CTM
+  | CTM step 1 conv: 1.000e+00 time: 0.92
+  | CTM step 2 conv: 1.427e-09 time: 1.03
+  | CTM step 3 conv: 1.389e-10 time: 1.03
+Energies: 0.0752980873098546 7.86804288374957e-14
+Norm: 0.012258944409540612
+========== 
+Finished basis vector 4/62 
+
+Starting simulation of basis vector 5/62
+Performing CTM pre-steps without tracking

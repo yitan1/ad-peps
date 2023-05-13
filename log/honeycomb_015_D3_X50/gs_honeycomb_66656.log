@@ -1,0 +1,590 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Namespace(version=False, sim_mode='gs', config_file='honeycomb.yaml')
+Running ground-state sim
+Running
+/share/home/tanyi/ad-peps/examples/honeycomb.yaml
+D: 3
+chi: 50
+ctm_conv_tol: 1.0e-06
+ctm_max_iter: 8
+ctm_min_iter: 4
+disp_level: 2
+flush_output: true
+method: L-BFGS-B
+model: honeycomb
+model_params:
+  Jx: 0.15
+  Jy: 0.15
+out_prefix: '015'
+pattern:
+- - 0
+  - 0
+- - 0
+  - 0
+resume: false
+seed: 2
+
+Output file /share/home/tanyi/ad-peps/simulations/gs/015_honeycomb_D3_X50.npz
+Starting new simulation
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 2.791e-03 time: 2.18 obj: 0.012093
+  | CTM step 2 conv: 1.334e-03 time: 2.11 obj: 0.013427
+  | CTM step 3 conv: 9.367e-05 time: 1.43 obj: 0.013333
+Performing CTM
+  | CTM step 1 conv: 3.481e-06 time: 1.19 obj: 0.013329
+  | CTM step 2 conv: 2.201e-07 time: 0.74 obj: 0.013330
+  | CTM step 3 conv: 5.833e-08 time: 0.73 obj: 0.013330
+Energy: 0.013329691121123526
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 2.165e-03 time: 0.31 obj: -0.147144
+  | CTM step 2 conv: 1.310e-03 time: 0.42 obj: -0.145834
+  | CTM step 3 conv: 3.304e-05 time: 0.56 obj: -0.145867
+  | CTM step 4 conv: 1.340e-05 time: 0.55 obj: -0.145880
+  | CTM step 5 conv: 8.774e-06 time: 0.53 obj: -0.145889
+Performing CTM
+  | CTM step 1 conv: 1.241e-08 time: 0.69 obj: -0.145888
+  | CTM step 2 conv: 2.376e-08 time: 0.71 obj: -0.145888
+  | CTM step 3 conv: 1.380e-08 time: 0.67 obj: -0.145888
+Energy: -0.14588801727191342
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 6.895e-04 time: 0.3 obj: -0.421308
+  | CTM step 2 conv: 1.009e-04 time: 0.38 obj: -0.421207
+  | CTM step 3 conv: 8.965e-05 time: 0.5 obj: -0.421118
+  | CTM step 4 conv: 1.753e-05 time: 0.45 obj: -0.421135
+  | CTM step 5 conv: 2.288e-06 time: 0.45 obj: -0.421137
+Performing CTM
+  | CTM step 1 conv: 4.618e-07 time: 0.65 obj: -0.421138
+  | CTM step 2 conv: 1.789e-07 time: 0.85 obj: -0.421138
+  | CTM step 3 conv: 4.608e-08 time: 0.8 obj: -0.421138
+Energy: -0.42113759706064324
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 9.096e-04 time: 0.3 obj: -0.470779
+  | CTM step 2 conv: 5.834e-04 time: 0.39 obj: -0.471363
+  | CTM step 3 conv: 2.503e-04 time: 0.51 obj: -0.471112
+  | CTM step 4 conv: 1.141e-04 time: 0.49 obj: -0.471226
+  | CTM step 5 conv: 5.177e-05 time: 0.53 obj: -0.471175
+  | CTM step 6 conv: 1.990e-05 time: 0.51 obj: -0.471195
+  | CTM step 7 conv: 8.342e-06 time: 0.56 obj: -0.471186
+Performing CTM
+  | CTM step 1 conv: 1.425e-06 time: 0.69 obj: -0.471188
+  | CTM step 2 conv: 5.973e-07 time: 0.63 obj: -0.471189
+  | CTM step 3 conv: 2.480e-07 time: 0.67 obj: -0.471189
+Energy: -0.4711887880726815
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.447e-04 time: 0.3 obj: -0.497054
+  | CTM step 2 conv: 3.755e-05 time: 0.35 obj: -0.497016
+  | CTM step 3 conv: 1.364e-05 time: 0.46 obj: -0.497030
+  | CTM step 4 conv: 3.918e-06 time: 0.5 obj: -0.497026
+  | CTM step 5 conv: 3.257e-06 time: 0.52 obj: -0.497029
+  | CTM step 6 conv: 1.028e-06 time: 0.46 obj: -0.497028
+Performing CTM
+  | CTM step 1 conv: 2.076e-07 time: 0.64 obj: -0.497028
+  | CTM step 2 conv: 9.773e-08 time: 0.64 obj: -0.497028
+  | CTM step 3 conv: 3.821e-08 time: 0.64 obj: -0.497028
+Energy: -0.49702847670727035
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 4.146e-05 time: 0.3 obj: -0.499373
+  | CTM step 2 conv: 4.770e-06 time: 0.37 obj: -0.499368
+  | CTM step 3 conv: 5.821e-07 time: 0.52 obj: -0.499368
+Performing CTM
+  | CTM step 1 conv: 2.346e-07 time: 0.68 obj: -0.499369
+  | CTM step 2 conv: 4.062e-08 time: 0.75 obj: -0.499369
+  | CTM step 3 conv: 2.603e-08 time: 0.75 obj: -0.499369
+Energy: -0.4993693093975268
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 3.462e-05 time: 0.3 obj: -0.499804
+  | CTM step 2 conv: 3.852e-06 time: 0.41 obj: -0.499800
+  | CTM step 3 conv: 1.208e-06 time: 0.54 obj: -0.499801
+Performing CTM
+  | CTM step 1 conv: 3.666e-07 time: 0.63 obj: -0.499802
+  | CTM step 2 conv: 7.906e-08 time: 0.63 obj: -0.499802
+  | CTM step 3 conv: 5.461e-08 time: 0.7 obj: -0.499802
+Energy: -0.49980154004506905
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.573e-05 time: 0.3 obj: -0.499919
+  | CTM step 2 conv: 1.842e-06 time: 0.35 obj: -0.499917
+  | CTM step 3 conv: 5.788e-07 time: 0.45 obj: -0.499918
+Performing CTM
+  | CTM step 1 conv: 1.894e-07 time: 0.71 obj: -0.499918
+  | CTM step 2 conv: 4.113e-08 time: 0.66 obj: -0.499918
+  | CTM step 3 conv: 2.846e-08 time: 0.66 obj: -0.499918
+Energy: -0.49991780620536697
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 2.992e-06 time: 0.42 obj: -0.499980
+  | CTM step 2 conv: 4.354e-07 time: 0.35 obj: -0.499979
+  | CTM step 3 conv: 1.501e-07 time: 0.56 obj: -0.499979
+Performing CTM
+  | CTM step 1 conv: 4.341e-08 time: 0.65 obj: -0.499979
+  | CTM step 2 conv: 8.709e-09 time: 0.68 obj: -0.499979
+  | CTM step 3 conv: 6.557e-09 time: 0.62 obj: -0.499979
+Energy: -0.49997936235892876
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 6.299e-07 time: 0.3 obj: -0.499984
+  | CTM step 2 conv: 3.579e-07 time: 0.36 obj: -0.499983
+  | CTM step 3 conv: 1.655e-07 time: 0.53 obj: -0.499983
+Performing CTM
+  | CTM step 1 conv: 2.964e-08 time: 0.72 obj: -0.499983
+  | CTM step 2 conv: 1.033e-08 time: 0.67 obj: -0.499983
+  | CTM step 3 conv: 5.172e-09 time: 0.72 obj: -0.499983
+Energy: -0.49998337493220046
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.001e-06 time: 0.3 obj: -0.499995
+  | CTM step 2 conv: 1.305e-07 time: 0.36 obj: -0.499995
+  | CTM step 3 conv: 5.329e-08 time: 0.46 obj: -0.499995
+Performing CTM
+  | CTM step 1 conv: 1.530e-08 time: 0.71 obj: -0.499995
+  | CTM step 2 conv: 3.211e-09 time: 0.74 obj: -0.499995
+  | CTM step 3 conv: 2.263e-09 time: 0.72 obj: -0.499995
+Energy: -0.499994806604807
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 7.056e-07 time: 0.3 obj: -0.499997
+  | CTM step 2 conv: 8.081e-08 time: 0.35 obj: -0.499997
+  | CTM step 3 conv: 2.972e-08 time: 0.46 obj: -0.499997
+Performing CTM
+  | CTM step 1 conv: 9.794e-09 time: 0.63 obj: -0.499997
+  | CTM step 2 conv: 1.739e-09 time: 0.65 obj: -0.499997
+  | CTM step 3 conv: 1.368e-09 time: 0.67 obj: -0.499997
+Energy: -0.4999966170910115
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 2.496e-07 time: 0.3 obj: -0.499999
+  | CTM step 2 conv: 2.435e-08 time: 0.35 obj: -0.499999
+  | CTM step 3 conv: 8.402e-09 time: 0.45 obj: -0.499999
+Performing CTM
+  | CTM step 1 conv: 3.311e-09 time: 0.68 obj: -0.499999
+  | CTM step 2 conv: 4.959e-10 time: 0.68 obj: -0.499999
+  | CTM step 3 conv: 4.342e-10 time: 0.71 obj: -0.499999
+Energy: -0.49999865003874416
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 6.700e-08 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 1.287e-08 time: 0.35 obj: -0.500000
+  | CTM step 3 conv: 4.640e-09 time: 0.46 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 1.368e-09 time: 0.67 obj: -0.500000
+  | CTM step 2 conv: 3.969e-10 time: 0.63 obj: -0.500000
+  | CTM step 3 conv: 2.212e-10 time: 0.82 obj: -0.500000
+Energy: -0.49999957212209395
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+ Step  11  E: -0.499999572122  |grad|: 0.00029521467
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.856e-08 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 1.175e-08 time: 0.38 obj: -0.500000
+  | CTM step 3 conv: 5.457e-09 time: 0.59 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 9.311e-10 time: 0.78 obj: -0.500000
+  | CTM step 2 conv: 3.306e-10 time: 0.72 obj: -0.500000
+  | CTM step 3 conv: 1.694e-10 time: 0.79 obj: -0.500000
+Energy: -0.4999995775941046
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 3.258e-08 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 5.413e-09 time: 0.39 obj: -0.500000
+  | CTM step 3 conv: 2.327e-09 time: 0.5 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 6.489e-10 time: 0.66 obj: -0.500000
+  | CTM step 2 conv: 2.103e-10 time: 0.67 obj: -0.500000
+  | CTM step 3 conv: 1.106e-10 time: 0.66 obj: -0.500000
+Energy: -0.49999983647391033
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+ Step  11  E: -0.499999572122  |grad|: 0.00029521467
+ Step  12  E: -0.499999836474  |grad|: 0.00015248024
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 1.846e-08 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 2.659e-09 time: 0.39 obj: -0.500000
+  | CTM step 3 conv: 1.076e-09 time: 0.52 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 3.199e-10 time: 0.63 obj: -0.500000
+  | CTM step 2 conv: 1.038e-10 time: 0.64 obj: -0.500000
+  | CTM step 3 conv: 5.441e-11 time: 0.69 obj: -0.500000
+Energy: -0.4999999251672089
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+ Step  11  E: -0.499999572122  |grad|: 0.00029521467
+ Step  12  E: -0.499999836474  |grad|: 0.00015248024
+ Step  13  E: -0.499999925167  |grad|: 8.0127973e-05
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 6.133e-09 time: 0.32 obj: -0.500000
+  | CTM step 2 conv: 7.882e-10 time: 0.39 obj: -0.500000
+  | CTM step 3 conv: 2.972e-10 time: 0.56 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 8.560e-11 time: 0.7 obj: -0.500000
+  | CTM step 2 conv: 2.563e-11 time: 0.66 obj: -0.500000
+  | CTM step 3 conv: 1.413e-11 time: 0.68 obj: -0.500000
+Energy: -0.4999999728870512
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+ Step  11  E: -0.499999572122  |grad|: 0.00029521467
+ Step  12  E: -0.499999836474  |grad|: 0.00015248024
+ Step  13  E: -0.499999925167  |grad|: 8.0127973e-05
+ Step  14  E: -0.499999972887  |grad|: 5.916872e-05
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 4.665e-10 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 5.745e-11 time: 0.39 obj: -0.500000
+  | CTM step 3 conv: 3.957e-12 time: 0.52 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 2.989e-13 time: 0.7 obj: -0.500000
+  | CTM step 2 conv: 1.327e-12 time: 0.71 obj: -0.500000
+  | CTM step 3 conv: 1.999e-13 time: 0.74 obj: -0.500000
+Energy: -0.49999999101943854
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+ Step  11  E: -0.499999572122  |grad|: 0.00029521467
+ Step  12  E: -0.499999836474  |grad|: 0.00015248024
+ Step  13  E: -0.499999925167  |grad|: 8.0127973e-05
+ Step  14  E: -0.499999972887  |grad|: 5.916872e-05
+ Step  15  E: -0.499999991019  |grad|: 5.4172452e-05
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 3.112e-10 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 1.625e-11 time: 0.35 obj: -0.500000
+  | CTM step 3 conv: 2.346e-12 time: 0.46 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 2.252e-12 time: 0.7 obj: -0.500000
+  | CTM step 2 conv: 2.344e-13 time: 0.66 obj: -0.500000
+  | CTM step 3 conv: 3.034e-13 time: 0.66 obj: -0.500000
+Energy: -0.49999999785712956
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+ Step  11  E: -0.499999572122  |grad|: 0.00029521467
+ Step  12  E: -0.499999836474  |grad|: 0.00015248024
+ Step  13  E: -0.499999925167  |grad|: 8.0127973e-05
+ Step  14  E: -0.499999972887  |grad|: 5.916872e-05
+ Step  15  E: -0.499999991019  |grad|: 5.4172452e-05
+ Step  16  E: -0.499999997857  |grad|: 1.9249215e-05
+
+
+Performing CTM pre-steps without tracking
+  | CTM step 1 conv: 2.089e-10 time: 0.3 obj: -0.500000
+  | CTM step 2 conv: 4.997e-12 time: 0.35 obj: -0.500000
+  | CTM step 3 conv: 3.801e-13 time: 0.47 obj: -0.500000
+Performing CTM
+  | CTM step 1 conv: 1.120e-12 time: 0.77 obj: -0.500000
+  | CTM step 2 conv: 1.937e-14 time: 0.71 obj: -0.500000
+  | CTM step 3 conv: 1.323e-13 time: 0.72 obj: -0.500000
+Energy: -0.49999999899834063
+ 
+ # ======================== #
+ #      Step completed      #
+ # ======================== #
+ 
+ Step   0  E: -0.421137597061  |grad|: 0.12277176
+ Step   1  E: -0.471188788073  |grad|: 0.087333913
+ Step   2  E: -0.497028476707  |grad|: 0.025472858
+ Step   3  E: -0.499369309398  |grad|: 0.012097949
+ Step   4  E: -0.499801540045  |grad|: 0.0049912027
+ Step   5  E: -0.499917806205  |grad|: 0.0029058068
+ Step   6  E: -0.499979362359  |grad|: 0.0017761155
+ Step   7  E: -0.499983374932  |grad|: 0.0025248265
+ Step   8  E: -0.499994806605  |grad|: 0.00065261876
+ Step   9  E: -0.499996617091  |grad|: 0.00042450339
+ Step  10  E: -0.499998650039  |grad|: 0.00033839893
+ Step  11  E: -0.499999572122  |grad|: 0.00029521467
+ Step  12  E: -0.499999836474  |grad|: 0.00015248024
+ Step  13  E: -0.499999925167  |grad|: 8.0127973e-05
+ Step  14  E: -0.499999972887  |grad|: 5.916872e-05
+ Step  15  E: -0.499999991019  |grad|: 5.4172452e-05
+ Step  16  E: -0.499999997857  |grad|: 1.9249215e-05
+ Step  17  E: -0.499999998998  |grad|: 9.767967e-06
+
+
+ This problem is unconstrained.
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =          324     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.33297D-02    |proj g|=  3.01193D-02
+
+At iterate    1    f= -4.21138D-01    |proj g|=  3.38005D-02
+
+At iterate    2    f= -4.71189D-01    |proj g|=  3.89759D-02
+
+At iterate    3    f= -4.97028D-01    |proj g|=  8.92048D-03
+
+At iterate    4    f= -4.99369D-01    |proj g|=  5.76774D-03
+
+At iterate    5    f= -4.99802D-01    |proj g|=  1.47582D-03
+
+At iterate    6    f= -4.99918D-01    |proj g|=  7.28778D-04
+
+At iterate    7    f= -4.99979D-01    |proj g|=  6.82502D-04
+
+At iterate    8    f= -4.99983D-01    |proj g|=  1.24679D-03
+
+At iterate    9    f= -4.99995D-01    |proj g|=  2.63561D-04
+
+At iterate   10    f= -4.99997D-01    |proj g|=  2.29804D-04
+
+At iterate   11    f= -4.99999D-01    |proj g|=  1.37217D-04
+
+At iterate   12    f= -5.00000D-01    |proj g|=  1.00608D-04
+
+At iterate   13    f= -5.00000D-01    |proj g|=  6.96840D-05
+
+At iterate   14    f= -5.00000D-01    |proj g|=  2.20704D-05
+
+At iterate   15    f= -5.00000D-01    |proj g|=  2.10611D-05
+
+At iterate   16    f= -5.00000D-01    |proj g|=  2.58507D-05
+
+At iterate   17    f= -5.00000D-01    |proj g|=  6.37674D-06
+
+At iterate   18    f= -5.00000D-01    |proj g|=  2.67153D-06
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+  324     18     21      1     0     0   2.672D-06  -5.000D-01
+  F = -0.49999999899834063     
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
