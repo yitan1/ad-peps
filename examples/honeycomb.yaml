@@ -3,8 +3,8 @@
 
 # Simulation options
 # -> ipeps/config.py
-D:             4
-chi:           100
+D:             2
+chi:           50
 model:         'honeycomb'
 
 # (Ground state) Optimizer
@@ -14,10 +14,10 @@ method:        'L-BFGS-B'
 # the seed controls the random (small) noise that is added to 
 # the site tensors
 seed:          1
-init_gs:            True
+init_gs:            true
 
 # Prefix for output file
-out_prefix:  "g11"
+out_prefix:  "tt111"
 
 # Resume earlier simulation if found
 resume:        True

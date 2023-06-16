@@ -237,7 +237,7 @@ class iPEPS_exci(iPEPS):
         """
 
         if params is not None:
-            self.fill_Bd(params, 0)
+            self.fill_Bd(params, 2)
 
         if self.reinit_env:
             # Construct new boundary tensors and perform ctm iterations 

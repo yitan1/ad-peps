@@ -71,11 +71,15 @@ def run(config_file: str):
         energies   = list(loaded_sim['energies'])
         print("Resuming existing simulation")
         verbose(v)
+        # A = np.array(peps.tensors.A._data)[1,:,:,:,:,:]
+        # np.savez("one_h2_X50.npz", A = A)
+        # import sys
+        # sys.exit(1)
     else:
         if sim_config.init_gs == True:
             print("Starting new simulation with given initial state")
             from adpeps.ipeps.models.honeycomb import make_init_gs
-            v = make_init_gs(D=4) 
+            v = make_init_gs(D=2) 
             # res = peps.run(v)
             # print(res)
             # import sys

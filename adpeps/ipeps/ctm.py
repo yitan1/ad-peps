@@ -419,6 +419,7 @@ def get_projectors(T1: int, T2, chi):
     Rho_shape = Rho.shape
     Rho       = np.reshape(Rho, [Rho_shape[0]*Rho_shape[1]*Rho_shape[2], -1])
     u0,s0,v0     = svd(Rho, new_chi, 'n')
+    # print("s = ", s0)
     if abs(s0[-1] - s0[-2]) > 1e-10 and chi > full_chi:
         u = u0[:,:new_chi]
         s = np.diag(s0[:new_chi])
@@ -436,7 +437,7 @@ def get_projectors(T1: int, T2, chi):
     inv_s     = diag_inv(np.sqrt(s))
 
     P1      = ncon([T2, v, inv_s], 'proj_P1')
-    P2      = ncon([T1, u, inv_s], 'proj_P2')
+    P2      = ncon([T1, u, inv_s], 'proj_P2') 
 
     P1      = P1.transpose([3,0,1,2])
     P2      = P2.transpose([3,0,1,2])

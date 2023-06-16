@@ -59,6 +59,13 @@ def run(config_file: str, momentum_ix: int):
     H = onp.zeros((basis_size,basis_size), dtype=res_dtype)
     N = onp.zeros((basis_size,basis_size), dtype=res_dtype)
 
+    # v = np.load("one_h2_X50.npz")["A"]
+    # v = np.complex_(v.reshape(-1))
+    # grad_H, grad_N = sim(30, v)
+    # print(sim_config.px, sim_config.py)
+    # import sys
+    # sys.exit(1)
+
     for m in range(basis_size):
         grad_H, grad_N = sim(m)
         H[:,m] = grad_H
@@ -104,7 +111,8 @@ def prepare(config_file):
     basis = peps.compute_orth_basis()
 
     print(f"Saving base to {base_file}")
-    np.savez(base_file, peps=peps, basis=basis)
+    # np.savez(base_file, peps=peps, basis=basis)
+    np.savez("one_D2_X30_base.npz", basis=basis)
 
 def evaluate_single(config_file, momentum_ix):
     def _compute_ev_red_basis(H, N, P, n):
@@ -145,10 +153,10 @@ def evaluate_single(config_file, momentum_ix):
     ev_N, P = np.linalg.eig(N)
     idx = ev_N.real.argsort()[::-1]
     ev_N = ev_N[idx]
-    selected = (ev_N/ev_N.max()) > 0.00001
+    selected = (ev_N/ev_N.max()) > 1e-3
     # import matplotlib.pyplot as plt
     # plt.plot(ev_N/ev_N.max(), '--+')
-    # plt.ylim([0, 0.1])
+    # plt.ylim([0, 0.5])
     # print("save to", f"simulations/ev_{sim_config.out_prefix}_{sim_config.model}.png")
     # plt.savefig(f"simulations/ev_{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
     # plt.show()
@@ -163,7 +171,7 @@ def evaluate_single(config_file, momentum_ix):
     ev = ev[ixs]
     vectors = vectors[:,ixs]
 
-    if True:
+    if False:
         from adpeps.ipeps import models
         model = getattr(models, sim_config.model)
         _, peps.observables = model.setup()
@@ -217,11 +225,12 @@ def evaluate(config_file, momentum_ix):
 
     import matplotlib.pyplot as plt
     start = 1
-    end = 100
+    end = 5
     evs = [[] for i in range(end)]
     for ix in range(len(kxs)):
         try:
             ev = evaluate_single(config_file, ix)
+            # print(ev)
         except:
             ev = [np.nan for i in range(end)]
         for i in range(end):
@@ -274,6 +283,11 @@ class iPEPSExciSimulation:
         grad_H = grad_H.conj()
         print('Res', res, level=2)
         grad_N = res[1].pack_data()
+        # print(v)
+        # print(grad_H)
+        # print(grad_N)
+        # import sys
+        # sys.exit(1)
         print('Grad H', grad_H, level=2)
         print('Grad N', grad_N, level=2)
         print(f"========== \nFinished basis vector {ix+1}/{self.basis_size} \n")
