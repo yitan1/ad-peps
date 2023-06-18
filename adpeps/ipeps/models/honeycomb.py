@@ -22,15 +22,15 @@ def setup():
     obs = [x, y, z]
     return H, obs
 
-def make_hamiltonian(Jx = 1, Jy = 1):
+def make_hamiltonian(Jx = 1, Jy = 1, Jz = 1):
     """ kiteav model """
     
     Hh = Jx*tprod4(tprod(id2, sigmax) , tprod(sigmax, id2)) / 4 *2 + \
-            tprod4(tprod(sigmaz, sigmaz) , tprod(id2, id2)) / 4 / 2 + \
-            tprod4(tprod(id2, id2), tprod(sigmaz, sigmaz)) / 4 / 2
+            Jz*tprod4(tprod(sigmaz, sigmaz) , tprod(id2, id2)) / 4 / 2 + \
+            Jz*tprod4(tprod(id2, id2), tprod(sigmaz, sigmaz)) / 4 / 2
     Hv = Jy*tprod4(tprod(id2, sigmay) , tprod(sigmay, id2)) / 4 * 2 + \
-            tprod4(tprod(sigmaz, sigmaz) , tprod(id2, id2)) / 4 / 2 + \
-            tprod4(tprod(id2, id2), tprod(sigmaz, sigmaz)) / 4 / 2
+            Jz*tprod4(tprod(sigmaz, sigmaz) , tprod(id2, id2)) / 4 / 2 + \
+            Jz*tprod4(tprod(id2, id2), tprod(sigmaz, sigmaz)) / 4 / 2
     return [-Hh, -Hv]
 
 def make_init_gs(D=2):

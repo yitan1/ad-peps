@@ -111,8 +111,8 @@ def prepare(config_file):
     basis = peps.compute_orth_basis()
 
     print(f"Saving base to {base_file}")
-    # np.savez(base_file, peps=peps, basis=basis)
-    np.savez("one_D2_X30_base.npz", basis=basis)
+    np.savez(base_file, peps=peps, basis=basis)
+    # np.savez("one_D2_X30_base.npz", basis=basis)
 
 def evaluate_single(config_file, momentum_ix):
     def _compute_ev_red_basis(H, N, P, n):

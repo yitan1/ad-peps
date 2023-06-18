@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name exci
+#SBATCH --job-name exci_py
 #SBATCH --partition 256G56c
 #SBATCH --nodes=1  
 #SBATCH --exclusive   #独占节点 Exclusive execution mode
@@ -8,10 +8,10 @@
 module load anaconda
 
 # Compute ground-state
-dir_name="honeycomb_g11_D4_X100"
+dir_name="honeycomb_07_D4_X100"
 # mkdir ${dir_name}
 cd ..
-python -m adpeps gs honeycomb.yaml > log/${dir_name}/gs_honeycomb_$SLURM_JOBID.log 2>&1
+# python -m adpeps gs honeycomb.yaml > log/${dir_name}/gs_honeycomb_$SLURM_JOBID.log 2>&1
 
 # Construct exci basis
 python -m adpeps exci honeycomb_exci.yaml -i > log/${dir_name}/basis_honeycomb_$SLURM_JOBID.log 2>&1
