@@ -153,7 +153,7 @@ def evaluate_single(config_file, momentum_ix):
     ev_N, P = np.linalg.eig(N)
     idx = ev_N.real.argsort()[::-1]
     ev_N = ev_N[idx]
-    selected = (ev_N/ev_N.max()) > 1e-3
+    selected = (ev_N/ev_N.max()) > 1e-1
     # import matplotlib.pyplot as plt
     # plt.plot(ev_N/ev_N.max(), '--+')
     # plt.ylim([0, 0.5])
@@ -171,7 +171,7 @@ def evaluate_single(config_file, momentum_ix):
     ev = ev[ixs]
     vectors = vectors[:,ixs]
 
-    if False:
+    if True:
         from adpeps.ipeps import models
         model = getattr(models, sim_config.model)
         _, peps.observables = model.setup()
@@ -199,13 +199,15 @@ def evaluate_single(config_file, momentum_ix):
         print("Swk0 = ", Swk0)
         # print("!!!!!!!!!!!", Swk)
         print("ev.real = ", ev.real)
-        import matplotlib.pyplot as plt
-        plt.plot(t, y)
+        print("shape: ", np.shape(ev.real))
+        # import matplotlib.pyplot as plt
+        # plt.plot(t, y)
         # plt.plot(ev.real, Swk0, '--+')
         # plt.xlim([0, 7])
         # print("save to",f"simulations/{sim_config.out_prefix}_{sim_config.model}.png")
         # plt.savefig(f"simulations/{sim_config.out_prefix}_{sim_config.model}.png", dpi=300)
-        plt.show()
+        np.savez("xy.npz",ev = ev.real, Swk0 = Swk0, x = t,y = y)
+        # plt.show()
         
     return sorted(ev.real)
 
